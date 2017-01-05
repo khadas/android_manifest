@@ -399,7 +399,7 @@
   <project name="android_packages_apps_SpeechRecorder" path="packages/apps/SpeechRecorder" revision="5ffb51412f2642a50035e66a7f870ffbc4beb071"/>
   <project name="android_packages_apps_Tag" path="packages/apps/Tag" revision="14bc1eb604d9d2f8af479c08c3a403d2018647f1"/>
   <project name="android_packages_apps_Terminal" path="packages/apps/Terminal" revision="5b68e8ad082625206492ca9baf889f8c5427eb01"/>
-  <project name="android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="e8304ce80d4a097e4d144569cd2c593816ea6a8c"/>
+  <project name="android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="1597214da0e22eca37df1d6b025a164464499035"/>
   <project name="android_packages_experimental" path="packages/experimental" revision="7b02b6bbaf0b4330ac05fda8cd47f4044ee2740a"/>
   <project name="android_packages_inputmethods_OpenWnn" path="packages/inputmethods/OpenWnn" revision="59aefa242169b7a51c2381daee58ff22fd1834ce"/>
   <project name="android_packages_providers_ApplicationsProvider" path="packages/providers/ApplicationsProvider" revision="33d26f5eedb3d3011762ce5b2de66e931bf64b35"/>
