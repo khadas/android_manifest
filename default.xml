@@ -487,7 +487,7 @@
   <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/frameworks" revision="5ea4a091a3b270ea75cee92cdba3bca0f247904c"/>
   <project name="android_vendor_amlogic_frameworks_av" path="vendor/amlogic/frameworks/av" revision="3d69535d7a3919c1208e1bdc06a5cffa5b220aec"/>
   <project name="android_vendor_amlogic_frameworks_pppoe" path="vendor/amlogic/frameworks/pppoe" revision="4ca96dbb5524029905723cda1b4e4b0407c03f7b"/>
-  <project name="android_vendor_amlogic_modem" path="vendor/amlogic/system/modem" revision="2d276ea58a50ca8cee88cb4fe8cb32196803fba2"/>
+  <project name="android_vendor_amlogic_system_modem" path="vendor/amlogic/system/modem" revision="2d276ea58a50ca8cee88cb4fe8cb32196803fba2"/>
   <project name="android_vendor_amlogic_prebuilt" path="vendor/amlogic/prebuilt" revision="b29d25a683ce7c960421d934b3f763df6a38adf9"/>
   <project name="android_vendor_amlogic_prebuilt_libmedia" path="vendor/amlogic/prebuilt/libmedia" revision="04d62daa1d89b648afa97be3d136420c2a045925"/>
   <project name="android_vendor_amlogic_prebuilt_libstagefrighthw" path="vendor/amlogic/prebuilt/libstagefrighthw" revision="2453221e1258c1821ffa7c9e65aa0d0db559803e"/>
