@@ -26,7 +26,7 @@
   <project name="android_development" path="development" revision="cb39ace70f326cc13c6ea0b2053f73d3e14d5c9c"/>
   <project name="android_docs_source.android.com" path="docs/source.android.com" revision="b056d347fcb5ed1017ddf2af6481edb83eb03847"/>
   <project name="android_external_aac" path="external/aac" revision="203e3f28fbebec7011342017fafc2a0bda0ce530"/>
-  <project name="android_external_alsa-lib" path="vendor/amlogic/external/alsa-lib" revision="64ef0e7c0ec9798b0197eb7125653b76c6fc5f63"/>
+  <project name="android_vendor_amlogic_external_alsa-lib" path="vendor/amlogic/external/alsa-lib" revision="64ef0e7c0ec9798b0197eb7125653b76c6fc5f63"/>
   <project name="android_external_android-clat" path="external/android-clat" revision="d961f6f64d965d51a970b4354ab8ca458a03a36b"/>
   <project name="android_external_androidplot" path="external/androidplot" revision="c66727ebf001607cee14521c35bc852b55fd9845"/>
   <project name="android_external_ant-glob" path="external/ant-glob" revision="a73228afa9540b9c5518d360c5ae630bb634f975"/>
@@ -43,7 +43,7 @@
   <project name="android_external_boringssl" path="external/boringssl" revision="5de55ee07633015693ca7faa33af9c184feb8d98"/>
   <project name="android_external_bouncycastle" path="external/bouncycastle" revision="c2727c35a0a865cb64e7d9b9d9aeda4de058a443"/>
   <project name="android_external_bsdiff" path="external/bsdiff" revision="2eea58f169079ecb113cb3b292462a775263df69"/>
-  <project name="android_external_busybox" path="vendor/amlogic/external/busybox" revision="8d295b2453309f548a7844bf4af0cdf987048ba8"/>
+  <project name="android_vendor_amlogic_external_busybox" path="vendor/amlogic/external/busybox" revision="8d295b2453309f548a7844bf4af0cdf987048ba8"/>
   <project name="android_external_bzip2" path="external/bzip2" revision="769544af4d0085c21c949e43c8f959be5a192434"/>
   <project name="android_external_c-ares" path="external/c-ares" revision="de2cd886042f484dc8694e614c3ac16298f93514"/>
   <project name="android_external_caliper" path="external/caliper" revision="6a66412ab9c544ca7e099f81e764d2c01671ea70"/>
@@ -81,13 +81,13 @@
   <project name="android_external_elfutils" path="external/elfutils" revision="1e94954a025b335a2e43fc901e08824faa8d9801"/>
   <project name="android_external_emma" path="external/emma" revision="deb5711b2635ee9d332605e2e00b63b32bed6777"/>
   <project name="android_external_esd" path="external/esd" revision="943c42b6f8e9afe821744aa4c039f4943ebf29f5"/>
-  <project name="android_external_exfat-fuse" path="vendor/amlogic/external/exfat-fuse" revision="5fef3e0c6e64401f70b4dced885cbeeafb2ca7ae"/>
+  <project name="android_vendor_amlogic_external_exfat-fuse" path="vendor/amlogic/external/exfat-fuse" revision="5fef3e0c6e64401f70b4dced885cbeeafb2ca7ae"/>
   <project name="android_external_expat" path="external/expat" revision="fc4f81d4408b926ab704c9914276a89ab74204df"/>
   <project name="android_external_eyes-free" path="external/eyes-free" revision="16bd4c7a4d1bfe229068b637614dad7c48dd2ceb"/>
   <project name="android_external_f2fs-tools" path="external/f2fs-tools" revision="5bd943d50d103eb6f48a72f199a49dce4feeb61a"/>
   <project name="android_external_fdlibm" path="external/fdlibm" revision="eb6c9fcfe52e665917ff5a9670c909f9e3c92fa5"/>
   <project name="android_external_fec" path="external/fec" revision="791afbe58ff9f55145c4adf632ab8cc9ca6e5686"/>
-  <project name="android_external_ffmpeg" path="vendor/amlogic/external/ffmpeg" revision="5f6b4e12b03e3f366fa50a46c0d085d08a4b6fb0"/>
+  <project name="android_vendor_amlogic_external_ffmpeg" path="vendor/amlogic/external/ffmpeg" revision="5f6b4e12b03e3f366fa50a46c0d085d08a4b6fb0"/>
   <project name="android_external_fio" path="external/fio" revision="1aec78b2e6aaf90d45b8e3f9b3d2f07dd9334827"/>
   <project name="android_external_flac" path="external/flac" revision="3c74c11c30cdae95914c0b6a9228a3906b238c73"/>
   <project name="android_external_fonttools" path="external/fonttools" revision="fede58680958e96e6e8f61c3cc6282f798452c53"/>
@@ -205,7 +205,7 @@
   <project name="android_external_nist-pkits" path="external/nist-pkits" revision="89fb1b9fdc7f5c48d4983fad62af62c1b780e428"/>
   <project name="android_external_nist-sip" path="external/nist-sip" revision="e091a345b250b1ce4212d4c9d13649fe9c625bbe"/>
   <project name="android_external_noto-fonts" path="external/noto-fonts" revision="599bd2666e266cbaa10e2e2271008bff2a003102"/>
-  <project name="android_external_ntfs-3g" path="vendor/amlogic/external/ntfs-3g" revision="d1ef10b4ff572991b3a5eb771ef1ebe7c4deddb1"/>
+  <project name="android_vendor_amlogic_external_ntfs-3g" path="vendor/amlogic/external/ntfs-3g" revision="d1ef10b4ff572991b3a5eb771ef1ebe7c4deddb1"/>
   <project name="android_external_oauth" path="external/oauth" revision="49f3624a6d3307b640a012f15b94d04174473501"/>
   <project name="android_external_objenesis" path="external/objenesis" revision="027386d6375a3cb34d9934fd952039254831cbc6"/>
   <project name="android_external_okhttp" path="external/okhttp" revision="f38272f18fcdafd9c2cc9cd35d1165e5d527152d"/>
@@ -217,7 +217,7 @@
   <project name="android_external_pdfium" path="external/pdfium" revision="ac3d58cff7c80b0ef56bf55130d91da17cbaa3c4"/>
   <project name="android_external_piex" path="external/piex" revision="0edcd9aecceaffe22368d91df82a0e4f6ff47d97"/>
   <project name="android_external_ppp" path="external/ppp" revision="e2ccb68737382edda1864d8bef90166c4ba27715"/>
-  <project name="android_external_pppoe" path="vendor/amlogic/external/pppoe" revision="77c1c39a85f7a6e31f07c48f9c4af9cd33fdc411"/>
+  <project name="android_vendor_amlogic_external_pppoe" path="vendor/amlogic/external/pppoe" revision="77c1c39a85f7a6e31f07c48f9c4af9cd33fdc411"/>
   <project name="android_external_proguard" path="external/proguard" revision="af893cdc1242e4cfbeeb10e2323f9a689a825177"/>
   <project name="android_external_protobuf" path="external/protobuf" revision="48b07ad0a7d451a1a12e021b09ec15db58172e81"/>
   <project name="android_external_regex-re2" path="external/regex-re2" revision="13ad88f183dc229720220244ba16213327fed644"/>
