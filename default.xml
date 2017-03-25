@@ -482,7 +482,7 @@
   <project name="android_tools_external_gradle" path="tools/external/gradle" revision="3e814f34be10a032132b56c27d2841c0d1fc626d"/>
   <project name="android_tools_test_connectivity" path="tools/test/connectivity" revision="ccadc4bc85ba64b24b37f118190f823846f37848"/>
   <project name="android_toolchain_binutils" path="toolchain/binutils" revision="c327c9c1bcffd231fcaa05f3fd8c047d1fe0afcc"/>
-  <project name="u-boot" path="uboot" revision="0d76238c186c16f6629e288d0c11b1d1ed264efb"/>
+  <project name="u-boot" path="uboot" revision="c521eae658e251a812859d3143f89b5af8ce00ff"/>
   <project name="android_vendor_amlogic_external_libtiff" path="vendor/amlogic/external/libtiff" revision="f038c1dac21c3ad13425ccc7d1c847c35469620f"/>
   <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/frameworks" revision="5ea4a091a3b270ea75cee92cdba3bca0f247904c"/>
   <project name="android_vendor_amlogic_frameworks_av" path="vendor/amlogic/frameworks/av" revision="3d69535d7a3919c1208e1bdc06a5cffa5b220aec"/>
