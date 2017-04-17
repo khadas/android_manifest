@@ -6,7 +6,7 @@
   <default remote="github" revision="refs/heads/Nougat" sync-j="4"/>
   
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31"/>
-  <project name="android_device_khadas" path="device/khadas" revision="57bcdf3f8e58cff598da6441ba41e2875a540bf2"/>
+  <project name="android_device_khadas" path="device/khadas" revision="ca8cce15c4381550f7785c897efe29e4399a9aeb"/>
   <project name="linux" path="common" revision="7565173fa629106ec0ee1674f07cf3364451a2b7"/>
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project name="android_art" path="art" revision="12eb0c532e33ca5d5e98addd580b5ad0a4b71be4"/>
