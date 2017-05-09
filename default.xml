@@ -5,7 +5,7 @@
   
   <default remote="github" revision="refs/heads/Vim" sync-j="4"/>
   
-  <project name="u-boot" path="uboot" revision="101afeee2b2229ac9dfac6dc166c452e58c269d9"/>
+  <project name="u-boot" path="uboot" revision="00abf8b32b1f1171cf8a97fb852cf79c54d7b1ef"/>
   <project name="linux" path="common" revision="76fd19ac41bb774e396ce8009ff665f29c26c535"/>
   <project name="android_device_khadas" path="device/khadas" revision="30ccf6a23be6f2b29b869fece56b73c002f5ca1c"/>
   <project name="android_bionic" path="bionic" revision="21476cbba4bad79ed3b7a06c32adbe3a2f871a9d"/>
