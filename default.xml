@@ -309,7 +309,7 @@
   <project name="android_external_squashfs-tools" path="external/squashfs-tools" revision="1a710ff698178fbf71251395c4c96e3e7e73e2ed"/>
   <project name="android_external_srtp" path="external/srtp" revision="8756a774806ed44bc4e185a7a5a253f3dfbdc2e7"/>
   <project name="android_external_strace" path="external/strace" revision="54e2f93285e52a4347ace1f33860ce51e72853eb"/>
-  <project name="android_external_svox" path="external/svox" revision="7498f9aafbafa48960689439f0cd69da0c1ab34f"/>
+  <project name="platform/external/svox" path="external/svox" remote="aosp" revision="7498f9aafbafa48960689439f0cd69da0c1ab34f"/>
   <project name="android_external_tagsoup" path="external/tagsoup" revision="45e8185b55dfaee6d9cfc487708e787b5b7c3770"/>
   <project name="android_external_tcpdump" path="external/tcpdump" revision="b5d6f230d44e96d2ac9cbd7f6bb2862fa88a60c4"/>
   <project name="android_external_timezonepicker-support" path="external/timezonepicker-support" revision="99e91a76fd74bad10266623d67cdb98d011f709e"/>
