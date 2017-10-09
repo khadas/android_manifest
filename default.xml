@@ -246,7 +246,7 @@
   <project name="android_external_squashfs-tools" path="external/squashfs-tools" revision="6697c183c48387fb577c5ded9c52fcfa071af2a7"/>
   <project name="android_external_srtp" path="external/srtp" revision="ab8d27c7566de29e3a0af3f2324036e8d5646d76"/>
   <project name="android_external_strace" path="external/strace" revision="372fd474dea063e08f8faf9abdf0a2bad06a7955"/>
-  <project name="android_external_svox" path="external/svox" revision="5185e6e5c5a1398aab776e4a7a6e4a061bc0035d"/>
+  <project name="platform/external/svox" path="external/svox" remote="aosp" revision="5185e6e5c5a1398aab776e4a7a6e4a061bc0035d"/>
   <project name="android_external_tagsoup" path="external/tagsoup" revision="9c02d9f506855965ec513685788890dfc856a5bc"/>
   <project name="android_external_tcpdump" path="external/tcpdump" revision="dbb0163636b74b580abcf7d1de8d834163ca0a3a"/>
   <project name="android_external_testng" path="external/testng" revision="d3bb4c37e9b45ca9511da099247f231293a2b14e"/>
