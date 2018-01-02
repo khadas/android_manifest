@@ -61,7 +61,7 @@
   <project name="android_external_cblas" path="external/cblas" revision="53ffe068d9bf5f9b0507a659159dab7bd9c18a49"/>
   <project name="android_external_chromium-libpac" path="external/chromium-libpac" revision="8cdb94f0b2cf0923f65947880adda639c17f8fa9"/>
   <project name="android_external_chromium-trace" path="external/chromium-trace" revision="a0e5c0de428e9dea6d07dd57c5594fb1f1c17c20"/>
-  <project clone-depth="1" name="android_external_chromium-webview" path="external/chromium-webview" revision="daaab59ab71941fbdbeb0403f01e851bb2ff56c8"/>
+  <project name="android_external_chromium-webview" path="external/chromium-webview" revision="daaab59ab71941fbdbeb0403f01e851bb2ff56c8"/>
   <project name="android_external_clang" path="external/clang" revision="a15c5ee6c8d1dc10ff2c3a0baac850c0c6b1871d"/>
   <project name="android_external_cmockery" path="external/cmockery" revision="9199c7bfafefea32d1884182fa655b6e4578c1c4"/>
   <project name="android_external_compiler-rt" path="external/compiler-rt" revision="36753a078164af788a3ca1ab4679b805f8dafb93"/>
@@ -479,44 +479,44 @@
   <project name="android_packages_wallpapers_LivePicker" path="packages/wallpapers/LivePicker" revision="da61edb41f304296f1414f8e50ebe8b3ffac0019"/>
   <project name="android_pdk" path="pdk" revision="0d3787f0bc8b67845043e74e4069ded06aa337f1"/>
   <project name="android_platform_testing" path="platform_testing" revision="05ed561d69b0384ea98f17aa28f6bb1361df52a3"/>
-  <project clone-depth="1" name="android_prebuilts_abi-dumps_ndk" path="prebuilts/abi-dumps/ndk" revision="55e16cf68bd51e0fd0cf9ce1ec212bca4f440a5b"/>
-  <project clone-depth="1" name="android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" revision="07614c775a21d442106856cf8937f6243ab9171e"/>
-  <project clone-depth="1" name="android_prebuilts_build-tools" path="prebuilts/build-tools" revision="8519205daf2d88e19c5b5a17827a8d7fa6ba6528"/>
-  <project clone-depth="1" name="android_prebuilts_checkcolor" path="prebuilts/checkcolor" revision="f6f661b424f646bc5ddf9e1b1e644abb492b7547"/>
-  <project clone-depth="1" name="android_prebuilts_checkstyle" path="prebuilts/checkstyle" revision="b782f222d5ad3c1250acb12260f2ddaa0935ca46"/>
-  <project clone-depth="1" name="android_prebuilts_clang_host_darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="6bdbd720989797e8a53237ef3ef213c4114f8694"/>
-  <project clone-depth="1" name="android_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" revision="1188dcf30923cb444143ffa4b83dc951037e76a5"/>
+  <project name="android_prebuilts_abi-dumps_ndk" path="prebuilts/abi-dumps/ndk" revision="55e16cf68bd51e0fd0cf9ce1ec212bca4f440a5b"/>
+  <project name="android_prebuilts_abi-dumps_vndk" path="prebuilts/abi-dumps/vndk" revision="07614c775a21d442106856cf8937f6243ab9171e"/>
+  <project name="android_prebuilts_build-tools" path="prebuilts/build-tools" revision="8519205daf2d88e19c5b5a17827a8d7fa6ba6528"/>
+  <project name="android_prebuilts_checkcolor" path="prebuilts/checkcolor" revision="f6f661b424f646bc5ddf9e1b1e644abb492b7547"/>
+  <project name="android_prebuilts_checkstyle" path="prebuilts/checkstyle" revision="b782f222d5ad3c1250acb12260f2ddaa0935ca46"/>
+  <project name="android_prebuilts_clang_host_darwin-x86" path="prebuilts/clang/host/darwin-x86" revision="6bdbd720989797e8a53237ef3ef213c4114f8694"/>
+  <project name="android_prebuilts_clang_host_linux-x86" path="prebuilts/clang/host/linux-x86" revision="1188dcf30923cb444143ffa4b83dc951037e76a5"/>
   <project name="android_prebuilts_deqp" path="prebuilts/deqp" revision="9f3113db0f784fe7297c5d1b2b2ee5102124f7e1"/>
   <project name="android_prebuilts_devtools" path="prebuilts/devtools" revision="4c3b19c11bed6972f2ebf758af4025607b41b11b"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="47fc68ccb8e302a78517d463f3a016ce73ffcc4d"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="6d08ca9f45ff685648fd13c75bf5cac4b11c19bb"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="56d529c4f7f81c2b12fe18e172404669e3cbd787"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_darwin-x86_host_i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" revision="ec5aa66aaa4964c27564d0ec84dc1f18a2d72b7e"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_darwin-x86_mips_mips64el-linux-android-4.9" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" revision="d942564c9331f07026a8f78502d8571206eb7be4"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="c112c178246b71705b952b850f4c0b8483b467bd"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="d7d824eaa0690179c4b504209dbb017dfc730cf3"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="0f5ac4a0fb21cff9cdd55c858380f426f8e5fd1b"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="a93d2d3736c481ed4722b3800233b772da701084"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="73ca99196723f810dad42390d154654354f57c16"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_linux-x86_host_x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="e76a9a506d7ad132f107eb2f7c27b6a8ccb68b91"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_linux-x86_mips_mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" revision="388fdc4995d374d76a0c4b292afabac91638e134"/>
-  <project clone-depth="1" name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="1de7f0f941efde58c8806a30a8dccfaf6ccece74"/>
-  <project clone-depth="1" name="android_prebuilts_gdb_darwin-x86" path="prebuilts/gdb/darwin-x86" revision="0a8c90248264a8b26970b4473770bcc3df8515fe"/>
-  <project clone-depth="1" name="android_prebuilts_gdb_linux-x86" path="prebuilts/gdb/linux-x86" revision="4adfde8bc82dd39f59e0445588c3e599ada477d2"/>
-  <project clone-depth="1" name="android_prebuilts_go_darwin-x86" path="prebuilts/go/darwin-x86" revision="4f7f559a4b744258a796dd591b11bd88e4a6dc7a"/>
-  <project clone-depth="1" name="android_prebuilts_go_linux-x86" path="prebuilts/go/linux-x86" revision="efea46b87b2dcc66da02dfbf66fd901d24c7a091"/>
-  <project clone-depth="1" name="android_prebuilts_gradle-plugin" path="prebuilts/gradle-plugin" revision="d1f1aaf649cac3788a261a5380448579f54b5dc7"/>
-  <project clone-depth="1" name="android_prebuilts_libs_libedit" path="prebuilts/libs/libedit" revision="d32685dba4011664b590b94ad156bc734c2c9bb5"/>
-  <project clone-depth="1" name="android_prebuilts_maven_repo_android" path="prebuilts/maven_repo/android" revision="1b392d94924cc2c6d3f947224001553bdcc4a34d"/>
-  <project clone-depth="1" name="android_prebuilts_maven_repo_bumptech" path="prebuilts/maven_repo/bumptech" revision="ad29fe1a1b86eacbd04ac4ab23b90f38ca099f77"/>
-  <project clone-depth="1" name="android_prebuilts_misc" path="prebuilts/misc" revision="555d6a58708babe6bb79b5824ef24eb1f37f7083"/>
-  <project clone-depth="1" name="android_prebuilts_ndk" path="prebuilts/ndk" revision="11cd02dfb91661c65134cac258cf5924270e9d2b"/>
-  <project clone-depth="1" name="android_prebuilts_python_darwin-x86_2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63"/>
-  <project clone-depth="1" name="android_prebuilts_python_linux-x86_2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="edbb763a2b63074cd468a5d33a17908b2cc06541"/>
-  <project clone-depth="1" name="android_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="fc997418128b95633d339e4563554994f4d7fdd7"/>
-  <project clone-depth="1" name="android_prebuilts_sdk" path="prebuilts/sdk" remote="aosp" revision="97b4cb95e04a1691ace7dce93d6a66c48041ca9a"/>
-  <project clone-depth="1" name="android_prebuilts_tools" path="prebuilts/tools" remote="aosp" revision="5a6e989368cab2b72ab8db50330d02e459b47d4c"/>
+  <project name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="47fc68ccb8e302a78517d463f3a016ce73ffcc4d"/>
+  <project name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="6d08ca9f45ff685648fd13c75bf5cac4b11c19bb"/>
+  <project name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="56d529c4f7f81c2b12fe18e172404669e3cbd787"/>
+  <project name="android_prebuilts_gcc_darwin-x86_host_i686-apple-darwin-4.2.1" path="prebuilts/gcc/darwin-x86/host/i686-apple-darwin-4.2.1" revision="ec5aa66aaa4964c27564d0ec84dc1f18a2d72b7e"/>
+  <project name="android_prebuilts_gcc_darwin-x86_mips_mips64el-linux-android-4.9" path="prebuilts/gcc/darwin-x86/mips/mips64el-linux-android-4.9" revision="d942564c9331f07026a8f78502d8571206eb7be4"/>
+  <project name="android_prebuilts_gcc_darwin-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/x86/x86_64-linux-android-4.9" revision="c112c178246b71705b952b850f4c0b8483b467bd"/>
+  <project name="android_prebuilts_gcc_linux-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/linux-x86/aarch64/aarch64-linux-android-4.9" revision="d7d824eaa0690179c4b504209dbb017dfc730cf3"/>
+  <project name="android_prebuilts_gcc_linux-x86_arm_arm-eabi-4.8" path="prebuilts/gcc/linux-x86/arm/arm-eabi-4.8" revision="26e93f6af47f7bd3a9beb5c102a5f45e19bfa38a"/>
+  <project name="android_prebuilts_gcc_linux-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" revision="0f5ac4a0fb21cff9cdd55c858380f426f8e5fd1b"/>
+  <project name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.11-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.11-4.8" revision="a93d2d3736c481ed4722b3800233b772da701084"/>
+  <project name="android_prebuilts_gcc_linux-x86_host_x86_64-linux-glibc2.15-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-linux-glibc2.15-4.8" revision="73ca99196723f810dad42390d154654354f57c16"/>
+  <project name="android_prebuilts_gcc_linux-x86_host_x86_64-w64-mingw32-4.8" path="prebuilts/gcc/linux-x86/host/x86_64-w64-mingw32-4.8" revision="e76a9a506d7ad132f107eb2f7c27b6a8ccb68b91"/>
+  <project name="android_prebuilts_gcc_linux-x86_mips_mips64el-linux-android-4.9" path="prebuilts/gcc/linux-x86/mips/mips64el-linux-android-4.9" revision="388fdc4995d374d76a0c4b292afabac91638e134"/>
+  <project name="android_prebuilts_gcc_linux-x86_x86_x86_64-linux-android-4.9" path="prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" revision="1de7f0f941efde58c8806a30a8dccfaf6ccece74"/>
+  <project name="android_prebuilts_gdb_darwin-x86" path="prebuilts/gdb/darwin-x86" revision="0a8c90248264a8b26970b4473770bcc3df8515fe"/>
+  <project name="android_prebuilts_gdb_linux-x86" path="prebuilts/gdb/linux-x86" revision="4adfde8bc82dd39f59e0445588c3e599ada477d2"/>
+  <project name="android_prebuilts_go_darwin-x86" path="prebuilts/go/darwin-x86" revision="4f7f559a4b744258a796dd591b11bd88e4a6dc7a"/>
+  <project name="android_prebuilts_go_linux-x86" path="prebuilts/go/linux-x86" revision="efea46b87b2dcc66da02dfbf66fd901d24c7a091"/>
+  <project name="android_prebuilts_gradle-plugin" path="prebuilts/gradle-plugin" revision="d1f1aaf649cac3788a261a5380448579f54b5dc7"/>
+  <project name="android_prebuilts_libs_libedit" path="prebuilts/libs/libedit" revision="d32685dba4011664b590b94ad156bc734c2c9bb5"/>
+  <project name="android_prebuilts_maven_repo_android" path="prebuilts/maven_repo/android" revision="1b392d94924cc2c6d3f947224001553bdcc4a34d"/>
+  <project name="android_prebuilts_maven_repo_bumptech" path="prebuilts/maven_repo/bumptech" revision="ad29fe1a1b86eacbd04ac4ab23b90f38ca099f77"/>
+  <project name="android_prebuilts_misc" path="prebuilts/misc" revision="555d6a58708babe6bb79b5824ef24eb1f37f7083"/>
+  <project name="android_prebuilts_ndk" path="prebuilts/ndk" revision="11cd02dfb91661c65134cac258cf5924270e9d2b"/>
+  <project name="android_prebuilts_python_darwin-x86_2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63"/>
+  <project name="android_prebuilts_python_linux-x86_2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="edbb763a2b63074cd468a5d33a17908b2cc06541"/>
+  <project name="android_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="fc997418128b95633d339e4563554994f4d7fdd7"/>
+  <project name="android_prebuilts_sdk" path="prebuilts/sdk" remote="aosp" revision="97b4cb95e04a1691ace7dce93d6a66c48041ca9a"/>
+  <project name="android_prebuilts_tools" path="prebuilts/tools" remote="aosp" revision="5a6e989368cab2b72ab8db50330d02e459b47d4c"/>
   <project name="android_sdk" path="sdk" revision="66f0813aa7b41a5431082dda5ecda4c3abdf5a12"/>
   <project groups="pdk" name="android_system_bt" path="system/bt" revision="579ad39cfcf9d8109fcc44971c56d570b2779834"/>
   <project name="android_system_ca-certificates" path="system/ca-certificates" revision="db524b256a637f18588c1d5ecc4a7d43cdebf8fd"/>
