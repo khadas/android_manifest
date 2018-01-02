@@ -6,6 +6,7 @@
   <default remote="github" revision="refs/heads/Oreo" sync-j="4"/>
   
   <project name="linux" path="common" revision="482c5c3657afa66f7f16bc9907ba3da5997caf44"/>
+  <project name="android_device_khadas" path="device/khadas" revision="06098ffb8475bc62bba5fc19197d50791277c6d5"/>
   <project name="android_kernel_tests" path="kernel/tests" revision="da4bc1d4380bd614ff9d36c2c59f1da2962f90d8"/>
   <project name="android_art" path="art" revision="699cb9a11b1dce1515a4f591274b90269962cfec"/>
   <project name="android_bionic" path="bionic" revision="f711b078b9656f7dbb52a046a7f992a450e8fa13"/>
