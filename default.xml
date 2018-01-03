@@ -11,7 +11,7 @@
   <project name="android_art" path="art" revision="699cb9a11b1dce1515a4f591274b90269962cfec"/>
   <project name="android_bionic" path="bionic" revision="f711b078b9656f7dbb52a046a7f992a450e8fa13"/>
   <project name="android_bootable_recovery" path="bootable/recovery" revision="3d7eea3c2c2d6999f0ec54839b903416d9a0610f"/>
-  <project groups="pdk" name="android_build" path="build/make" revision="e7859a4a40a57d265b560e5397bf28c00cc859ca">
+  <project groups="pdk" name="android_build_make" path="build/make" revision="e7859a4a40a57d265b560e5397bf28c00cc859ca">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
