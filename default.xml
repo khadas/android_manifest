@@ -576,6 +576,6 @@
   <project name="android_vendor_amlogic_system" path="vendor/amlogic/system" revision="c992cf862af307b6cd3ec785d582332d6fa944e8"/>
   <project name="android_vendor_amlogic_system_droidvold" path="vendor/amlogic/system/droidvold" revision="436733a11bf19a6c64b1fa36aa02d6db51653ed5"/>
   <project name="android_vendor_amlogic_tools" path="vendor/amlogic/tools" revision="1069c6c39759979b704e828d8943d2c0bde8c195"/>
-  <project name="android_vendor_amlogic_tv" path="vendor/amlogic/tv/frameworks" revision="7e6afd2f43fd83722116c9648742bccc9eceb047"/>
+  <project name="android_vendor_amlogic_tv_frameworks" path="vendor/amlogic/tv/frameworks" revision="7e6afd2f43fd83722116c9648742bccc9eceb047"/>
   <project name="android_vendor_widevine" path="vendor/widevine" revision="5b6f2ca792b8f44735fab75dc72715c3e2378bd1"/>
 </manifest>
