@@ -517,7 +517,7 @@
   <project name="android_prebuilts_python_linux-x86_2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="edbb763a2b63074cd468a5d33a17908b2cc06541"/>
   <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="fc997418128b95633d339e4563554994f4d7fdd7"/>
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="97b4cb95e04a1691ace7dce93d6a66c48041ca9a"/>
-  <project name="platform/prebuilts_tools" path="prebuilts/tools" remote="aosp" revision="5a6e989368cab2b72ab8db50330d02e459b47d4c"/>
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="5a6e989368cab2b72ab8db50330d02e459b47d4c"/>
   <project name="android_sdk" path="sdk" revision="66f0813aa7b41a5431082dda5ecda4c3abdf5a12"/>
   <project groups="pdk" name="android_system_bt" path="system/bt" revision="579ad39cfcf9d8109fcc44971c56d570b2779834"/>
   <project name="android_system_ca-certificates" path="system/ca-certificates" revision="db524b256a637f18588c1d5ecc4a7d43cdebf8fd"/>
