@@ -26,7 +26,7 @@
     <linkfile dest="Android.bp" src="root.bp"/>
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
-  <project name="android_cts" path="cts" revision="275f8129e0acaf55753436cd4c86162e4154d75c"/>
+  <project name="platform/cts" path="cts" remote="aosp" revision="275f8129e0acaf55753436cd4c86162e4154d75c"/>
   <project name="android_dalvik" path="dalvik" revision="dd2c0538809551f60d457c5884bd1f5c8ded8cf7"/>
   <project name="android_developers_build" path="developers/build" revision="6f1bbd6b9589818154d555f216e800223ce5d063"/>
   <project name="android_developers_demos" path="developers/demos" revision="7bd7834eee082f32ae8eaab9bf014d77c6cf521a"/>
@@ -556,11 +556,11 @@
   <project name="android_test_vts-testcase_vndk" path="test/vts-testcase/vndk" revision="0b0dcd3024a622758c4f96ac793903c6326aa8c3"/>
   <project name="android_tools_apksig" path="tools/apksig" revision="a8b37c72ff14b8047aa69ab77c05ef214640748b"/>
   <project name="android_tools_external_fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03"/>
-  <project name="android_tools_external_gradle" path="tools/external/gradle" revision="01eafe283102ebb395c7cc0c22d258fd657c7af7"/>
+  <project name="platform/tools/external/gradle" remote="aosp" path="tools/external/gradle" revision="01eafe283102ebb395c7cc0c22d258fd657c7af7"/>
   <project name="android_tools_loganalysis" path="tools/loganalysis" revision="aa5d06e1590c1cfd87e83ef308a2d6b6728b4ba4"/>
   <project name="android_tools_repohooks" path="tools/repohooks" revision="fe49310df3a905d60ffdc123ad15f826e289e8e5"/>
   <project name="android_tools_test_connectivity" path="tools/test/connectivity" revision="b2b6c6b41b71cec1e8bfeec2b74faa3fb1cd0d1e"/>
-  <project name="android_tools_tradefederation" path="tools/tradefederation/core" revision="deb028cdc52bae937841cf95866d1812c7f35328"/>
+  <project name="android_tools_tradefederation_core" path="tools/tradefederation/core" revision="deb028cdc52bae937841cf95866d1812c7f35328"/>
   <project name="android_tools_tradefederation_contrib" path="tools/tradefederation/contrib" revision="0b9f29de14b70f34acb0ca29613aa3e470f618b4"/>
   <project name="android_toolchain_binutils" path="toolchain/binutils" revision="11e295b1c3e3ddd66c5a418dd0f66bfd8184f98d"/>
   <project name="u-boot" path="uboot" revision="9e6df60fe8b91d94fb8cda03e0b78d71168d8541"/>
@@ -568,7 +568,7 @@
   <project name="android_vendor_amlogic_external_libtiff" path="vendor/amlogic/external/libtiff" revision="d46ccda11deda4bc087fb4509c044c06fde2d25e"/>
   <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/frameworks" revision="0b5c2a0a1c5d0e92e56533d000816e2a5dcbeee8"/>
   <project name="android_vendor_amlogic_frameworks_pppoe" path="vendor/amlogic/frameworks/pppoe" revision="76b31d2b081029c62503b5dd95119d7dc09c6bae"/>
-  <project name="android_vendor_amlogic_hardware_interfaces" path="vendor/amlogic/interfaces" revision="1bb76b1de156394df6e1b89d412850515c1d34cc"/>
+  <project name="android_vendor_amlogic_interfaces" path="vendor/amlogic/interfaces" revision="1bb76b1de156394df6e1b89d412850515c1d34cc"/>
   <project name="android_vendor_amlogic_prebuilt" path="vendor/amlogic/prebuilt" revision="8a583b2413e650ece4758ca8396934efe417f3f4"/>
   <project name="android_vendor_amlogic_prebuilt_libmedia" path="vendor/amlogic/prebuilt/libmedia" revision="31be3cf52b1b43a382cae2114354ca375b4e0c4a"/>
   <project name="android_vendor_amlogic_prebuilt_libstagefrighthw" path="vendor/amlogic/prebuilt/libstagefrighthw" revision="879c17a71518d5914278f8b44eefd44b77f9c04a"/>
