@@ -6,7 +6,7 @@
   <default remote="github" revision="refs/heads/Nougat" sync-j="4"/>
   
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31"/>
-  <project name="android_device_khadas" path="device/khadas" revision="089a0da629176dd5b34344152aa3136ccdf2e221"/>
+  <project name="android_device_khadas" path="device/khadas" revision="a4d36115567cd716e4054d7c59f05acd525b990c"/>
   <project name="linux" path="common" revision="11777e8af335f2a67575aa9549cf0342ea5427da"/>
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project name="android_art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d"/>
@@ -309,7 +309,7 @@
   <project name="android_frameworks_volley" path="frameworks/volley" revision="20b215734ff1964013caa19e3c9aa44f3922611f"/>
   <project name="android_frameworks_webview" path="frameworks/webview" revision="ad75a55a161c28a96c3cf1a2ad6bda28ea5e9799"/>
   <project name="android_frameworks_wilhelm" path="frameworks/wilhelm" revision="34ea74827da9a7401d779f7dab9bc63b8253baa4"/>
-  <project name="android_hardware_amlogic_LibAudio" path="hardware/amlogic/LibAudio" revision="eb241a95ca5a203f9189aea3bc9470c37330a060"/>
+  <project name="android_hardware_amlogic_LibAudio" path="hardware/amlogic/LibAudio" revision="95c660bdcdbb46b4c8a740f701867d5cbd644d09"/>
   <project name="android_hardware_amlogic_audio" path="hardware/amlogic/audio" revision="339095ae61dc6340bc3637849dbda5dd89d4415c"/>
   <project name="android_hardware_amlogic_audio_dia_remote" path="hardware/amlogic/audio_dia_remote" revision="5a51d5a721d865eb9371b82acfa5ded4f32e0740"/>
   <project name="android_hardware_amlogic_camera" path="hardware/amlogic/camera" revision="7501b9bbfd1fd7238d0a524a467be80547abfb78"/>
@@ -514,6 +514,7 @@
   <project name="u-boot" path="uboot" revision="2735815070c4495188120397aa2e89e4b8af6af2"/>
   <project name="android_vendor_amlogic_external_libiconv" path="vendor/amlogic/external/libiconv" revision="1021c91e999cb3584220dd5aa432e4f09119aa5b"/>
   <project name="android_vendor_amlogic_external_libtiff" path="vendor/amlogic/external/libtiff" revision="f038c1dac21c3ad13425ccc7d1c847c35469620f"/>
+  <project name="android_vendor_amlogic_external_libbluray" path="vendor/amlogic/external/libbluray" revision="dce87f4c41701ed4b5adea67d1ff5e320ca9ad8d" />
   <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/frameworks" revision="7d7f5a49b7266bd8d9efbbd662f7bf48aa79de28"/>
   <project name="android_vendor_amlogic_frameworks_av" path="vendor/amlogic/frameworks/av" revision="3568295c04e2322196e730734264761ab8fefacc"/>
   <project name="android_vendor_amlogic_frameworks_pppoe" path="vendor/amlogic/frameworks/pppoe" revision="4ca96dbb5524029905723cda1b4e4b0407c03f7b"/>
