@@ -322,7 +322,7 @@
   <project name="android_external_zopfli" path="external/zopfli" revision="d467682cabdaff41673db87ccabc9dcd06977241" />
   <project name="android_external_zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb" />
   <project name="android_frameworks_av" path="frameworks/av" revision="a8617c5b6f7dcdc3b33ede02f2318f81bc1d6728" />
-  <project name="android_frameworks_base" path="frameworks/base" revision="323b87fe56b0ef8b98536a95eca0f71320e8cc55" />
+  <project name="android_frameworks_base" path="frameworks/base" revision="3621e0b00fef0606c1c87f20b8a08b4b6e5aab05" />
   <project name="android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="d2e35f95915d480fe203d6614df8b0f5d14de0e5" />
   <project name="android_frameworks_compile_mclinker" path="frameworks/compile/mclinker" revision="119bb9b550f139ace5f69075390937c7f1222761" />
   <project name="android_frameworks_compile_slang" path="frameworks/compile/slang" revision="4eb5fac8a0466c674e565ff2c96986c499b439d4" />
@@ -543,8 +543,8 @@
   <project name="android_tools_test_connectivity" path="tools/test/connectivity" revision="a635aec7df8de4c9ffecfef7f3e44b31171b5641" />
   <project name="linux" path="kernel"  revision="6fb9a8806f299377cb5ab560a66033d1b2ef4712" />
   <project name="android_external_mpp_demo" path="external/mpp-demo"  revision="543c8a2a2396881f5c3da27f0d2bb755ed4a6422" />
-  <project name="android_prebuilts_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu"  revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" />
-  <project name="android_prebuilts_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"  revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" />
+  <project name="android_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu"  revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" />
+  <project name="android_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"  revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" />
   <project name="android_rkbin" path="rkbin"  revision="9e6625e7551ffa591f0ac4c271f12a7ab5cedcf4" />
   <project name="android_toolchain_binutils" path="toolchain/binutils" revision="c327c9c1bcffd231fcaa05f3fd8c047d1fe0afcc" />
 </manifest>
