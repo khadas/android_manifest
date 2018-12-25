@@ -44,7 +44,7 @@
   <project name="android_external_wlan_loader" path="external/wlan_loader"  revision="b37cdfc009be8c0184615d152d4d2d947ea92fab" />
   <project name="android_external_rk_tee_user" path="external/rk_tee_user"  revision="8b46aa1d6853be73ebb11d112be6c18981d2373d" />
   <project name="android_vendor_Widevine" path="vendor/widevine"  revision="ed4f805c83129cdb57602150084af749b8a6b81e" />
-  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common"  revision="12c44e1bfbe8f0439e3bbf4745a2b7e9d9a38a54" />
+  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common"  revision="1e2a8f0c33186a0af8986b32036ca96895a536c6" />
   <project name="android_rkst" path="rkst"  revision="c264f23734649fdb83d983bea7bcf11612651926" />
   <project name="u-boot" path="u-boot"  revision="62041fe2f55220d216ea9059e8171ba950b352e7" />
   <project name="device_common" path="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" />
