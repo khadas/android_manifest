@@ -5,7 +5,7 @@
   
   <default remote="github" revision="refs/tags/V181214" sync-c="true" sync-j="4"/>
   
-  <project  name="android_CaffeOnACL" path="external/caffe-on-acl"  revision="e284dc9c280df2a118088ea9bc06f8eb9bfc0d83" />
+  <project  name="android_external_caffe-on-acl" path="external/caffe-on-acl"  revision="e284dc9c280df2a118088ea9bc06f8eb9bfc0d83" />
   <project name="android_RKTools" path="RKTools"  revision="56ff862e0fe2a83d01c98bd2ccdcdf22ce1951a7" />
   <project name="android_RKDocs_android" path="RKDocs/android"  revision="26f1a887dc42486405bc23a2649e0ab766708105" />
   <project name="android_RKDocs_common" path="RKDocs/common"  revision="1dc14ee9dcbb9b7c50c8696e42d1b332ccde7b82" />
