@@ -119,7 +119,7 @@
   <project name="android_external_droiddriver" path="external/droiddriver" revision="675040fd1a83ee2505e1109489adcc0d666f61ea" />
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" revision="4be2b9d40f9be0da59c3f85db1ee4d656c49c95c" />
   <project name="android_external_easymock" path="external/easymock" revision="8bc2748f2850c88ab6b86c6ceed1ce65bed5ee16" />
-  <project name="android_external_eclipse-basebuilder" path="external/eclipse-basebuilder" remote="aosp" revision="076f46888ed346775b8efc564d7694063ef5eea7" />
+  <project name="platform/external/eclipse-basebuilder" path="external/eclipse-basebuilder" remote="aosp" revision="076f46888ed346775b8efc564d7694063ef5eea7" />
   <project name="android_external_eclipse-windowbuilder" path="external/eclipse-windowbuilder" revision="c533332008088ee5f61745b724361fbde5b7e770" />
   <project name="android_external_eigen" path="external/eigen" revision="8d09b45ff989856326c07914bd5233c21a74a903" />
   <project name="android_external_elfutils" path="external/elfutils" revision="1e94954a025b335a2e43fc901e08824faa8d9801" />
@@ -141,7 +141,7 @@
   <project name="android_external_glide" path="external/glide" revision="31e64acd1e65045471124267a06241eff1f55d26" />
   <project name="android_external_gmock" path="external/gmock" revision="a78d46728dda2809b1951be54a7efdd31e09dc17" />
   <project name="android_external_google-benchmark" path="external/google-benchmark" revision="39352b58f8d274b240dbf0f9a4917c3c61b21b7b" />
-  <project name="android_external_google-breakpad" path="external/google-breakpad" remote="aosp" revision="e37b6d963f9938c5245d1f19fc91e5fad74f8cdb" />
+  <project name="platform/external/google-breakpad" path="external/google-breakpad" remote="aosp" revision="e37b6d963f9938c5245d1f19fc91e5fad74f8cdb" />
   <project name="android_external_google-fonts_carrois-gothic-sc" path="external/google-fonts/carrois-gothic-sc" revision="0062a10458d4c357f3082d66bcb129d11913aaae" />
   <project name="android_external_google-fonts_coming-soon" path="external/google-fonts/coming-soon" revision="2c5cb418c690815545bbb0316eae5fd33b9fc859" />
   <project name="android_external_google-fonts_cutive-mono" path="external/google-fonts/cutive-mono" revision="bce2136662854076023066602526ba299e6556b2" />
@@ -291,7 +291,7 @@
   <project name="android_external_squashfs-tools" path="external/squashfs-tools" revision="6697c183c48387fb577c5ded9c52fcfa071af2a7" />
   <project name="android_external_srtp" path="external/srtp" revision="ab8d27c7566de29e3a0af3f2324036e8d5646d76" />
   <project name="android_external_strace" path="external/strace" revision="372fd474dea063e08f8faf9abdf0a2bad06a7955" />
-  <project name="android_external_svox" path="external/svox" remote="aosp" revision="5185e6e5c5a1398aab776e4a7a6e4a061bc0035d" />
+  <project name="platform/external/svox" path="external/svox" remote="aosp" revision="5185e6e5c5a1398aab776e4a7a6e4a061bc0035d" />
   <project name="android_external_tagsoup" path="external/tagsoup" revision="9c02d9f506855965ec513685788890dfc856a5bc" />
   <project name="android_external_tcpdump" path="external/tcpdump" revision="dbb0163636b74b580abcf7d1de8d834163ca0a3a" />
   <project name="android_external_testng" path="external/testng" revision="d3bb4c37e9b45ca9511da099247f231293a2b14e" />
@@ -512,9 +512,9 @@
   <project name="android_prebuilts_ninja_linux-x86" path="prebuilts/ninja/linux-x86" revision="08c87a043c925cf88a98d73a8f01a9e06fab7cb9" />
   <project name="android_prebuilts_python_darwin-x86_2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63" />
   <project name="android_prebuilts_python_linux-x86_2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="74e4f93e81205ac85f74eaf5fd4c86515779aee1" />
-  <project name="android_prebuilts_qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp"  revision="370cf705185dd0d7cd4284a765f8dbe509387396" />
-  <project name="android_prebuilts_sdk" path="prebuilts/sdk" remote="aosp" revision="23f7de5ba433fc82269ba63c203fe0a3eaf4a680" />
-  <project name="android_prebuilts_tools" path="prebuilts/tools" remote="aosp" revision="b5022f03051bf5ad63112659132e3ec0fa6af4ce" />
+  <project name="platformprebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp"  revision="370cf705185dd0d7cd4284a765f8dbe509387396" />
+  <project name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="23f7de5ba433fc82269ba63c203fe0a3eaf4a680" />
+  <project name="platformprebuilts/tools" path="prebuilts/tools" remote="aosp" revision="b5022f03051bf5ad63112659132e3ec0fa6af4ce" />
   <project name="android_sdk" path="sdk" revision="317031cb0035803f54c21cc78ea7cf830a247865" />
   <project name="android_system_bt" path="system/bt" revision="e2f342ce0724db9e050f811bad64e9ba02435e73" />
   <project name="android_system_ca-certificates" path="system/ca-certificates" revision="442b6a922af8f0132841460cffe172a50f70938a" />
