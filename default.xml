@@ -26,7 +26,7 @@
   </project>
   <project name="android_hardware_rockchip_audio" path="hardware/rockchip/audio"  revision="e4b9db8c4d6e7576bbb38beaf298b9cf24b93da0" />
   <project name="android_hardware_rockchip_camera" path="hardware/rockchip/camera"  revision="9919364309466679e9412463b4e0c88fa1b6d845" />
-  <project name="android_hardware_rockchip_hwcomposer_rga" path="hardware/rockchip/hwcomposer"  revision="bb9bc28b6ac3185565f1947c543654d11a1069e9" />
+  <project name="android_hardware_rockchip_hwcomposer" path="hardware/rockchip/hwcomposer"  revision="bb9bc28b6ac3185565f1947c543654d11a1069e9" />
   <project name="android_hardware_rockchip_jpeghw" path="hardware/rockchip/jpeghw"  revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275" />
   <project name="android_hardware_rockchip_libgralloc" path="hardware/rockchip/libgralloc"  revision="28189d66177b310c2a86fd15281b7676c4482980" />
   <project name="android_hardware_rockchip_libiep" path="hardware/rockchip/libiep"  revision="22275c0160a27b7c544d164b22403150255027da" />
