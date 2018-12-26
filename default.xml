@@ -512,9 +512,9 @@
   <project name="android_prebuilts_ninja_linux-x86" path="prebuilts/ninja/linux-x86" revision="08c87a043c925cf88a98d73a8f01a9e06fab7cb9" />
   <project name="android_prebuilts_python_darwin-x86_2.7.5" path="prebuilts/python/darwin-x86/2.7.5" revision="0c5958b1636c47ed7c284f859c8e805fd06a0e63" />
   <project name="android_prebuilts_python_linux-x86_2.7.5" path="prebuilts/python/linux-x86/2.7.5" revision="74e4f93e81205ac85f74eaf5fd4c86515779aee1" />
-  <project name="platformprebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp"  revision="370cf705185dd0d7cd4284a765f8dbe509387396" />
+  <project name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp"  revision="370cf705185dd0d7cd4284a765f8dbe509387396" />
   <project name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="23f7de5ba433fc82269ba63c203fe0a3eaf4a680" />
-  <project name="platformprebuilts/tools" path="prebuilts/tools" remote="aosp" revision="b5022f03051bf5ad63112659132e3ec0fa6af4ce" />
+  <project name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="b5022f03051bf5ad63112659132e3ec0fa6af4ce" />
   <project name="android_sdk" path="sdk" revision="317031cb0035803f54c21cc78ea7cf830a247865" />
   <project name="android_system_bt" path="system/bt" revision="e2f342ce0724db9e050f811bad64e9ba02435e73" />
   <project name="android_system_ca-certificates" path="system/ca-certificates" revision="442b6a922af8f0132841460cffe172a50f70938a" />
