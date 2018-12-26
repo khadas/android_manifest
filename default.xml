@@ -47,7 +47,7 @@
   <project name="android_vendor_rockchip_common" path="vendor/rockchip/common"  revision="1e2a8f0c33186a0af8986b32036ca96895a536c6" />
   <project name="android_rkst" path="rkst"  revision="c264f23734649fdb83d983bea7bcf11612651926" />
   <project name="u-boot" path="u-boot"  revision="62041fe2f55220d216ea9059e8171ba950b352e7" />
-  <project name="device_common" path="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" />
+  <project name="android_device_common" path="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" />
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" />
   <project name="android_art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d" />
   <project name="android_bionic" path="bionic" revision="8b2e5b977118ebb8447cdf429c4a6be534c4fd1b" />
