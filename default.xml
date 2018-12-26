@@ -542,7 +542,7 @@
   <project name="android_tools_external_gradle" path="tools/external/gradle" revision="d35398cac47a404255bbd5568b7cc1d8514e1b75" />
   <project name="android_tools_test_connectivity" path="tools/test/connectivity" revision="a635aec7df8de4c9ffecfef7f3e44b31171b5641" />
   <project name="linux" path="kernel"  revision="6fb9a8806f299377cb5ab560a66033d1b2ef4712" />
-  <project name="android_external_mpp_demo" path="external/mpp-demo"  revision="543c8a2a2396881f5c3da27f0d2bb755ed4a6422" />
+  <project name="android_external_mpp-demo" path="external/mpp-demo"  revision="543c8a2a2396881f5c3da27f0d2bb755ed4a6422" />
   <project name="android_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu"  revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" />
   <project name="android_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"  revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" />
   <project name="android_rkbin" path="rkbin"  revision="9e6625e7551ffa591f0ac4c271f12a7ab5cedcf4" />
