@@ -484,7 +484,7 @@
   <project name="android_prebuilts_clang_linux-x86_host_3.6" path="prebuilts/clang/linux-x86/host/3.6" revision="b660e8f76f1543abf50ebfbdb8d10112d93fec3d" />
   <project name="android_prebuilts_deqp" path="prebuilts/deqp" revision="f15e7c74ca66599a81eea672bc86e742be620142" />
   <project name="android_prebuilts_devtools" path="prebuilts/devtools" revision="d054448a1147fc5294089b6ac7aa3abe92202761" />
-  <project name="android_prebuilts_eclipse" path="prebuilts/eclipse" revision="cf9f78f8cf41b16edf9f712598a42743d5cea4af" />
+  <project name="platform/prebuilts/eclipse" path="prebuilts/eclipse" remote="aosp" revision="cf9f78f8cf41b16edf9f712598a42743d5cea4af" />
   <project name="android_prebuilts_gcc_darwin-x86_aarch64_aarch64-linux-android-4.9" path="prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" revision="e52fa504edb36f5de350098bf107b2050e39e2a3" />
   <project name="android_prebuilts_gcc_darwin-x86_arm_arm-eabi-4.8" path="prebuilts/gcc/darwin-x86/arm/arm-eabi-4.8" revision="6d08ca9f45ff685648fd13c75bf5cac4b11c19bb" />
   <project name="android_prebuilts_gcc_darwin-x86_arm_arm-linux-androideabi-4.9" path="prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" revision="36b851f832dc04021dc3e45a19dd800907030ea0" />
