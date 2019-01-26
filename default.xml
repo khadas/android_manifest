@@ -6,31 +6,33 @@
   <default remote="github" revision="refs/tags/V181214" sync-c="true" sync-j="4"/>
   
   <project  name="android_external_caffe-on-acl" path="external/caffe-on-acl"  revision="394e54859cffa48816a337905b774d3509ce3862" />
-  <project name="android_RKTools" path="RKTools"  revision="56ff862e0fe2a83d01c98bd2ccdcdf22ce1951a7" />
-  <project name="android_RKDocs_android" path="RKDocs/android"  revision="26f1a887dc42486405bc23a2649e0ab766708105" />
-  <project name="android_RKDocs_common" path="RKDocs/common"  revision="1dc14ee9dcbb9b7c50c8696e42d1b332ccde7b82" />
-  <project name="android_RKDocs_rk3399" path="RKDocs/rk3399"  revision="9cafe2df8a6046620b4c8059efd8b675c16aff88" />
+  <project name="android_RKTools" path="RKTools"  revision="42c61ea0d21e8145d83ab3f27519c03a0af20fd3"/>
+  <project name="android_RKDocs_android" path="RKDocs/android"  revision="aff3a0e67d16c36a7e37d641d7124271efa3c586" />
+  <project name="android_RKDocs_common" path="RKDocs/common"  revision="3d5c2fc1f3312ce1b3b9e68097d21e2bfedbf381" />
+  <project name="android_RKDocs_rk3399" path="RKDocs/rk3399"  revision="db805e9c5325dcae2f5681bf0e75b3cdb55af411" />
   <project name="android_external_iperf" path="external/iperf"  revision="e69fc319839d7151d6d64b0b7dfd34ae42e9f485" />
   <project name="android_external_libiconv" path="external/libiconv"  revision="a6194413bedd9a908e3dfe2cadec15d490faf9fb" />
   <project name="android_frameworks_opt_net_pppoe" path="frameworks/opt/net/pppoe"  revision="c06ee5486eb46f9dc337ef200cf042840d946cf6" />
   <project name="android_hardware_realtek" path="hardware/realtek"  revision="4bced29ff8495c38ae5966b50c4e352118a6ba29" />
   <project name="android_packages_apps_Browser" path="packages/apps/Browser"  revision="3c6fc342ef1e61f70a58b22fd423a135cfe92ae1" />
-  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399"  revision="03b5e7c495ca1e979ab27b82d16b687d8afbe0bb" >
+  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399"  revision="ee3d71152684ab275d0deb3043e46a09f79913bb" >
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build-rk3399-all.sh" src="build-rk3399-all.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="android_device_rockchip_common" path="device/rockchip/common"  revision="ad8e71c62f48cc52763881f8caccc080a04c087c" >
+  <project name="android_device_rockchip_common" path="device/rockchip/common"  revision="0cc643fa1f5c49db6524d52861460d3f68d7c4da" >
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
+    <copyfile dest="pack_image.sh" src="pack_image.sh"/>
   </project>
+  <project name="supersu" path="vendor/rockchip/root" revision="3d94c84919665f4a1eb8134875105dc94c4ce09e" />
   <project name="android_hardware_rockchip_audio" path="hardware/rockchip/audio"  revision="e4b9db8c4d6e7576bbb38beaf298b9cf24b93da0" />
   <project name="android_hardware_rockchip_camera" path="hardware/rockchip/camera"  revision="9919364309466679e9412463b4e0c88fa1b6d845" />
-  <project name="android_hardware_rockchip_hwcomposer" path="hardware/rockchip/hwcomposer"  revision="bb9bc28b6ac3185565f1947c543654d11a1069e9" />
+  <project name="android_hardware_rockchip_hwcomposer" path="hardware/rockchip/hwcomposer"  revision="fd701469b72b549e707e3ee995fefa74389c41ae" />
   <project name="android_hardware_rockchip_jpeghw" path="hardware/rockchip/jpeghw"  revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275" />
-  <project name="android_hardware_rockchip_libgralloc" path="hardware/rockchip/libgralloc"  revision="28189d66177b310c2a86fd15281b7676c4482980" />
+  <project name="android_hardware_rockchip_libgralloc" path="hardware/rockchip/libgralloc"  revision="cf36cfe38b483db0e99aae9a994d3294a6b65f5a" />
   <project name="android_hardware_rockchip_libiep" path="hardware/rockchip/libiep"  revision="22275c0160a27b7c544d164b22403150255027da" />
-  <project name="android_hardware_rockchip_liblights" path="hardware/rockchip/liblights"  revision="d90bb715228fc0b99cfc91272657f4eb647a1fe9" />
+  <project name="android_hardware_rockchip_liblights" path="hardware/rockchip/liblights"  revision="b29a973a3a6562c6733f67dbbd64c43c18079fb4" />
   <project name="android_hardware_rockchip_librga" path="hardware/rockchip/librga"  revision="8f473397271cf6c1e8736b55bbcabc1ceed9f750" />
   <project name="android_hardware_rockchip_librkvpu" path="hardware/rockchip/librkvpu"  revision="6b1dafa7d20a7381032d98d83364ddffd8d8a579" />
   <project name="android_hardware_rockchip_omx_il" path="hardware/rockchip/omx_il"  revision="315b535dbd7810d49d7568bbce6210b3ba590c0b" />
@@ -42,11 +44,11 @@
   <project name="android_external_rk-pcba-test" path="external/rk-pcba-test"  revision="cd70cf43a0e29a8e6b07ba18fa353c637ee5378e" />
   <project name="android_external_usb_modeswitch" path="external/usb_modeswitch"  revision="416cd763c9145295eb6d462facf8726a48642ff1" />
   <project name="android_external_wlan_loader" path="external/wlan_loader"  revision="b37cdfc009be8c0184615d152d4d2d947ea92fab" />
-  <project name="android_external_rk_tee_user" path="external/rk_tee_user"  revision="8b46aa1d6853be73ebb11d112be6c18981d2373d" />
+  <project name="android_external_rk_tee_user" path="external/rk_tee_user"  revision="021d76a29c2b550c25ae07f2b99079420c7507a0" />
   <project name="android_vendor_Widevine" path="vendor/widevine"  revision="ed4f805c83129cdb57602150084af749b8a6b81e" />
-  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common"  revision="1e2a8f0c33186a0af8986b32036ca96895a536c6" />
+  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common"  revision="a13c363898423be2d5568cd64e7eba69fd0c23ab" />
   <project name="android_rkst" path="rkst"  revision="c264f23734649fdb83d983bea7bcf11612651926" />
-  <project name="u-boot" path="u-boot"  revision="62041fe2f55220d216ea9059e8171ba950b352e7" />
+  <project name="u-boot" path="u-boot"  revision="b9cf845981bf0fda48e029809039a6899b858951" />
   <project name="android_device_common" path="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" />
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" />
   <project name="android_art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d" />
@@ -131,6 +133,7 @@
   <project name="android_external_f2fs-tools" path="external/f2fs-tools" revision="580ab10ab05a375ea126854186f308b73d600fda" />
   <project name="android_external_fdlibm" path="external/fdlibm" revision="eb6c9fcfe52e665917ff5a9670c909f9e3c92fa5" />
   <project name="android_external_fec" path="external/fec" revision="791afbe58ff9f55145c4adf632ab8cc9ca6e5686" />
+  <project name="android_external_i2c-tools" path="external/i2c-tools" revision="0bd91bc72493a6af67efa57aa33ad30b5f32b353" />
   <project name="android_external_fio" path="external/fio" revision="1aec78b2e6aaf90d45b8e3f9b3d2f07dd9334827" />
   <project name="android_external_flac" path="external/flac" revision="fdbb5b06d18c907c4324e00d17e1112fa7c278ff" />
   <project name="android_external_fonttools" path="external/fonttools" revision="fede58680958e96e6e8f61c3cc6282f798452c53" />
@@ -189,7 +192,7 @@
   <project name="android_external_libcxxabi" path="external/libcxxabi" revision="fb11cb31ea214386a681d2f28b126b310ac53657" />
   <project name="android_external_libdaemon" path="external/libdaemon" revision="e2f604066d97431c95856c73d7b9ee46b348d37e" />
   <project name="android_external_libdivsufsort" path="external/libdivsufsort" revision="ae4cb1345c1db6584e7492930f1dac565ad9cfad" />
-  <project name="android_external_libdrm" path="external/libdrm" revision="99304b333e8217db19d64327027cd93daaf97121" />
+  <project name="android_external_libdrm" path="external/libdrm" revision="b5c7216467bae9db281e9a8f254f38bf28b5aac5" />
   <project name="android_external_libedit" path="external/libedit" revision="67e14dfc833aafa400a3aad8cb329cbaec503445" />
   <project name="android_external_libevent" path="external/libevent" revision="96109b593a61709259971af33efba001e7e04427" />
   <project name="android_external_libexif" path="external/libexif" revision="bcbfc5e831a8eb5a121752f3151c039cd13ff721" />
@@ -322,7 +325,7 @@
   <project name="android_external_zopfli" path="external/zopfli" revision="d467682cabdaff41673db87ccabc9dcd06977241" />
   <project name="android_external_zxing" path="external/zxing" revision="fedf8f2d8099bf7bb85dc3db8699343d56617deb" />
   <project name="android_frameworks_av" path="frameworks/av" revision="a8617c5b6f7dcdc3b33ede02f2318f81bc1d6728" />
-  <project name="android_frameworks_base" path="frameworks/base" revision="3621e0b00fef0606c1c87f20b8a08b4b6e5aab05" />
+  <project name="android_frameworks_base" path="frameworks/base" revision="936cc5301cad277a87972b5e51b2aff9e1806aef" />
   <project name="android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="d2e35f95915d480fe203d6614df8b0f5d14de0e5" />
   <project name="android_frameworks_compile_mclinker" path="frameworks/compile/mclinker" revision="119bb9b550f139ace5f69075390937c7f1222761" />
   <project name="android_frameworks_compile_slang" path="frameworks/compile/slang" revision="4eb5fac8a0466c674e565ff2c96986c499b439d4" />
@@ -375,7 +378,7 @@
   <project name="android_hardware_intel_img_psb_video" path="hardware/intel/img/psb_video" revision="06e002d2cd1c3698b9ce4c96363a67e60e62707b" />
   <project name="android_hardware_intel_sensors" path="hardware/intel/sensors" revision="68dc9e70b79dacddc4e0bf00af0de7f764b04eed" />
   <project name="android_hardware_invensense" path="hardware/invensense" revision="11e5ff75af866f91622b6008fa13db1c3685ae69" />
-  <project name="android_hardware_libhardware" path="hardware/libhardware" revision="66a94a48e1030ebe271d2970b9b36ef2b1ee212f" />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" revision="d1b5d1099bd4c64b63cdfc26cf3561df6d64d2e6" />
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="c04c4261b203c2015b379602a7fdc1137d80e48c" />
   <project name="android_hardware_marvell_bt" path="hardware/marvell/bt" revision="3f33d194e8300816b94d1d7b68b1d48c8f903251" />
   <project name="android_hardware_qcom_audio" path="hardware/qcom/audio" revision="a602e8b2af2cf9e9fe08793b3f778b4627ac6bad" />
@@ -419,7 +422,7 @@
   <project name="android_packages_apps_EmergencyInfo" path="packages/apps/EmergencyInfo" revision="109dfaf56e76ff89d24854a03933a58714547aca" />
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" revision="f2d266bf99681b3a9bb52bc3042b970ef2a5aef3" />
   <project name="android_packages_apps_Gallery" path="packages/apps/Gallery" revision="1fac3d0848254ff58d4f0f7c68f5cab45d886395" />
-  <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="48edeebe0421cce132fd96327cefac1d1b83857c" />
+  <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="717ff5e3375555ff1b7e074da435fd3861982032" />
   <project name="android_packages_apps_HTMLViewer" path="packages/apps/HTMLViewer" revision="aeb4fff160e1b8d3ce545590ae674cbb5412dc5b" />
   <project name="android_packages_apps_KeyChain" path="packages/apps/KeyChain" revision="d8f890cd5c7daf0e51fcd23856638098d8ee3e77" />
   <project name="android_packages_apps_Launcher2" path="packages/apps/Launcher2" revision="08d1b00aaa57f5ec549c7a348d07fffc1a895c32" />
@@ -522,7 +525,7 @@
   <project name="android_system_connectivity_dhcp_client" path="system/connectivity/dhcp_client" revision="bf76367cd82e6eac86993ce852286a7c36d755bf" />
   <project name="android_system_connectivity_shill" path="system/connectivity/shill" revision="269d710ded3ced0d1857430bf2da5a670629afe1" />
   <project name="android_system_core" path="system/core" revision="ab5f1d24b072e36ddcf02439303050c501d9dc5b" />
-  <project name="android_system_extras" path="system/extras" revision="4c9d2ea431114953d98e631eed651c8f1bd06bac" />
+  <project name="android_system_extras" path="system/extras" revision="779d90ac9269b3b93a34a01567b13d31a972d40f" />
   <project name="android_system_firewalld" path="system/firewalld" revision="835d2c2d6f151059c4d70adbfdac9aca7b3f98c5" />
   <project name="android_system_gatekeeper" path="system/gatekeeper" revision="e3fab37e2aec7e09a1956ffaa0c05a63a6f539e7" />
   <project name="android_system_keymaster" path="system/keymaster" revision="391a367df2352bed7e70885493421892a1cdaffc" />
@@ -541,10 +544,10 @@
   <project name="android_tools_external_fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" />
   <project name="android_tools_external_gradle" path="tools/external/gradle" revision="d35398cac47a404255bbd5568b7cc1d8514e1b75" />
   <project name="android_tools_test_connectivity" path="tools/test/connectivity" revision="a635aec7df8de4c9ffecfef7f3e44b31171b5641" />
-  <project name="linux" path="kernel"  revision="6fb9a8806f299377cb5ab560a66033d1b2ef4712" />
-  <project name="android_external_mpp-demo" path="external/mpp-demo"  revision="543c8a2a2396881f5c3da27f0d2bb755ed4a6422" />
+  <project name="linux" path="kernel"  revision="ea52a49fd396533b4a826e1f9b38580bed7634bc" />
+  <project name="android_external_mpp-demo" path="external/mpp-demo"  revision="f41833d5af34b52f311485747f4a8f3896abb3c3" />
   <project name="android_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu"  revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" />
   <project name="android_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"  revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" />
-  <project name="android_rkbin" path="rkbin"  revision="9e6625e7551ffa591f0ac4c271f12a7ab5cedcf4" />
+  <project name="android_rkbin" path="rkbin"  revision="620f822b1df73fa63b98eedca51f1f83d056ae08" />
   <project name="android_toolchain_binutils" path="toolchain/binutils" revision="c327c9c1bcffd231fcaa05f3fd8c047d1fe0afcc" />
 </manifest>
