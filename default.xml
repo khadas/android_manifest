@@ -6,13 +6,13 @@
   <default remote="github" revision="refs/heads/khadas-vims-nougat" sync-j="4"/>
   
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/apps/IrBlaster" revision="fab61fd332ea3bb4ccba6791a3df0c1d4c1dea31"/>
-  <project name="android_device_khadas" path="device/khadas" revision="70d9a701f1e40aea479c89ec41e0b742d4221327"/>
-  <project name="linux" path="common" revision="2b5f4ce8cb128f02a68a0fe7dbccc149f38f5e65"/>
+  <project name="android_device_khadas" path="device/khadas" revision="6e6b86d9761dabb6ee8625709184beb9a37889e5"/>
+  <project name="linux" path="common" revision="1bd6972cd0093725c0b1dc87f6546648bbb22452"/>
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989"/>
   <project name="android_art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d"/>
   <project name="android_bionic" path="bionic" revision="f4806152cab6a432cf6c9f4f528e5242511163e0"/>
   <project name="android_bootable_recovery" path="bootable/recovery" revision="28bc227f93afc29bb6f84c7d19e0a9a13f719d41"/>
-  <project name="android_build" path="build" revision="f2b7302858f5017c7959ecb9639d8c8ccadb5648">
+  <project name="android_build" path="build" revision="c8f835d30b937f2097c36e788bee4267af2a4304">
     <copyfile dest="Makefile" src="core/root.mk"/>
   </project>
   <project name="android_build_blueprint" path="build/blueprint" revision="3a89d1ce9fe7a5160ee87ee11f99edbf540020fc"/>
@@ -389,6 +389,7 @@
   <project name="android_vendor_amlogic_apps_RemoteIME" path="vendor/amlogic/apps/RemoteIME" revision="120e57956386e48f1f31a0c0db8fa0394f8d6ab9"/>
   <project name="android_vendor_amlogic_apps_SubTitle" path="vendor/amlogic/apps/SubTitle" revision="3989b261823999ad9515c84990d6a46d6455328a"/>
   <project name="android_vendor_amlogic_apps_VideoPlayer" path="vendor/amlogic/apps/VideoPlayer" revision="74d39c5bfa9e01f1280461b2c97f5e5a0d6861ce"/>
+  <project name="android_vendor_amlogic_FactoryTest" path="vendor/amlogic/FactoryTest" revision="4b84da5d69f2a3a4bea903c3cb653026aef18d5e"/>
   <project name="android_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="92d2dc9287a472cb46719a46069407582bbc4b34"/>
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" revision="2c724bb15b74f6aeeb0f7114517dfde43f2317e2"/>
   <project name="android_packages_apps_Browser2" path="packages/apps/Browser2" revision="2d974e22fb685fb2074defa981304d616c9f21c5"/>
@@ -425,7 +426,7 @@
   <project name="android_packages_apps_Protips" path="packages/apps/Protips" revision="c38d4954d0676b9e2dd2e373273bddc2ef3e3502"/>
   <project name="android_packages_apps_Provision" path="packages/apps/Provision" revision="53593db784a7425c424ccd52fcd122847ed26a4d"/>
   <project name="android_packages_apps_QuickSearchBox" path="packages/apps/QuickSearchBox" revision="182bfdc2648bfef67d12bfd0e46707d1f7194d00"/>
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" revision="cb15eb3087fbbbd4eea14b389b24d4d8b7108635"/>
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" revision="074102bc0312177ea9a6a4a583c0a69877bc9090"/>
   <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" revision="31427dda121e243e104d820c2923d3ebc0627b9b"/>
   <project name="android_packages_apps_SpareParts" path="packages/apps/SpareParts" revision="4db997871e3f4c3f84660815096e5276b47c5c91"/>
   <project name="android_packages_apps_SpeechRecorder" path="packages/apps/SpeechRecorder" revision="51cc8462c082a26810f5d7c5a2648232a77e795c"/>
@@ -511,7 +512,7 @@
   <project name="android_tools_external_gradle" path="tools/external/gradle" revision="d35398cac47a404255bbd5568b7cc1d8514e1b75"/>
   <project name="android_tools_test_connectivity" path="tools/test/connectivity" revision="a635aec7df8de4c9ffecfef7f3e44b31171b5641"/>
   <project name="android_toolchain_binutils" path="toolchain/binutils" revision="c327c9c1bcffd231fcaa05f3fd8c047d1fe0afcc"/>
-  <project name="u-boot" path="uboot" revision="69eb192a445cd1d485954175a18b46b152bd7abd"/>
+  <project name="u-boot" path="uboot" revision="471154803996d3f641615d245a4d6f7c5ebb6aca"/>
   <project name="android_vendor_amlogic_external_libiconv" path="vendor/amlogic/external/libiconv" revision="1021c91e999cb3584220dd5aa432e4f09119aa5b"/>
   <project name="android_vendor_amlogic_external_libtiff" path="vendor/amlogic/external/libtiff" revision="f038c1dac21c3ad13425ccc7d1c847c35469620f"/>
   <project name="android_vendor_amlogic_external_libbluray" path="vendor/amlogic/external/libbluray" revision="dce87f4c41701ed4b5adea67d1ff5e320ca9ad8d" />
