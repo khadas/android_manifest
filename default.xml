@@ -89,6 +89,7 @@
   <project name="android_external_f2fs-tools" path="external/f2fs-tools" revision="5bd943d50d103eb6f48a72f199a49dce4feeb61a"/>
   <project name="android_external_fdlibm" path="external/fdlibm" revision="eb6c9fcfe52e665917ff5a9670c909f9e3c92fa5"/>
   <project name="android_external_fec" path="external/fec" revision="791afbe58ff9f55145c4adf632ab8cc9ca6e5686"/>
+  <project name="supersu" path="vendor/amlogic/root" revision="a79b7548d2d631c6bbda98eebbd62241bda6e369"/>
   <project name="android_vendor_amlogic_external_ffmpeg" path="vendor/amlogic/external/ffmpeg" revision="08ce83b78e7611b62d480f9cc1e98bbbfb82e7f0"/>
   <project name="android_external_fio" path="external/fio" revision="1aec78b2e6aaf90d45b8e3f9b3d2f07dd9334827"/>
   <project name="android_external_flac" path="external/flac" revision="fdbb5b06d18c907c4324e00d17e1112fa7c278ff"/>
