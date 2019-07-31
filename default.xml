@@ -646,7 +646,7 @@
   <project name="android_tools_tradefederation_core" path="tools/tradefederation/core" revision="29ffffa9fe15bbe63213944652dbd0f732cfaec5"/>
   <project name="android_vendor_amlogic_FactoryTest" path="packages/apps/FactoryTest" revision="62c754fff34802bc680e50345023f5aa8d8abccb"/>
   <project name="android_vendor_microsoft" path="vendor/microsoft" revision="6eb6f6fcbf88050b27a79cc3ba04ad8f8f1289ca"/>
-  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" revision="ad54bc72589608215e5fa7fb1f1414e90cd4c16a" upstream="1e2bdf693b57314ff24e96b00eb81c17f9a14f2f"/>
+  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" revision="ad54bc72589608215e5fa7fb1f1414e90cd4c16a"/>
   <project name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" revision="50d9a47d71bfa247500f49d4c98787313a292c47"/>
   <project name="android_vendor_widevine" path="vendor/widevine" revision="5777b8f13a37d8dab24d12ad7c959520bb589de8"/>
   <project name="linux" path="kernel" revision="289487dd6eb523f23821f92aee4208f5fafea8eb"/>
