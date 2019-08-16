@@ -5,6 +5,7 @@
   
   <default remote="github" revision="refs/tags/Edge_pie_V190626" sync-c="true" sync-j="4"/>
   
+  <project name="WiringPi" path="WiringPi" revision="b098bec6a2b108a861124440eacfdb3eb6965d18"/>  
   <project name="android_RKDocs_android" path="RKDocs/android" revision="90e6804fee0c3c9ea7bb0053b9dab278b719e5cd"/>
   <project name="android_RKDocs_common" path="RKDocs/common" revision="67c4a9f08ba65130c64faf5f91407eafb7c140bf"/>
   <project name="android_RKDocs_rk3399" path="RKDocs/rk3399" revision="c836a1d5b2456af6220bd3df1bb5860c124eb537"/>
@@ -34,13 +35,13 @@
   <project name="android_developers_demos" path="developers/demos" revision="03814c35b8ee0a1284c667556260124d97466b28"/>
   <project name="android_developers_samples_android" path="developers/samples/android" revision="cb517f82e33fdb96ebd77483af1fee872b7b06aa"/>
   <project name="android_development" path="development" revision="33a187438ef781129865711235b2ab4d6a7ec69d"/>
-  <project name="android_device_rockchip_common" path="device/rockchip/common" revision="f9edce6f5468dc5ec5f33f012ab50022dc297dca">
+  <project name="android_device_rockchip_common" path="device/rockchip/common" revision="589c40516dde95fc7c89edae35420b65554216d1">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="pack_image.sh" src="pack_image.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" revision="2ebe172c0db6afe560b7cddf562a36556c7f33a8">
+  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" revision="cf29d121210fe743a5cd0703158f6e20e3d12d98">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
@@ -378,7 +379,7 @@
   <project name="android_external_zopfli" path="external/zopfli" revision="4101d743cef9e1161bfc9ed4d3c8d4910c6346f7"/>
   <project name="android_external_zxing" path="external/zxing" revision="eb95fad99b1c163e20b9ffc54a2346e650451e9d"/>
   <project name="android_frameworks_av" path="frameworks/av" revision="166cf59b4dbaab9a82868fe930b3b1bc4f6b8248"/>
-  <project name="android_frameworks_base" path="frameworks/base" revision="e8b0c9bd670fb98bfd4374514429f4dfd3138249"/>
+  <project name="android_frameworks_base" path="frameworks/base" revision="2829cf643b6362897397031ff2d965ee346a15d8"/>
   <project name="android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="cd2cedc31a5a051062c87e1c215623acc3da5de8"/>
   <project name="android_frameworks_compile_mclinker" path="frameworks/compile/mclinker" revision="708894db646abf1eccd08a7dfaadbb66a7d2b283"/>
   <project name="android_frameworks_compile_slang" path="frameworks/compile/slang" revision="f0cee34637b4aea3af6c9f5f8635601d895f7c09"/>
@@ -464,7 +465,7 @@
   <project name="android_hardware_ril" path="hardware/ril" revision="5f438e18ba37089a8ae58fca529ab1cb964e9f81"/>
   <project name="android_hardware_rockchip_audio" path="hardware/rockchip/audio" revision="97eada8554a7479ca3a0d79dc8cdefbed9e207a0"/>
   <project name="android_hardware_rockchip_bootctrl" path="hardware/rockchip/bootctrl" revision="ae2344d54069f4050fbc2fdf52001b27b5e255c6"/>
-  <project name="android_hardware_rockchip_camera" path="hardware/rockchip/camera" revision="4597dbfa8b8691ab247c64b822a617e17651cf56"/>
+  <project name="android_hardware_rockchip_camera" path="hardware/rockchip/camera" revision="52a4ef86902fe3310bf40563bf652f2cfb3fcd35"/>
   <project name="android_hardware_rockchip_camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" revision="4e6087181271c382490dc5dd519192118dc50dbd"/>
   <project name="android_hardware_rockchip_drmservice" path="hardware/rockchip/drmservice" revision="ad4facc95dbe4371da482ab507916aefe458087c"/>
   <project name="android_hardware_rockchip_hdmicec" path="hardware/rockchip/hdmicec" revision="32e6a1e030e865f0dbffba11248a1d0d88694b18"/>
@@ -533,7 +534,7 @@
   <project name="android_packages_apps_QuickSearchBox" path="packages/apps/QuickSearchBox" revision="40adfa9388338ffbfabd5e295387514b007eb21e"/>
   <project name="android_packages_apps_SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="ed1da4d0c0abdc8cec0dcf2cf23ad89863765fe3"/>
   <project name="android_packages_apps_SecureElement" path="packages/apps/SecureElement" revision="88824ddb08e375ec41842db824cfc3b2e88f6bf8"/>
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" revision="e01f882c153a0db5e452b8b87d6adc0fd8f733e0"/>
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" revision="3179abbc58335af87cd12a046be054830a92bb9c"/>
   <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="39184a531709c816a8ae3222f7a9e49660ce97db"/>
   <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" revision="cb1272a26c9c62db13f7a8cd9e494de601b615ab"/>
   <project name="android_packages_apps_SpareParts" path="packages/apps/SpareParts" revision="1067dc8f999729f3588cbdbb5ee01ec090297d09"/>
@@ -587,7 +588,7 @@
   <project name="android_system_chre" path="system/chre" revision="d688fbb53e65daa2d959efca44616661d4f7f15c"/>
   <project name="android_system_connectivity_wificond" path="system/connectivity/wificond" revision="cc20b3ae7394fa2f169a88837049e8e6d0952262"/>
   <project name="android_system_connectivity_wifilogd" path="system/connectivity/wifilogd" revision="9f9c941ff397771936ee8cd91be4909057ae372e"/>
-  <project name="android_system_core" path="system/core" revision="bdec1f1311b57ab2f1d07185c2b79ad92442a913"/>
+  <project name="android_system_core" path="system/core" revision="c9fe2f10e288e581a56841faf6e86819bfe3481f"/>
   <project name="android_system_extras" path="system/extras" revision="c3a87efb343254277eeb29f6328bd5e167eb288d"/>
   <project name="android_system_gatekeeper" path="system/gatekeeper" revision="acdbc8688e23b39ff311b4b554be3547a47245a3"/>
   <project name="android_system_hardware_interfaces" path="system/hardware/interfaces" revision="64848957ba49275896c80790ceeeb6219930f687"/>
@@ -613,7 +614,7 @@
   </project>
   <project name="android_system_tpm" path="system/tpm" revision="f1746f84ce07bea124a02d9e9943b0b0ab293938"/>
   <project name="android_system_update_engine" path="system/update_engine" revision="3e9410898d2687d7df3bdb03c6830d3ec428c2c6"/>
-  <project name="android_system_vold" path="system/vold" revision="abc8114fcdc1a5226805d85e53e135d2b185eaea"/>
+  <project name="android_system_vold" path="system/vold" revision="426e73e4df9ebfc896d5f41cdb1cb546ed13778d"/>
   <project name="android_test_framework" path="test/framework" revision="8a273728b695257f43a2ddcaa72d4920561bea8a"/>
   <project name="android_test_suite_harness" path="test/suite_harness" revision="bea26d6318a0de3ea7b6656922b922ddc5e7552d"/>
   <project name="android_test_vti_alert" path="test/vti/alert" revision="2270d160e38f0623d708cce36754fe14168dce64"/>
@@ -649,7 +650,7 @@
   <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" revision="ad54bc72589608215e5fa7fb1f1414e90cd4c16a"/>
   <project name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" revision="50d9a47d71bfa247500f49d4c98787313a292c47"/>
   <project name="android_vendor_widevine" path="vendor/widevine" revision="5777b8f13a37d8dab24d12ad7c959520bb589de8"/>
-  <project name="linux" path="kernel" revision="289487dd6eb523f23821f92aee4208f5fafea8eb"/>
+  <project name="linux" path="kernel" revision="cc7fc8dae6218f5064a532745e58e6706f6475f0"/>
   <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" revision="073605ec7cc51937d3656efcf66958939ec0f5c3" upstream="refs/tags/android-9.0.0_r37"/>
   <project groups="pdk-fs" name="platform/external/google-breakpad" path="external/google-breakpad" remote="aosp" revision="e6619b7ba561609f0e0ad7fb7a6d7fc6eca6ca91" upstream="refs/tags/android-9.0.0_r37"/>
   <project clone-depth="1" groups="cts" name="platform/external/skqp" path="external/skqp" remote="aosp" revision="ac3e5a243a7663822a6e50fb8644fb17907e4839" upstream="refs/tags/android-9.0.0_r37"/>
