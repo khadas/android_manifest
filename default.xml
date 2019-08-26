@@ -428,7 +428,7 @@
   <project name="android_hardware_amlogic_screen_source" path="hardware/amlogic/screen_source"  revision="1f440afc353b36f1e83628a32a11c3376cdcf8d4" />
   <project name="android_hardware_amlogic_thermal" path="hardware/amlogic/thermal"  revision="482f7c237f2b8f4908bbfe411c5d86fa92043908" />
   <project name="android_hardware_amlogic_tv_input" path="hardware/amlogic/tv_input"  revision="ced360ff04b835239c28b2776fe51b89b55d4532" />
-  <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi"  revision="fdff817a1c174505a90561e94ec58c540cc9b373" />
+  <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi"  revision="be290ea78520970f7bc5bf10f453b93b63d1ad3d" />
   <project name="android_vendor_amlogic_gpu" path="vendor/amlogic/common/gpu"  revision="5fb0e97b3def0be29f3a880e19744876661214f4" />
   <project name="android_vendor_amlogic_arm_isp" path="vendor/amlogic/common/arm_isp"  revision="dbf95eeec1fbad6445b22a78ed9946f4b8137dd4" />
   <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="370b9bec15c6a35f0427d6f52bb5afdaa4bb229f" />
