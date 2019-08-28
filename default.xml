@@ -7,7 +7,7 @@
   <project name="android_device_khadas" path="device/khadas"  revision="3e88609463c52feb615df7f29ccb24e3886255e7" />
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/common/apps/IrBlaster"  revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" />
   <project name="android_vendor_amlogic_external_dvb" path="vendor/amlogic/common/external/dvb"  revision="938eeba3b6fce84a25cb020ac796e1d64e3184e9" />
-  <project name="linux" path="common"  revision="46ee607c46af88ee618533d0f5d0df87ab164c9e" />
+  <project name="linux" path="common"  revision="6880ef49a6b9f11f0155e7b27214a26f1349042d" />
   <project name="android_kernel_configs" path="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7" />
   <project name="android_kernel_tests" path="kernel/tests" revision="20522bdde70b29f96291d5d1b9cd343cf1d20f80" />
   <project name="android_vendor_amlogic_ir_tools" path="vendor/amlogic/common/ir_tools"  revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" />
