@@ -3,7 +3,7 @@
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
   
-  <default remote="github" revision="refs/tags/Edge_pie_V190626" sync-c="true" sync-j="4"/>
+  <default remote="github" revision="refs/tags/Edge_Pie_V190912" sync-c="true" sync-j="4"/>
   
   <project name="WiringPi" path="WiringPi" revision="b098bec6a2b108a861124440eacfdb3eb6965d18"/>  
   <project name="android_RKDocs_android" path="RKDocs/android" revision="90e6804fee0c3c9ea7bb0053b9dab278b719e5cd"/>
