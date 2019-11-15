@@ -15,7 +15,7 @@
   <project name="android_frameworks_opt_net_pppoe" path="frameworks/opt/net/pppoe"  revision="c06ee5486eb46f9dc337ef200cf042840d946cf6" />
   <project name="android_hardware_realtek" path="hardware/realtek"  revision="4bced29ff8495c38ae5966b50c4e352118a6ba29" />
   <project name="android_packages_apps_Browser" path="packages/apps/Browser"  revision="3c6fc342ef1e61f70a58b22fd423a135cfe92ae1" />
-  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399"  revision="e2aa97471a58d70ebac99d704e1c672848a8d902" >
+  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399"  revision="9b8970415b0440cc21d9b6da084068484e1e07de" >
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build-rk3399-all.sh" src="build-rk3399-all.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -27,8 +27,8 @@
   </project>
   <project name="supersu" path="vendor/rockchip/root" revision="3d94c84919665f4a1eb8134875105dc94c4ce09e" />
   <project name="android_hardware_rockchip_hdmicec" path="hardware/rockchip/hdmicec"  revision="ba79dfa71c9bac812a538c5bcbc7bc81801a5dd4" />
-  <project name="android_hardware_rockchip_audio" path="hardware/rockchip/audio"  revision="dbe77489fdb5cae69eb03d9bce2334bed17c2b4e" />
-  <project name="android_hardware_rockchip_camera" path="hardware/rockchip/camera"  revision="a4b1e6e7501f38bcf96ef1591523ea0a121bb0cc" />
+  <project name="android_hardware_rockchip_audio" path="hardware/rockchip/audio"  revision="a0348eb6df2d9acd847f6c6d912cd07a5566c583" />
+  <project name="android_hardware_rockchip_camera" path="hardware/rockchip/camera"  revision="960769c4d27301ba37aef6572edea28cfefd7d60" />
   <project name="android_hardware_rockchip_hwcomposer" path="hardware/rockchip/hwcomposer"  revision="c80a7d838cc1b2fcd3ef370f84095b5789f64054" />
   <project name="android_hardware_rockchip_jpeghw" path="hardware/rockchip/jpeghw"  revision="d9a9a6e0971aa63a1ab66e1360bb74dd33b99275" />
   <project name="android_hardware_rockchip_libgralloc" path="hardware/rockchip/libgralloc"  revision="a7cb56787cfb5089f3c673d6fe33d244008cdb3e" />
@@ -49,7 +49,7 @@
   <project name="android_vendor_Widevine" path="vendor/widevine"  revision="ed4f805c83129cdb57602150084af749b8a6b81e" />
   <project name="android_vendor_rockchip_common" path="vendor/rockchip/common"  revision="b60065b71abe7f9c743e6caddc7eab87e11f2aca" />
   <project name="android_rkst" path="rkst"  revision="c264f23734649fdb83d983bea7bcf11612651926" />
-  <project name="u-boot" path="u-boot"  revision="7c17ac863bdce2540f857562a1ea4aa293e1797f" />
+  <project name="u-boot" path="u-boot"  revision="e1347d59ca311d47e474b952abe843855c7453a6" />
   <project name="android_device_common" path="device/common" revision="d49a18a17d624b41bcf79ad972ebfdb93f4c2045" />
   <project name="android_abi_cpp" path="abi/cpp" revision="36b381298a4efb7c293d394d8b1acbda68230989" />
   <project name="android_art" path="art" revision="f9e3754e8a2f6244e037362c03db32d4244ecb2d" />
@@ -546,7 +546,7 @@
   <project name="android_tools_external_fat32lib" path="tools/external/fat32lib" revision="3880776e41ff7def06e351720f2d162f88b58a03" />
   <project name="android_tools_external_gradle" path="tools/external/gradle" revision="d35398cac47a404255bbd5568b7cc1d8514e1b75" />
   <project name="android_tools_test_connectivity" path="tools/test/connectivity" revision="a635aec7df8de4c9ffecfef7f3e44b31171b5641" />
-  <project name="linux" path="kernel"  revision="6468c56438e61d181cddb9292ee8376b15cf2f9e" />
+  <project name="linux" path="kernel"  revision="781d41cc45efeec3d8f326f153ce0fa434b86705" />
   <project name="android_external_mpp-demo" path="external/mpp-demo"  revision="7c0f510b778de6687f5711be262f2579e3aad9bd" />
   <project name="android_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu"  revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" />
   <project name="android_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf"  revision="dd4df7dff4f1df65d78939a958b760a79e3650a1" />
