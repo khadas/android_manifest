@@ -3,7 +3,7 @@
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
   
-  <default remote="github" revision="refs/tags/Edge_Pie_V190912" sync-c="true" sync-j="4"/>
+  <default remote="github" revision="refs/tags/Edge_Pie_V191205" sync-c="true" sync-j="4"/>
   
   <project name="WiringPi" path="WiringPi" revision="b098bec6a2b108a861124440eacfdb3eb6965d18"/>  
   <project name="android_RKDocs_android" path="RKDocs/android" revision="90e6804fee0c3c9ea7bb0053b9dab278b719e5cd"/>
@@ -12,10 +12,10 @@
   <project name="android_RKTools" path="RKTools" revision="247ddffa5dab5a7c19ea50c91e281f4aa18281b0"/>
   <project name="android_art" path="art" revision="f51e6147e09580dbd1f1065d873fd906cf5a33ca"/>
   <project name="android_bionic" path="bionic" revision="d245ef5a2fdf8300d5222de807fdb9c4e749fb20"/>
-  <project name="android_bootable_recovery" path="bootable/recovery" revision="cc3e4ac517a717c35b599d728583679b96a6202e"/>
+  <project name="android_bootable_recovery" path="bootable/recovery" revision="7c0161a40e859930277d682aeebff2ac499e65c1"/>
   <project name="android_build_blueprint" path="build/blueprint" revision="28335d2c283293db4b20d3eb548338fdafa5abd5"/>
   <project name="android_build_kati" path="build/kati" revision="d019345012951498cda181caed55908f7fe4f801"/>
-  <project name="android_build_make" path="build/make" revision="4cc7242824b14b877f75beabd3774fca90f5b7a5">
+  <project name="android_build_make" path="build/make" revision="6860ba8f998f12f0b7ea4c0927cd693e3585904f">
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -35,13 +35,13 @@
   <project name="android_developers_demos" path="developers/demos" revision="03814c35b8ee0a1284c667556260124d97466b28"/>
   <project name="android_developers_samples_android" path="developers/samples/android" revision="cb517f82e33fdb96ebd77483af1fee872b7b06aa"/>
   <project name="android_development" path="development" revision="33a187438ef781129865711235b2ab4d6a7ec69d"/>
-  <project name="android_device_rockchip_common" path="device/rockchip/common" revision="d469e80824e1a2e88dd30fc252d15967223e1b73">
+  <project name="android_device_rockchip_common" path="device/rockchip/common" revision="c4406bed6c43308535aa50bb23b2ef9af46e261d">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="pack_image.sh" src="pack_image.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
   </project>
-  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" revision="3d6d39d3c02a7f24fbffc19b3599cde60f2c220a">
+  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" revision="dadc5060dcaf176c0e1ca63c3782e539b977ddc9">
     <copyfile dest="buildspec.mk" src="buildspec.mk"/>
     <copyfile dest="build.sh" src="build.sh"/>
   </project>
@@ -379,7 +379,7 @@
   <project name="android_external_zopfli" path="external/zopfli" revision="4101d743cef9e1161bfc9ed4d3c8d4910c6346f7"/>
   <project name="android_external_zxing" path="external/zxing" revision="eb95fad99b1c163e20b9ffc54a2346e650451e9d"/>
   <project name="android_frameworks_av" path="frameworks/av" revision="166cf59b4dbaab9a82868fe930b3b1bc4f6b8248"/>
-  <project name="android_frameworks_base" path="frameworks/base" revision="80b7b3ee4fbfc4a8a1ddf35b87479e2d4238fe00"/>
+  <project name="android_frameworks_base" path="frameworks/base" revision="4bbdcc538c16a5fcce295fb1a138e5c8f93c55ab"/>
   <project name="android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="cd2cedc31a5a051062c87e1c215623acc3da5de8"/>
   <project name="android_frameworks_compile_mclinker" path="frameworks/compile/mclinker" revision="708894db646abf1eccd08a7dfaadbb66a7d2b283"/>
   <project name="android_frameworks_compile_slang" path="frameworks/compile/slang" revision="f0cee34637b4aea3af6c9f5f8635601d895f7c09"/>
@@ -588,8 +588,8 @@
   <project name="android_system_chre" path="system/chre" revision="d688fbb53e65daa2d959efca44616661d4f7f15c"/>
   <project name="android_system_connectivity_wificond" path="system/connectivity/wificond" revision="cc20b3ae7394fa2f169a88837049e8e6d0952262"/>
   <project name="android_system_connectivity_wifilogd" path="system/connectivity/wifilogd" revision="9f9c941ff397771936ee8cd91be4909057ae372e"/>
-  <project name="android_system_core" path="system/core" revision="1b50478709d6ccb303f0a7fed678096919a42111"/>
-  <project name="android_system_extras" path="system/extras" revision="c3a87efb343254277eeb29f6328bd5e167eb288d"/>
+  <project name="android_system_core" path="system/core" revision="578b608ea4806530566d24b666913397d8df23ea"/>
+  <project name="android_system_extras" path="system/extras" revision="facba77f52a96e23e94e495715cd32a836d9ae5e"/>
   <project name="android_system_gatekeeper" path="system/gatekeeper" revision="acdbc8688e23b39ff311b4b554be3547a47245a3"/>
   <project name="android_system_hardware_interfaces" path="system/hardware/interfaces" revision="64848957ba49275896c80790ceeeb6219930f687"/>
   <project name="android_system_hwservicemanager" path="system/hwservicemanager" revision="34c2cc3fb0d9745d60f5887bdfaaca422a02baaa"/>
@@ -645,12 +645,12 @@
   <project name="android_tools_test_connectivity" path="tools/test/connectivity" revision="41fda3af6d0048315c7dbb98e3cd3054eaeb6c85"/>
   <project name="android_tools_tradefederation_contrib" path="tools/tradefederation/contrib" revision="f14adb8123c9d7aa8b88960c2042f5fc271b65bf"/>
   <project name="android_tools_tradefederation_core" path="tools/tradefederation/core" revision="29ffffa9fe15bbe63213944652dbd0f732cfaec5"/>
-  <project name="android_vendor_amlogic_FactoryTest" path="packages/apps/FactoryTest" revision="62c754fff34802bc680e50345023f5aa8d8abccb"/>
+  <project name="android_vendor_amlogic_FactoryTest" path="packages/apps/FactoryTest" revision="7c8efc38e28834ca6a907260118bb609b263ad86"/>
   <project name="android_vendor_microsoft" path="vendor/microsoft" revision="6eb6f6fcbf88050b27a79cc3ba04ad8f8f1289ca"/>
-  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" revision="34418491d75e76f39c25b2cfb16133e85db37364"/>
+  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" revision="2541ea818e18319c216c2a7262e307fd01ababe3"/>
   <project name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" revision="50d9a47d71bfa247500f49d4c98787313a292c47"/>
   <project name="android_vendor_widevine" path="vendor/widevine" revision="5777b8f13a37d8dab24d12ad7c959520bb589de8"/>
-  <project name="linux" path="kernel" revision="a09488b3d66e534da96caee41b259b3298cf125b"/>
+  <project name="linux" path="kernel" revision="c1f3eb27790e9251ae7b8948b8e8ec4e31b3b7f0"/>
   <project clone-depth="1" groups="pdk" name="platform/external/chromium-webview" path="external/chromium-webview" remote="aosp" revision="073605ec7cc51937d3656efcf66958939ec0f5c3" upstream="refs/tags/android-9.0.0_r37"/>
   <project groups="pdk-fs" name="platform/external/google-breakpad" path="external/google-breakpad" remote="aosp" revision="e6619b7ba561609f0e0ad7fb7a6d7fc6eca6ca91" upstream="refs/tags/android-9.0.0_r37"/>
   <project clone-depth="1" groups="cts" name="platform/external/skqp" path="external/skqp" remote="aosp" revision="ac3e5a243a7663822a6e50fb8644fb17907e4839" upstream="refs/tags/android-9.0.0_r37"/>
@@ -699,6 +699,6 @@
   <project clone-depth="1" groups="pdk,tools" name="platform/prebuilts/tools" path="prebuilts/tools" remote="aosp" revision="447a5e4054d88da22014194705e94f3cc401170c" upstream="refs/tags/android-9.0.0_r37"/>
   <project clone-depth="1" groups="pdk" name="platform/prebuilts/vndk/v27" path="prebuilts/vndk/v27" remote="aosp" revision="42b21087edfafb63e8bcdf50dea8849f77e5cdc2" upstream="refs/tags/android-9.0.0_r37"/>
   <project clone-depth="1" groups="tools" name="platform/tools/external/gradle" path="tools/external/gradle" remote="aosp" revision="6eb26c8667a7bc0d57a40433c42c2cdbfc057004" upstream="refs/tags/android-9.0.0_r37"/>
-  <project name="supersu" path="vendor/rockchip/root" revision="3d94c84919665f4a1eb8134875105dc94c4ce09e"/>
+  <project name="supersu" path="vendor/rockchip/root" revision="51e9fcb8bea1c72a3d4940bb2f09a3f0956467ce"/>
   <project name="u-boot" revision="0bfc064760eb20523685a9877aca10f88a1cda17"/>
 </manifest>
