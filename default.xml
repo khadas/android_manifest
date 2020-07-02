@@ -643,7 +643,7 @@
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="dba38877339a03afe388ff5af40d8efd22b74517" upstream="refs/tags/android-10.0.0_r32"/>
   <project groups="pdk" name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="4dcae5651bcb21789929ba7f080e92e207fe5628" upstream="refs/tags/android-10.0.0_r32"/>
   <project name="android_system_core" path="system/core" remote="github" revision="d91ab570c7bd52b4884149434ed83196d9cafd95"/>
-  <project name="android_system_extras" path="system/extras" remote="github" revision="6a8da1296dee42b64d603399ebc7bcdb6222a69f"/>
+  <project groups="pdk" name="platform/system/extras" path="system/extras" revision="6a8da1296dee42b64d603399ebc7bcdb6222a69f" upstream="refs/tags/android-10.0.0_r32"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="95a65511bd48ea8da24a2ecb97e6196ce23503b4" upstream="refs/tags/android-10.0.0_r32"/>
   <project groups="pdk" name="platform/system/gsid" path="system/gsid" revision="4d267077aa2a169b410185b1a5f5a78212fb4745" upstream="refs/tags/android-10.0.0_r32"/>
   <project groups="pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="2987e6b9e5e5ea02124c67e880aaeb942a3e4c17" upstream="refs/tags/android-10.0.0_r32"/>
