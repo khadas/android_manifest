@@ -642,7 +642,7 @@
   <project groups="pdk" name="platform/system/chre" path="system/chre" revision="c04bae9707cde5ea5bc1a5d3e11988c8fcfcb5d4" upstream="refs/tags/android-10.0.0_r32"/>
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="dba38877339a03afe388ff5af40d8efd22b74517" upstream="refs/tags/android-10.0.0_r32"/>
   <project groups="pdk" name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="4dcae5651bcb21789929ba7f080e92e207fe5628" upstream="refs/tags/android-10.0.0_r32"/>
-  <project name="android_system_core" path="system/core" remote="github" revision="d91ab570c7bd52b4884149434ed83196d9cafd95"/>
+  <project name="android_system_core" path="system/core" remote="github" revision="b598c27e5fa3e54eb9e762997a8384d0776e93fe"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras" revision="ef17b323e8be065ed9fbcd1ea863d72e63488fc0" upstream="refs/tags/android-10.0.0_r32"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="95a65511bd48ea8da24a2ecb97e6196ce23503b4" upstream="refs/tags/android-10.0.0_r32"/>
   <project groups="pdk" name="platform/system/gsid" path="system/gsid" revision="4d267077aa2a169b410185b1a5f5a78212fb4745" upstream="refs/tags/android-10.0.0_r32"/>
@@ -718,8 +718,8 @@
   <project name="android_device_rockchip_rk3288" path="device/rockchip/rk3288" remote="github" revision="453ba7cd8ea7be66ef3dcff41565465af9a364e0"/>
   <project name="android_device_rockchip_rk3326" path="device/rockchip/rk3326" remote="github" revision="462d042fc0214dbcd60b9e5ba1a479a383edd27e"/>
   <project name="android_device_rockchip_rk3368" path="device/rockchip/rk3368" remote="github" revision="6ab113724311bb99cbc5b986f78008607cc48dc9"/>
-  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="github" revision="206fa806831c8c76ae343e545d2707ed97632a64"/>
-  <project name="android_device_rockchip_common" path="device/rockchip/common" remote="github" revision="c7bbcbbc675fd5c31bae39ffd9f357c0f5e20b98">
+  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="github" revision="c1134307a64fa59bda86406259bcbcfc36d6860b"/>
+  <project name="android_device_rockchip_common" path="device/rockchip/common" remote="github" revision="08c5ba5a94e4c21c056cf1d73b01beeee6d4ba4c">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -728,7 +728,7 @@
   <project name="android_hardware_rockchip_libgralloc_bifrost" path="hardware/rockchip/libgralloc/bifrost" remote="github" revision="15635bad0ce2b40c67d7ab21614b54167266f1b9"/>
   <project name="android_hardware_rockchip_libgralloc_midgard" path="hardware/rockchip/libgralloc/midgard" remote="github" revision="34b75b3b1e8854cc5f7936368d4be7b478cf3ac2"/>
   <project name="android_hardware_rockchip_libgralloc_utgard" path="hardware/rockchip/libgralloc/utgard" remote="github" revision="ae78304c27f4a9baea75213320cea05538393109"/>
-  <project name="android_hardware_rockchip_audio" path="hardware/rockchip/audio" remote="github" revision="2e44107e9bd413f63d0830352fe6f14eb3eb70d6"/>
+  <project name="android_hardware_rockchip_audio" path="hardware/rockchip/audio" remote="github" revision="b1a2867c104e1f7444c8e9ec3d70d3be56e3af6a"/>
   <project name="android_hardware_rockchip_bootctrl" path="hardware/rockchip/bootctrl" remote="github" revision="fb9116e0478cacebf0ccb047924b53a430c2db09"/>
   <project name="android_hardware_rockchip_camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" remote="github" revision="6b3263b924bf9bc37ed4644badf3f2260eb5f129"/>
   <project name="android_hardware_rockchip_camera" path="hardware/rockchip/camera" remote="github" revision="9eada0edb6181cac72029c5f57347ae62c1d4031"/>
@@ -747,14 +747,14 @@
   <project name="android_hardware_rockchip_sensor" path="hardware/rockchip/sensor" remote="github" revision="1ce41c27f5e3c0ca5f099a43a59746493234a3cb"/>
   <project name="android_hardware_rockchip_swiftshader" path="hardware/rockchip/swiftshader" remote="github" revision="adb53038163c3cc87bb6bc9c130a9502b46d4be1"/>
   <project name="android_hardware_rockchip_weaver" path="hardware/rockchip/weaver" remote="github" revision="e1b06ab6689b02a8c6d886952321d0173d1df30d"/>
-  <project name="linux" path="kernel" remote="github" revision="5129885099d6454bc8a4c0438d73594a3ba2710f"/>
+  <project name="linux" path="kernel" remote="github" revision="9e90f3dc02db27252be03932441937218e85f520"/>
   <project name="android_external_abc" path="external/abc" remote="github" revision="59952887d96231c09fc2bd1e0be0659f40cd40ab"/>
   <project name="android_external_io" path="external/io" remote="github" revision="19d7f773d49d74b6dd05b90e2e7ad4fd6a85264b"/>
   <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="8c634a102728a20fdb30744a3a53e7efa5764f17"/>
   <project name="android_bootable_recovery_pcba_core" path="bootable/recovery/pcba_core" remote="github" revision="97956e9d3bca19bb64b054ae1ff8b46e5e6b9c5a"/>
   <project name="android_external_usb_modeswitch" path="external/usb_modeswitch" remote="github" revision="9857c093db449e24a1b4ce89557bfe53bb0785d6"/>
   <project name="android_vendor_widevine" path="vendor/widevine" remote="github" revision="5f17e901d01dacdc913972219bfbfa8db22a1019"/>
-  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="4205f703c916d11e146a59d8a9d5c9e9affd9252"/>
+  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="aa7598587a7bcfaf6fcde5aa404d27863cd28c19"/>
   <project name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" remote="github" revision="b0984af3fa6bc6d91a7d3af0045b67ca16067d8a"/>
   <project name="android_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="github" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
   <project name="android_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="github" revision="dd4df7dff4f1df65d78939a958b760a79e3650a1"/>
