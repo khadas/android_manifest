@@ -738,6 +738,7 @@
   <project name="android_hardware_rockchip_hdmicec" path="hardware/rockchip/hdmicec" remote="github" revision="ebd4212cc5c7c708b0c4a93469630423dd07c33b"/>
   <project name="android_hardware_rockchip_hwcomposer" path="hardware/rockchip/hwcomposer" remote="github" revision="85660afa79fe874f886cc869236bab8e5573961d"/>
   <project name="android_hardware_rockchip_jpeghw" path="hardware/rockchip/jpeghw" remote="github" revision="72b3537df45b9f20c93c9c1031aaaa73733924a2"/>
+  <project name="android_hardware_rockchip_libhwjpeg" path="hardware/rockchip/libhwjpeg" remote="github" revision="5772009d8618051aa25aadf5666534e8a1198b89"/>
   <project name="android_hardware_rockchip_libiep" path="hardware/rockchip/libiep" remote="github" revision="68e274cd748d1d0e0dcd52a3ead0ee7cb64819b1"/>
   <project name="android_hardware_rockchip_liblights" path="hardware/rockchip/liblights" remote="github" revision="b29a973a3a6562c6733f67dbbd64c43c18079fb4"/>
   <project name="android_hardware_rockchip_libmemtrack" path="hardware/rockchip/libmemtrack" remote="github" revision="c591424c9c90a115d5498a19551fa40fb79bab81"/>
