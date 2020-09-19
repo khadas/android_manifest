@@ -2,19 +2,19 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
-  <default remote="github" revision="refs/tags/Khadas_Pie_V200320" sync-c="true" sync-j="4"/>
+  <default remote="github" revision="refs/tags/Vims-Pie-V200918" sync-c="true" sync-j="4"/>
   
-  <project name="android_device_khadas" path="device/khadas"  revision="a8de8d367f165489680736d3cc2f66fecf113e40" />
+  <project name="android_device_khadas" path="device/khadas"  revision="8cfefdefdaa508a419371b7b2f2ce6c9dbef5090" />
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/common/apps/IrBlaster"  revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" />
   <project name="android_vendor_amlogic_external_dvb" path="vendor/amlogic/common/external/dvb"  revision="f76cf85efd2c4fd462ed85ace3ebfed2ad54fc38" />
-  <project name="linux" path="common"  revision="fba6cce6b08f7c5c005737e88d30aebcc26c2f5a" />
+  <project name="linux" path="common"  revision="b0e0d3314f5e06edcc00dff8cdceec5cd223f2d7" />
   <project name="android_kernel_configs" path="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7" />
   <project name="android_kernel_tests" path="kernel/tests" revision="20522bdde70b29f96291d5d1b9cd343cf1d20f80" />
   <project name="android_vendor_amlogic_ir_tools" path="vendor/amlogic/common/ir_tools"  revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" />
   <project name="android_art" path="art" revision="b151df35115c546fd72107de43dd5e3a4a7f6bd4" />
   <project name="android_bionic" path="bionic" revision="196632fb3c59ebbf1184d791a3e7124dd0c3f22b" />
-  <project name="android_bootable_recovery" path="bootable/recovery" revision="75ddfc7bf51e985b05d4fb7155af7ca46b07eaeb" />
-  <project name="android_build_make" path="build/make" revision="b89aab2e2920623350369ced01179d905cfe5677" >
+  <project name="android_bootable_recovery" path="bootable/recovery" revision="5eeb8fd7009a38df073d5335ab10a9b89add5edc" />
+  <project name="android_build_make" path="build/make" revision="782bffaa9a95ef5b7c7b5572d995d6e1aace980e" >
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -423,7 +423,7 @@
   <project name="android_hardware_amlogic_gralloc" path="hardware/amlogic/gralloc"  revision="5ddd8f7ef0866881cfd60137a37917d149210a2c" />
   <project name="android_hardware_amlogic_tb_modules" path="hardware/amlogic/tb_modules" revision="9ad840af069d3dbce694152a6993add95e37332a" />
   <project name="android_hardware_amlogic_hdmi_cec" path="hardware/amlogic/hdmi_cec"  revision="76939c31679c16280ec758b97c3ccd9e7a9f994a" />
-  <project name="android_hardware_amlogic_hwcomposer" path="hardware/amlogic/hwcomposer"  revision="a773ae9c5d9987adb82fe76974a2cc6c526d3603" />
+  <project name="android_hardware_amlogic_hwcomposer" path="hardware/amlogic/hwcomposer"  revision="77e74e2229c13a8eff67ec06e3ba630e35c41617" />
   <project name="android_hardware_amlogic_keymaster" path="hardware/amlogic/keymaster"  revision="5e97a750c3508c9bf566e8de3d0ae4bb730ef363" />
   <project name="android_hardware_amlogic_lights" path="hardware/amlogic/lights"  revision="7be61fff9cb9f48811760dd1f6b87a968b42aac3" />
   <project name="android_hardware_amlogic_media" path="hardware/amlogic/media"  revision="9941c39d8ea285f50826be74cb1373ae7b244201" />
@@ -433,7 +433,7 @@
   <project name="android_hardware_amlogic_screen_source" path="hardware/amlogic/screen_source"  revision="b1a70071de9f89a2b46a3ba7ab659f717c52968d" />
   <project name="android_hardware_amlogic_thermal" path="hardware/amlogic/thermal"  revision="482f7c237f2b8f4908bbfe411c5d86fa92043908" />
   <project name="android_hardware_amlogic_tv_input" path="hardware/amlogic/tv_input"  revision="64dd6bd15da66bebc7cffd02f4a59d5a7be37847" />
-  <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi"  revision="c64ea1ef660976d296afc4814c4872416097f8f8" />
+  <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi"  revision="8a26f4e465b723e70a33d6d65d4db0c8c472d2db" />
   <project name="android_vendor_amlogic_gpu" path="vendor/amlogic/common/gpu"  revision="6953d5c73711582c0d981481bce279dca36c88e3" />
   <project name="android_vendor_amlogic_gpu-lib" path="vendor/amlogic/common/gpu-lib" revision="2050bfb93a04e1a8b315f6da63042e94bb8722b5" />
   <project name="android_vendor_amlogic_arm_isp" path="vendor/amlogic/common/arm_isp"  revision="80088a036316429ec5f83169fc90e7a80ab0641e" />
@@ -445,7 +445,7 @@
   <project name="android_hardware_qcom_neuralnetworks_hvxservice" path="hardware/qcom/neuralnetworks/hvxservice" revision="4599e0381ee4f2162cc7a032c2e99376cd8bb7ed" />
   <project name="android_hardware_ril" path="hardware/ril" revision="3f56b764d481907bbe28c79b44149bbed6937faf" />
   <project name="android_vendor_amlogic_npu" path="vendor/amlogic/common/npu"  revision="ccfb080a40743a803eb96b2c78c8aa348e347c0e" />
-  <project name="android_hardware_wifi_broadcom_drivers_ap6xxx" path="hardware/wifi/broadcom/drivers/ap6xxx"  revision="ac7e735f6ac3a9c63e202f7d4608dd6c4cc75ea3" />
+  <project name="android_hardware_wifi_broadcom_drivers_ap6xxx" path="hardware/wifi/broadcom/drivers/ap6xxx"  revision="2218a835e2604198ceb9d1c5dbd9f8ef0f92f72c" />
   <project name="android_hardware_wifi_icomm_drivers_ssv6xxx" path="hardware/wifi/icomm/drivers/ssv6xxx"  revision="0dddfae91c07bd11274c443b6480a0a88234deed" />
   <project name="android_hardware_wifi_mtk_drivers_mt7601" path="hardware/wifi/mtk/drivers/mt7601"  revision="68b10c676c4bc3fa3e7debee855478773181ddc2" />
   <project name="android_hardware_wifi_mtk_drivers_mt7668" path="hardware/wifi/mtk/drivers/mt7668"  revision="fd76e10404b220c552fc7951f5a359b56d599e3b" />
@@ -474,7 +474,7 @@
   <project name="android_vendor_amlogic_apps_AppInstaller" path="vendor/amlogic/common/apps/AppInstaller"  revision="0d283bdca240303cd7d6656913037e30d5eea0c5" />
   <project name="android_vendor_amlogic_apps_DLNA" path="vendor/amlogic/common/apps/DLNA"  revision="dc7cc25a063670cc112ded94c61296dbac1e65a4" />
   <project name="android_vendor_amlogic_apps_DroidLiveTv" path="vendor/amlogic/common/apps/DroidLiveTv"  revision="f2aa1234e12701b34af39605a4678c4b6aee8bf4" />
-  <project name="android_vendor_amlogic_apps_DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings"  revision="c246f17b0861fae0bce4d2431ea70af532ba0116" />
+  <project name="android_vendor_amlogic_apps_DroidTvSettings" path="vendor/amlogic/common/apps/DroidTvSettings"  revision="6bdbd7648c1b51cd91ee7f25bb0526aab22a77a0" />
   <project name="android_vendor_amlogic_apps_Lightning" path="vendor/amlogic/common/apps/Lightning"  revision="c7c59dcb46a54f67233664d56e732c39422c1545" />
   <project name="android_vendor_amlogic_apps_FileBrowser" path="vendor/amlogic/common/apps/FileBrowser"  revision="e192d4f55cafe13d20ed433fee653f8713dbd315" />
   <project name="android_vendor_amlogic_apps_MboxLauncher2" path="vendor/amlogic/common/apps/MboxLauncher2"  revision="f8a80e2ab1c856bbb0c1aac200992a2321db49e7"/>
@@ -549,7 +549,7 @@
   <project name="android_packages_apps_TimeZoneData" path="packages/apps/TimeZoneData" revision="c15cb7580e1afd0abbf49e903ce0bf92e5d06c35" />
   <project name="android_packages_apps_TimeZoneUpdater" path="packages/apps/TimeZoneUpdater" revision="120a6e10a27b38f1509714aa375af0fa0c8812ab" />
   <project name="android_packages_apps_Traceur" path="packages/apps/Traceur" revision="b125ede268e27aa946286f3cd99832360b0b0e52" />
-  <project name="android_packages_apps_TvSettings" path="packages/apps/TvSettings" revision="fa9517e74ba44beb59d909fca3a17b14b4a82d5b" />
+  <project name="android_packages_apps_TvSettings" path="packages/apps/TvSettings" revision="69145b51c6d2c556f83ffa6170e3ef21b14c9ab2" />
   <project name="android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="d412cc6dc4b32755692921294ed78fbdded79277" />
   <project name="android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" revision="db3426b874c2b6ad67770309b5e26291193a9ace" />
   <project name="android_packages_experimental" path="packages/experimental" revision="f169b672994660513cc1639361d30b33263d9d36" />
@@ -640,7 +640,7 @@
   <project name="android_system_libufdt" path="system/libufdt" revision="025f7d1f74eec2460913658f4dedf92b3ee80db5" />
   <project name="android_system_libvintf" path="system/libvintf" revision="cef9c7100519d6558f8a689d5c3e86c5dcf8fb3d" />
   <project name="android_system_media" path="system/media" revision="e8d60f2b1cfd4847b181c306f2102928ba7a43da" />
-  <project name="android_system_netd" path="system/netd" revision="412a7e50a9e9b88bee3f4154e49df7d975377194" />
+  <project name="android_system_netd" path="system/netd" revision="7fa503c7c4d1b7838609ea602e61e63a5e257378" />
   <project name="android_system_nfc" path="system/nfc" revision="7e31aca46d944e919e27f58ab1aad98984ff152b" />
   <project name="android_system_nvram" path="system/nvram" revision="50b3b5a665a5d3e278a506cadf5344cae05fe983" />
   <project name="android_system_security" path="system/security" revision="762b2b64c9e84f5972d41850e47f1454c8134d1f" />
@@ -683,13 +683,13 @@
   <project name="android_toolchain_benchmark" path="toolchain/benchmark" revision="90d86b742e458645e8505f7fcd709b9c0f7b2588" />
   <project name="android_toolchain_binutils" path="toolchain/binutils" revision="ce6f92c3c344f3db820ff3819b18c81a65b9a15d" />
   <project name="android_toolchain_pgo-profiles" path="toolchain/pgo-profiles" revision="106785268baa337b3f3edf751dbbd83977891e4a" />
-  <project name="u-boot" path="bootloader/uboot"  revision="df4c3cf9c56180bbd9d3762d720de0d071a26c49" />
+  <project name="u-boot" path="bootloader/uboot"  revision="0bfb38ab1e9ab34585ded5b8c921fbe12361f5bf" />
   <project name="android_vendor_amlogic_apps_VendorOverlay" path="vendor/amlogic/common/apps/VendorOverlay"  revision="6df606bee2e37e3f9179df7e93ba07ab447c2f7d" />
   <project name="android_vendor_amlogic_external_exfat" path="vendor/amlogic/common/external/exfat"  revision="62762278453334f245ee6a4eff85d1d76c0f283b" />
   <project name="android_vendor_amlogic_external_icu" path="vendor/amlogic/common/external/icu"  revision="27ab17b223ed05c106f3203935cc7d2cbbf83580" />
   <project name="android_vendor_amlogic_external_libtiff" path="vendor/amlogic/common/external/libtiff"  revision="c7ea052ddf864d6c85024b102e2046f2472a28a7" />
   <project name="android_vendor_amlogic_external_recovery" path="vendor/amlogic/common/external/recovery"  revision="7a5985443a7430d5a225b7c0ff4dd0ee2da8323e" />
-  <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/common/frameworks"  revision="da3650f48dd0afd628293d52e7124bfb6c432296" />
+  <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/common/frameworks"  revision="905bbd5931b4f43540c25cc2dfc9a010b289c47e" />
   <project name="android_vendor_amlogic_frameworks_av" path="vendor/amlogic/common/frameworks/av"  revision="f5b195b43795fe8d98e08d084c79657063c9bc74" />
   <project name="android_vendor_amlogic_frameworks_pppoe" path="vendor/amlogic/common/frameworks/pppoe"  revision="d250fc6f2090e8a3f588411a8da1e8942e12110c" />
   <project name="android_vendor_amlogic_interfaces" path="vendor/amlogic/common/interfaces"  revision="2aaac765ee154c1dee722c9654ee996c7597f2d5" />
