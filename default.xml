@@ -718,7 +718,7 @@
   <project name="android_device_rockchip_rk3288" path="device/rockchip/rk3288" remote="github" revision="8e847238bfa6c332626a59e32f9bd6102839a155"/>
   <project name="android_device_rockchip_rk3326" path="device/rockchip/rk3326" remote="github" revision="6679b5e4dbc90a6b5f4c5a39b8525c58658de069"/>
   <project name="android_device_rockchip_rk3368" path="device/rockchip/rk3368" remote="github" revision="4e4ddfcd6f16896241c4640963cc7945e0dac551"/>
-  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="github" revision="a439a0cd391d6bf54e00762960f7097b979e64b6"/>
+  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="github" revision="144f10048008f51291723a8c817f574eb7221e33"/>
   <project name="android_device_rockchip_common" path="device/rockchip/common" remote="github" revision="d92555e7af293fa1c80ad847e1b007bb737494ef">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
@@ -750,7 +750,7 @@
   <project name="android_hardware_rockchip_sensor" path="hardware/rockchip/sensor" remote="github" revision="1ce41c27f5e3c0ca5f099a43a59746493234a3cb"/>
   <project name="android_hardware_rockchip_swiftshader" path="hardware/rockchip/swiftshader" remote="github" revision="adb53038163c3cc87bb6bc9c130a9502b46d4be1"/>
   <project name="android_hardware_rockchip_weaver" path="hardware/rockchip/weaver" remote="github" revision="26c9dd9bb2e8521583e53c1da30b927ce79da125"/>
-  <project name="linux" path="kernel" remote="github" revision="3471f4a3292493e25485259318cc1cda7b7178e1"/>
+  <project name="linux" path="kernel" remote="github" revision="695b451f03ddc3a9fc3476730ab9d25548004f64"/>
   <project name="android_external_abc" path="external/abc" remote="github" revision="59952887d96231c09fc2bd1e0be0659f40cd40ab"/>
   <project name="android_external_io" path="external/io" remote="github" revision="19d7f773d49d74b6dd05b90e2e7ad4fd6a85264b"/>
   <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="8c634a102728a20fdb30744a3a53e7efa5764f17"/>
