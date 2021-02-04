@@ -4,7 +4,7 @@
   <remote fetch="https://github.com/khadas/" name="github"/>
   <default remote="github" revision="refs/tags/Vims-Pie-V210128" sync-c="true" sync-j="4"/>
   
-  <project name="android_device_khadas" path="device/khadas"  revision="cc31ad1751ebaf8bd48048b9cedc248286722046" />
+  <project name="android_device_khadas" path="device/khadas"  revision="da8ce408755bbf731e900e7c11af001d9bb18c00" />
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/common/apps/IrBlaster"  revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" />
   <project name="android_vendor_amlogic_external_dvb" path="vendor/amlogic/common/external/dvb"  revision="f76cf85efd2c4fd462ed85ace3ebfed2ad54fc38" />
   <project name="linux" path="common"  revision="6d4c1eef5b4181a6e6b2a7606b6b1d49bb3cc19e" />
