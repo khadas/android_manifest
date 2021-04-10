@@ -434,6 +434,7 @@
   <project name="android_hardware_amlogic_tv_input" path="hardware/amlogic/tv_input"  revision="64dd6bd15da66bebc7cffd02f4a59d5a7be37847" />
   <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi"  revision="95a96e21f93347b095010bc5d495c0f7c61e9ccd" />
   <project name="android_vendor_amlogic_common_gpu" path="vendor/amlogic/common/gpu"  revision="6953d5c73711582c0d981481bce279dca36c88e3" />
+  <project name="android_vendor_amlogic_common_gpu-lib" path="vendor/amlogic/common/gpu-lib"  revision="2050bfb93a04e1a8b315f6da63042e94bb8722b5" />
   <project name="android_vendor_amlogic_common_arm_isp" path="vendor/amlogic/common/arm_isp"  revision="22a182a49f0bff6b85d037e247db57b203d42989" />
   <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="370b9bec15c6a35f0427d6f52bb5afdaa4bb229f" />
   <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="af4b41141d5ef38681b1059b8e6767a1a28a7cfe" />
