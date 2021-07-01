@@ -750,7 +750,7 @@
   <project name="android_hardware_rockchip_sensor" path="hardware/rockchip/sensor" remote="github" revision="1ce41c27f5e3c0ca5f099a43a59746493234a3cb"/>
   <project name="android_hardware_rockchip_swiftshader" path="hardware/rockchip/swiftshader" remote="github" revision="adb53038163c3cc87bb6bc9c130a9502b46d4be1"/>
   <project name="android_hardware_rockchip_weaver" path="hardware/rockchip/weaver" remote="github" revision="26c9dd9bb2e8521583e53c1da30b927ce79da125"/>
-  <project name="linux" path="kernel" remote="github" revision="16a9cd78835638282121928f7488a74c9c5bf236"/>
+  <project name="linux" path="kernel" remote="github" revision="bb824c158ced93533bbd593611258d0d323b6169"/>
   <project name="android_external_abc" path="external/abc" remote="github" revision="59952887d96231c09fc2bd1e0be0659f40cd40ab"/>
   <project name="android_external_io" path="external/io" remote="github" revision="19d7f773d49d74b6dd05b90e2e7ad4fd6a85264b"/>
   <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="8c634a102728a20fdb30744a3a53e7efa5764f17"/>
@@ -765,7 +765,7 @@
   <project name="android_rkbin" path="rkbin" remote="github" revision="664ccee1d4ada924848b80b2912d48c7fb30049c"/>
   <project name="android_rkst" path="rkst" remote="github" revision="623a581694d6059a9dffcecd337de65b154d3c8d"/>
   <project name="android_external_rktoolbox" path="external/rktoolbox" remote="github" revision="1ffae9357a70a96a526e38b94579d9dec373c7c5"/>
-  <project name="u-boot" path="u-boot" remote="github" revision="02d65145ca7b649b33525a49fd9ca12cce542782"/>
+  <project name="u-boot" path="u-boot" remote="github" revision="ab933054cc9f24aef1d08732ed6bf840cacd0a1a"/>
   <project name="toolchain/benchmark" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="toolchain/pgo-profiles" revision="248f97c5fdc39400ebcb51b72ba2263fe12781a7" upstream="refs/tags/android-10.0.0_r45"/>
   
