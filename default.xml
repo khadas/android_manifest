@@ -2,19 +2,19 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
-  <default remote="github" revision="refs/tags/Vims-Pie-V210527" sync-c="true" sync-j="4"/>
+  <default remote="github" revision="refs/tags/Vims-Pie-V210906" sync-c="true" sync-j="4"/>
   
-  <project name="android_device_khadas" path="device/khadas"  revision="4d6a1b9a774015f034a4d85715064e3db6724ab5" />
+  <project name="android_device_khadas" path="device/khadas"  revision="9fba7c22b0055f7c19e33e8df40f71d3a2d64497" />
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/common/apps/IrBlaster"  revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" />
   <project name="android_vendor_amlogic_external_dvb" path="vendor/amlogic/common/external/dvb"  revision="f76cf85efd2c4fd462ed85ace3ebfed2ad54fc38" />
-  <project name="linux" path="common"  revision="4dc284de2897600dd81a155bb26512bf77b77ca1" />
+  <project name="linux" path="common"  revision="b495e1eda6a2b5cc157b86e879a0c7c383b82937" />
   <project name="android_kernel_configs" path="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7" />
   <project name="android_kernel_tests" path="kernel/tests" revision="20522bdde70b29f96291d5d1b9cd343cf1d20f80" />
   <project name="android_vendor_amlogic_ir_tools" path="vendor/amlogic/common/ir_tools"  revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" />
   <project name="android_art" path="art" revision="b151df35115c546fd72107de43dd5e3a4a7f6bd4" />
   <project name="android_bionic" path="bionic" revision="52bcb4f9bccd8440222c2d76773ece59dee2bffd" />
   <project name="android_bootable_recovery" path="bootable/recovery" revision="5eeb8fd7009a38df073d5335ab10a9b89add5edc" />
-  <project name="android_build_make" path="build/make" revision="deebe7ad7933d1c5f123ed0a857851c94883fa80" >
+  <project name="android_build_make" path="build/make" revision="37a7e0ca3d4311d23e8dadd1e68e53a6189c8bdc" >
     <copyfile dest="Makefile" src="core/root.mk"/>
     <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
     <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
@@ -433,10 +433,10 @@
   <project name="android_hardware_amlogic_screen_source" path="hardware/amlogic/screen_source"  revision="b1a70071de9f89a2b46a3ba7ab659f717c52968d" />
   <project name="android_hardware_amlogic_thermal" path="hardware/amlogic/thermal"  revision="482f7c237f2b8f4908bbfe411c5d86fa92043908" />
   <project name="android_hardware_amlogic_tv_input" path="hardware/amlogic/tv_input"  revision="64dd6bd15da66bebc7cffd02f4a59d5a7be37847" />
-  <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi"  revision="95a96e21f93347b095010bc5d495c0f7c61e9ccd" />
+  <project name="android_hardware_amlogic_wifi" path="hardware/amlogic/wifi"  revision="7fb157b7fea1d54d487bd3df8549e21196fa332d" />
   <project name="android_vendor_amlogic_gpu" path="vendor/amlogic/common/gpu"  revision="6953d5c73711582c0d981481bce279dca36c88e3" />
   <project name="android_vendor_amlogic_gpu-lib" path="vendor/amlogic/common/gpu-lib" revision="2050bfb93a04e1a8b315f6da63042e94bb8722b5" />
-  <project name="android_vendor_amlogic_arm_isp" path="vendor/amlogic/common/arm_isp"  revision="c4575eb957f5878ab4bdaf28f6bbbab783231839" />
+  <project name="android_vendor_amlogic_arm_isp" path="vendor/amlogic/common/arm_isp"  revision="8a7449cf5c90259b89af5531d35e19619238af22" />
   <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="370b9bec15c6a35f0427d6f52bb5afdaa4bb229f" />
   <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="af4b41141d5ef38681b1059b8e6767a1a28a7cfe" />
   <project name="android_hardware_interfaces" path="hardware/interfaces" revision="021d1b0a8502aebbe058dd60c3b136cc96f43a29" />
@@ -549,7 +549,7 @@
   <project name="android_packages_apps_TimeZoneData" path="packages/apps/TimeZoneData" revision="c15cb7580e1afd0abbf49e903ce0bf92e5d06c35" />
   <project name="android_packages_apps_TimeZoneUpdater" path="packages/apps/TimeZoneUpdater" revision="120a6e10a27b38f1509714aa375af0fa0c8812ab" />
   <project name="android_packages_apps_Traceur" path="packages/apps/Traceur" revision="b125ede268e27aa946286f3cd99832360b0b0e52" />
-  <project name="android_packages_apps_TvSettings" path="packages/apps/TvSettings" revision="753b44072dccb5dc5f442c06be0f79e705dc37a0" />
+  <project name="android_packages_apps_TvSettings" path="packages/apps/TvSettings" revision="57b87459a59613617b9a96a344f54c1897a6bb46" />
   <project name="android_packages_apps_UnifiedEmail" path="packages/apps/UnifiedEmail" revision="d412cc6dc4b32755692921294ed78fbdded79277" />
   <project name="android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" revision="db3426b874c2b6ad67770309b5e26291193a9ace" />
   <project name="android_packages_experimental" path="packages/experimental" revision="f169b672994660513cc1639361d30b33263d9d36" />
@@ -644,7 +644,7 @@
   <project name="android_system_nfc" path="system/nfc" revision="7e31aca46d944e919e27f58ab1aad98984ff152b" />
   <project name="android_system_nvram" path="system/nvram" revision="50b3b5a665a5d3e278a506cadf5344cae05fe983" />
   <project name="android_system_security" path="system/security" revision="762b2b64c9e84f5972d41850e47f1454c8134d1f" />
-  <project name="android_system_sepolicy" path="system/sepolicy" revision="2e9e3ef0e8ddf27de2763e18ac67164dfef70c0f" />
+  <project name="android_system_sepolicy" path="system/sepolicy" revision="0f52f0c9a3cf99b5c45e0278c7c6859cadd4b7cc" />
   <project name="android_system_timezone" path="system/timezone" revision="e4796f3203d54a82558aa2bcd4c1b6c2a7c309dc" />
   <project name="android_system_tools_aidl" path="system/tools/aidl" revision="0a0b47e1e67c20f6b6d6e76a2e9abf33216446c2" />
   <project name="android_system_tools_hidl" path="system/tools/hidl" revision="2b70000c0d1631eccb216e2d9aa2552765261506" />
@@ -683,13 +683,13 @@
   <project name="android_toolchain_benchmark" path="toolchain/benchmark" revision="90d86b742e458645e8505f7fcd709b9c0f7b2588" />
   <project name="android_toolchain_binutils" path="toolchain/binutils" revision="ce6f92c3c344f3db820ff3819b18c81a65b9a15d" />
   <project name="android_toolchain_pgo-profiles" path="toolchain/pgo-profiles" revision="106785268baa337b3f3edf751dbbd83977891e4a" />
-  <project name="u-boot" path="bootloader/uboot"  revision="69795b3fa250d1db2ab77bfdcf76449d7e863017" />
+  <project name="u-boot" path="bootloader/uboot"  revision="7f9b2df4319a18a13940360d19185ee6f0a1bf39" />
   <project name="android_vendor_amlogic_apps_VendorOverlay" path="vendor/amlogic/common/apps/VendorOverlay"  revision="6df606bee2e37e3f9179df7e93ba07ab447c2f7d" />
   <project name="android_vendor_amlogic_external_exfat" path="vendor/amlogic/common/external/exfat"  revision="62762278453334f245ee6a4eff85d1d76c0f283b" />
   <project name="android_vendor_amlogic_external_icu" path="vendor/amlogic/common/external/icu"  revision="27ab17b223ed05c106f3203935cc7d2cbbf83580" />
   <project name="android_vendor_amlogic_external_libtiff" path="vendor/amlogic/common/external/libtiff"  revision="c7ea052ddf864d6c85024b102e2046f2472a28a7" />
   <project name="android_vendor_amlogic_external_recovery" path="vendor/amlogic/common/external/recovery"  revision="800d714ac67c83aa411a2f381e91e968cccc477b" />
-  <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/common/frameworks"  revision="3cb626a80c1da6d4f9cbc6c9ff7503a801f60488" />
+  <project name="android_vendor_amlogic_frameworks" path="vendor/amlogic/common/frameworks"  revision="1f6e609d5649f23250d58db5df51d7a384972c26" />
   <project name="android_vendor_amlogic_frameworks_av" path="vendor/amlogic/common/frameworks/av"  revision="2e754d7139ca013ed588bd3d16c157e16f425485" />
   <project name="android_vendor_amlogic_frameworks_pppoe" path="vendor/amlogic/common/frameworks/pppoe"  revision="d250fc6f2090e8a3f588411a8da1e8942e12110c" />
   <project name="android_vendor_amlogic_interfaces" path="vendor/amlogic/common/interfaces"  revision="2aaac765ee154c1dee722c9654ee996c7597f2d5" />
