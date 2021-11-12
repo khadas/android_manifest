@@ -5,7 +5,7 @@
   
   <project name="android_vendor_amlogic_common_external_DTVKit_android-inputsource" path="vendor/amlogic/common/external/DTVKit/android-inputsource" revision="5614570a86bcf67d483cf358f8996e79dd83c112"  />
   <project name="android_vendor_amlogic_common_external_DTVKit_releaseDTVKit" path="vendor/amlogic/common/external/DTVKit/releaseDTVKit" revision="c385f7faa2126efe15c0db0020a212f82b36b9b0"  />
-  <project name="android_bootloader_uboot" path="bootloader/uboot" revision="61bc7b6787082d4b8d9e854834e79ccd45700b0f"   >
+  <project name="u-boot" path="bootloader/uboot" revision="61bc7b6787082d4b8d9e854834e79ccd45700b0f"   >
     <copyfile src="fip/mk" dest="bootloader/uboot/mk"/>
   </project>
   <project name="android_vendor_amlogic_common_external_DTVKit_cas_hal" path="vendor/amlogic/common/external/DTVKit/cas_hal" revision="794aea0e0a33113330d1e1ec6d056c5420af617d" />
