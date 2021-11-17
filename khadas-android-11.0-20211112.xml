@@ -9,7 +9,7 @@
     <copyfile src="fip/mk" dest="bootloader/uboot/mk"/>
   </project>
   <project name="android_vendor_amlogic_common_external_DTVKit_cas_hal" path="vendor/amlogic/common/external/DTVKit/cas_hal" revision="794aea0e0a33113330d1e1ec6d056c5420af617d" />
-  <project name="android_device_khadas" path="device/khadas" revision="4bdef9671f5c76c9bc61f4f839644111d7603d92"  >
+  <project name="android_device_khadas" path="device/khadas" revision="de3861007806fcead2ae95f8adeaab9c548e6129"  >
     <copyfile src="common/kernelbuild/mk" dest="mk"/>
   </project>
   <project name="android_device_khadas_kvim4-kernel" path="device/khadas/kvim4-kernel" revision="51c6fc6003ee5d62aca6260ae86e30087cf73a5b"   clone-depth="2"/>
