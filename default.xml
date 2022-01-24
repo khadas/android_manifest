@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
-  <default remote="github" revision="refs/tags/Vims-Pie-V211022" sync-c="true" sync-j="4"/>
+  <default remote="github" revision="refs/tags/Vims-Pie-V211220" sync-c="true" sync-j="4"/>
   
   <project name="android_device_khadas" path="device/khadas"  revision="ffc4c875cfeac00c1a8daeb101ddfc4c8e3223ab" />
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/common/apps/IrBlaster"  revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" />
