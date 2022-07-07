@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
-  <default remote="github" revision="refs/tags/Vims-Pie-V211220" sync-c="true" sync-j="4"/>
+  <default remote="github" revision="khadas-vim3-p-64bit" sync-c="true" sync-j="4"/>
   
   
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/common/apps/IrBlaster"  revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" />
@@ -713,5 +713,4 @@
   <project name="vendor/playready" path="vendor/amlogic/common/prebuilt/libmediadrm/playready" revision="7ae9ec97739e5a0ca44535b6fce8c68fa11813f2"/>
   <project name="android_vendor_widevine" path="vendor/widevine"  revision="c8a9d452684b364287ecf4438d9cca9309a8e9dc" />
   
-  <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>
