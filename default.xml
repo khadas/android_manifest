@@ -8,7 +8,7 @@
   <project name="android_vendor_amlogic_external_DTVKit_android-inputsource" path="vendor/amlogic/common/external/DTVKit/android-inputsource" revision="26a03a90834176ad73fda0345abb092d4220c66d"/>
   <project name="android_vendor_amlogic_external_DTVKit_releaseDTVKit" path="vendor/amlogic/common/external/DTVKit/releaseDTVKit" revision="1c4b7b209b2b230b0461671ea23636f2f8290240"/>
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/common/apps/IrBlaster" revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e"/>
-  <project name="android_device_khadas" path="device/khadas" revision="5d7985fc280ea61525b3432afe88ac38d67915bc"/>
+  <project name="android_device_khadas" path="device/khadas" revision="c58f430fe3b17680df02b66a6c11ea7b67c44042"/>
   <project name="android_device_google_atv" path="device/google/atv" revision="901e95ac968d961ddbbf47bd2e0ec71ccda1711b"/>
   <project name="android_device_sample" path="device/sample" revision="cdb22d4258c2ffa7279a3b55c65b0431fabc1200"/>
   <project name="android_vendor_amlogic_external_dvb" path="vendor/amlogic/common/external/dvb" revision="d03ea2dec31bcdfa58b5d672b187c798ca822848"/>
