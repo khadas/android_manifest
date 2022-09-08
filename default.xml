@@ -40,7 +40,7 @@
   <project groups="pdk" name="device/sample" revision="f408a1b4662ba1dda78f2843584cc3b18196cef8" upstream="refs/tags/android-12.1.0_r8"/>
   <project name="android_RKDocs_android" path="RKDocs/android" remote="github" revision="ab0ca5eda88f1d874d1da2d08332a90e6b408a23"/>
   <project name="android_RKDocs_common" path="RKDocs/common" remote="github" revision="a327202473532a78d7420c22c33d79c94c508f6b"/>
-  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="github" revision="1884963ed5bdb2c91d599724d020cb226a5bacf1"/>
+  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="github" revision="4199a6083f1df0773356564b957ff02c7a5121fd"/>
   <project groups="vts,pdk" name="kernel/configs" revision="1c9d2751be61301b5c03b64cf41cbd5e278f14f1" upstream="refs/tags/android-12.1.0_r8"/>
   <project clone-depth="1" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2c53f8f03c9923b75c423bcf02a10a12280e2ba6" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="vts,pdk" name="kernel/tests" revision="a767ef06de075dab6ea26fe2314f7860d5b114e5" upstream="refs/tags/android-12.1.0_r8"/>
@@ -772,7 +772,7 @@
   </project>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="7c6a070c68413bab5343043af3df220226759568" upstream="refs/tags/android-12.1.0_r8"/>
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="78c3df570e54c70a5b731dca43d096afe958c709"/>
-  <project groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="d58ad3a0ee44cf0e23b336f21e1e2c944220b73f"/>
+  <project name="android_packages_apps_Browser2" path="packages/apps/Browser2" remote="github" revision="d58ad3a0ee44cf0e23b336f21e1e2c944220b73f"/>
   <project groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="d66a732b4a12cd0e8160634091107063113f76d1" upstream="refs/tags/android-12.1.0_r8"/>
   <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="2720c0016290e518fc43804d3cfa4229ca85c5d2"/>
   <project groups="pdk-fs" name="platform/packages/apps/Car/Calendar" path="packages/apps/Car/Calendar" revision="fa4e0f22818948486aed8ce4845e1eae62321564" upstream="refs/tags/android-12.1.0_r8"/>
@@ -825,7 +825,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/Protips" path="packages/apps/Protips" revision="f163f8f78f0005a669157110186b1c89bc4b5f16" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-fs" name="platform/packages/apps/Provision" path="packages/apps/Provision" revision="8af0d687f40aef1974aac86516114fe440262741" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-fs" name="platform/packages/apps/QuickAccessWallet" path="packages/apps/QuickAccessWallet" revision="d660e65c0e9cc54766e2d93b8c184d65604c3514" upstream="refs/tags/android-12.1.0_r8"/>
-  <project groups="pdk-fs" name="platform/packages/apps/QuickSearchBox" path="packages/apps/QuickSearchBox" revision="b26f710f87d9606ff8c2937438e772eb2214e31d"/>
+  <project name="android_packages_apps_QuickSearchBox" path="packages/apps/QuickSearchBox" remote="github" revision="b26f710f87d9606ff8c2937438e772eb2214e31d"/>
   <project groups="pdk-fs" name="platform/packages/apps/RemoteProvisioner" path="packages/apps/RemoteProvisioner" revision="6e8aab132163250f8cde77004aee24756312ef01" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="6264264eb9b2d2dfa2ac7b7a8e07a231c3d2147e" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-fs" name="platform/packages/apps/SampleLocationAttribution" path="packages/apps/SampleLocationAttribution" revision="dde3732b08d325a8e94e3d13cdaa7cad6691d927" upstream="refs/tags/android-12.1.0_r8"/>
@@ -836,7 +836,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="b8769a60b90e4858d14216aa4bcb693f744c64f7" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="apps_stk,pdk-fs" name="platform/packages/apps/Stk" path="packages/apps/Stk" revision="226afa4514f1c3672aa8fb8a0cfcad1119d054e6" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-fs" name="platform/packages/apps/StorageManager" path="packages/apps/StorageManager" revision="24c2d120fc1c00dd60d536479231ef6c9070f21b" upstream="refs/tags/android-12.1.0_r8"/>
-  <project groups="pdk" name="platform/packages/apps/TV" path="packages/apps/TV" revision="0402d32c27636c7be6710bcedb3d498cadeb6433"/>
+  <project name="android_packages_apps_TV" path="packages/apps/TV" remote="github" revision="0402d32c27636c7be6710bcedb3d498cadeb6433"/>
   <project groups="pdk-fs" name="platform/packages/apps/Tag" path="packages/apps/Tag" revision="3b0e8095b2ff67f1e748623039c919308897a922" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk" name="platform/packages/apps/Test/connectivity" path="packages/apps/Test/connectivity" revision="72673fb14a6f0bbbf7323fc4ee4a956de23e857f" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-fs" name="platform/packages/apps/ThemePicker" path="packages/apps/ThemePicker" revision="20d5ddbe2c74ee428520d0f818c0d067a3a2032e" upstream="refs/tags/android-12.1.0_r8"/>
@@ -888,7 +888,7 @@
   <project groups="pdk-fs" name="platform/packages/providers/TvProvider" path="packages/providers/TvProvider" revision="7e0d732a1c4ded5700707293d2741e0c03cf80d8" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/UserDictionaryProvider" path="packages/providers/UserDictionaryProvider" revision="5178929a5dfba3ae07b07d89fa1a10281282e5ca" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-fs" name="platform/packages/screensavers/Basic" path="packages/screensavers/Basic" revision="44d59764822b75acce710ce9757ebd79813bb0b5" upstream="refs/tags/android-12.1.0_r8"/>
-  <project groups="pdk-fs" name="platform/packages/screensavers/PhotoTable" path="packages/screensavers/PhotoTable" revision="1e8c55a4263b21bab6221a9fd135f2cb5024d447"/>
+  <project name="android_packages_screensavers_PhotoTable" path="packages/screensavers/PhotoTable" remote="github" revision="1e8c55a4263b21bab6221a9fd135f2cb5024d447"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/AlternativeNetworkAccess" path="packages/services/AlternativeNetworkAccess" revision="6ddd5462174937d98d7a400a3fd2190fe7da0f8d" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/BuiltInPrintService" path="packages/services/BuiltInPrintService" revision="943462cb0cb1133f66f5fd7c1450066e0d6f7175" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Car" path="packages/services/Car" revision="ea61de5da690e232704c16fe60917d6d973600b0" upstream="refs/tags/android-12.1.0_r8"/>
@@ -898,7 +898,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telecomm" path="packages/services/Telecomm" revision="b783110a612a6d08c973c7e0b91bead822ab5c94" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/services/Telephony" path="packages/services/Telephony" revision="dd750e30a75d3d05a4f168bef5ed1f90bdbf017f" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-fs" name="platform/packages/wallpapers/ImageWallpaper" path="packages/wallpapers/ImageWallpaper" revision="0a1680f07b09889c7642a775b6bb69d1b27f9b09" upstream="refs/tags/android-12.1.0_r8"/>
-  <project groups="pdk-fs" name="platform/packages/wallpapers/LivePicker" path="packages/wallpapers/LivePicker" revision="72ef1281b3c514b0892876f8e2747cd4be49b07a"/>
+  <project name="android_packages_wallpapers_LivePicker" path="packages/wallpapers/LivePicker" remote="github" revision="72ef1281b3c514b0892876f8e2747cd4be49b07a"/>
   <project groups="pdk" name="platform/pdk" path="pdk" revision="dbc297bfb51776ff35a069310f897e81170d2050" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk-fs,pdk-cw-fs,cts" name="platform/platform_testing" path="platform_testing" revision="75c6421176188027b8ab877163921749b0c2b9cd" upstream="refs/tags/android-12.1.0_r8"/>
   <project clone-depth="1" groups="pdk-fs" name="platform/prebuilts/abi-dumps/ndk" path="prebuilts/abi-dumps/ndk" revision="3c732f225a95b1463906189663ec604114303feb" upstream="refs/tags/android-12.1.0_r8"/>
@@ -963,7 +963,7 @@
   <project groups="pdk" name="platform/system/chre" path="system/chre" revision="daa9b56497b0c114dbfcf7ab758142a20eaeed9c" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="da987bf1eca89ee72b853cfcfae1167bea727f71" upstream="refs/tags/android-12.1.0_r8"/>
   <project name="android_system_core" path="system/core" remote="github" revision="53926f0499c96bc91a0a0ca063b0d0812020174f"/>
-  <project groups="pdk" name="platform/system/extras" path="system/extras" revision="0cff1b123897ae3fc77d8d371a2ef097747883ea" upstream="refs/tags/android-12.1.0_r8"/>
+  <project name="android_system_extras" path="system/extras" remote="github" revision="0cff1b123897ae3fc77d8d371a2ef097747883ea"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="e34ec59b53dc712486b13a7ff84bc66ef87dc797" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk" name="platform/system/gsid" path="system/gsid" revision="5fffe28628eb580379f141e3384ecd69e6bb056a" upstream="refs/tags/android-12.1.0_r8"/>
   <project groups="pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="0857973e9ca14cfc7d9d885576fc405ac4cdf3a1" upstream="refs/tags/android-12.1.0_r8"/>
@@ -1085,14 +1085,14 @@
   <project name="android_hardware_rockchip_light_aidl" path="hardware/rockchip/light_aidl" remote="github" revision="d26ec6c83a39ce20645178f1f995b78213cd5a06"/>
   <project name="android_hardware_rockchip_libmpimmz" path="hardware/rockchip/libmpimmz" remote="github" revision="191ddd459aeb801294c2c8ba7c3639fcff884f21"/>
   <project name="android_hardware_rockchip_optee" path="hardware/rockchip/optee" remote="github" revision="d8af22f120a30fa492ff665401b9318e48b45c82"/>
-  <project name="android_hardware_rockchip_interfaces_outputmanager" path="vendor/rockchip/hardware/interfaces/outputmanager" remote="github" revision="6dd2878bab0f9c5af7e5203e5d2332d886579deb"/>
+  <project name="android_vendor_rockchip_hardware_interfaces_outputmanager" path="vendor/rockchip/hardware/interfaces/outputmanager" remote="github" revision="6dd2878bab0f9c5af7e5203e5d2332d886579deb"/>
   <project name="android_hardware_rockchip_power_aidl" path="hardware/rockchip/power_aidl" remote="github" revision="ecfec1cd3861b547da06b31e587d4b82cad6fc2f"/>
   <project name="android_hardware_rockchip_sensor" path="hardware/rockchip/sensor" remote="github" revision="e7a2bbabafb1ab39325971fc90a2ca3594034bb6"/>
   <project name="android_hardware_rockchip_thermal" path="hardware/rockchip/thermal" remote="github" revision="d35451a1bf94242a095ae3ea87133a19c4637a1e"/>
   <project name="android_hardware_rockchip_weaver" path="hardware/rockchip/weaver" remote="github" revision="120c5801e900f6738c5b137af88297e18123f1b9"/>
   <project name="android_hardware_rockchip_hwcomposer_einkhwc" path="hardware/rockchip/hwcomposer/einkhwc" remote="github" revision="915d55b800577e6bb02f4f7be7e25013a1c2a0bd"/>
   <project name="android_hardware_rockchip_helper" path="hardware/rockchip/helper" remote="github" revision="8ebaeb1c03ace90f8c5fc8caa5a7ebf8c19fc229"/>
-  <project name="android_hardware_rockchip_hwcomposer_hwcomposer2" path="hardware/rockchip/hwcomposer/drmhwc2" remote="github" revision="1b2930073656b259c9b97bad805e18ffdf6a46b3"/>
+  <project name="android_hardware_rockchip_hwcomposer_drmhwc2" path="hardware/rockchip/hwcomposer/drmhwc2" remote="github" revision="1b2930073656b259c9b97bad805e18ffdf6a46b3"/>
   <project name="android_hardware_rockchip_libhardware_rockchip" path="hardware/rockchip/libhardware_rockchip" remote="github" revision="c5b20c8829d735c8947079e244e329195d0e10d5"/>
   <project name="android_hardware_rockchip_tv_input" path="hardware/rockchip/tv_input" remote="github" revision="1b0893c9a8f013d2cfa4438598dff6f516b67f28"/>
   <project name="android_hardware_rockchip_udc_set" path="hardware/rockchip/udc_set" remote="github" revision="b7b393da9a0a57cbfb8aafad374f3db441ecd5ff"/>
@@ -1114,8 +1114,8 @@
   <project name="android_vendor_rockchip_hardware_interfaces_neuralnetworks" path="vendor/rockchip/hardware/interfaces/neuralnetworks" remote="github" revision="d2867f1ed8c04222c1dc822cc2099f896485356c"/>
   <project name="android_vendor_rockchip_hardware_interfaces_rksoundsetting" path="vendor/rockchip/hardware/interfaces/rksoundsetting" remote="github" revision="e49e16daad0dbb6e5c5ea9d2c9fe46c7615d0516"/>
   <project name="android_vendor_rockchip_hardware_interfaces_rockit" path="vendor/rockchip/hardware/interfaces/rockit" remote="github" revision="fc700ad214a9aa61190208cc3875e870c561172a"/>
-  <project name="android_prebuilts_gcc_linux-x86_aarch64_gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" remote="github" revision="163335ed183b98127386cdfefda554463f6d3651" upstream="master"/>
-  <project name="android_prebuilts_gcc_linux-x86_arm_gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" remote="github" revision="e6c61c2472028e65bbe30e23136b2b12d1b71453" upstream="master"/>
+  <project name="android_prebuilts_gcc_linux-x86_aarch64_gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-arm-10.2-2020.11-x86_64-aarch64-none-linux-gnu" remote="github" revision="163335ed183b98127386cdfefda554463f6d3651"/>
+  <project name="android_prebuilts_gcc_linux-x86_arm_gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" remote="github" revision="e6c61c2472028e65bbe30e23136b2b12d1b71453"/>
   <project name="android_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="github" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b"/>
   <project name="android_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="github" revision="aaf9a4407686d84b085bf8feda450c5d63c3aa5e"/>
   <project name="android_packages_apps_rkCamera2" path="packages/apps/rkCamera2" remote="github" revision="db005fd7b70121bd7f18f32043d3a97e794226db"/>
