@@ -9,14 +9,14 @@
   <project name="android_vendor_amlogic_common_external_DTVKit_cas_hal" path="vendor/amlogic/common/external/DTVKit/cas_hal" revision="f76895d48c42f3d1a2e03d1eb15fc76666d591ef" />
   <project name="android_device_generic_art" path="device/generic/art" revision="e10e1c2ca6d471e654854cd07d320a4935ea529c"   />
   <project name="android_device_google_atv" path="device/google/atv" revision="d928ee265858d1c07a1a20a105909f9d74fb670f"   />
-  <project name="android_device_khadas" path="device/khadas" revision="a318a0331e633038f18cf23a235c97148320c6e9"  >
+  <project name="android_device_khadas" path="device/khadas" revision="1dc369ef3d104d110f554fffd7950dd96ca074a0"  >
     <copyfile src="common/kernelbuild/mk" dest="mk"/>
   </project>
   <project name="android_device_khadas_kvim1s-kernel" path="device/khadas/kvim1s-kernel" revision="b7ceab43c49f894c2d975684a1a9cbff39f2e0c6"  />
   <project name="android_device_mediatek_wembley-sepolicy" path="device/mediatek/wembley-sepolicy" revision="39fccbba164e873b4ccd9abab3585d8e0f64ccbe"   />
   <project name="android_device_sample" path="device/sample" revision="5c4f1d093d7771d6ac327e87e19698cec6bf3a34"   />
   <project name="android_vendor_amlogic_common_external_dvb" path="vendor/amlogic/common/external/dvb" revision="83e1ad3f2435b1edda5546e82be58570e193b994"  />
-  <project name="linux" path="common" revision="b83b945fc6d584b8aebada32c4baa8d521414e5c"  />
+  <project name="linux" path="common" revision="ded2900234ae782c714311bab6a3cba97b4ae1d5"  />
   <project name="android_kernel_configs" path="kernel/configs" revision="178f850d79d2ee6e84ab1ee31e36bd06c2402e49"   />
   <project name="android_kernel_prebuilts_4.19_arm64" path="kernel/prebuilts/4.19/arm64" revision="332808127a212d39ef607a3241fe0ff1d48cd795"    />
   <project name="android_kernel_tests" path="kernel/tests" revision="c69e8a5eb61c73ae16d2cc98ae16597e12c3b176"   />
@@ -408,7 +408,7 @@
   <project name="android_external_zopfli" path="external/zopfli" revision="4e42ccafb7c571f502a23177bca2d3cfc209035c"   />
   <project name="android_external_zxing" path="external/zxing" revision="65193280855e46d11bf5b44f1a7e49ec0c7bd57e"   />
   <project name="android_frameworks_av" path="frameworks/av" revision="721078958dde4d1bf98f235e8ae4dbe791168f40"   />
-  <project name="android_frameworks_base" path="frameworks/base" revision="e2e46276a7e8dae87aac821afb4d8c3dfb152d47"   />
+  <project name="android_frameworks_base" path="frameworks/base" revision="b5fe4209646df0f911d7a647b7229df07a786c81"   />
   <project name="android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="fff6169b647b9c5d60350923019e8d60449a3652"   />
   <project name="android_frameworks_compile_mclinker" path="frameworks/compile/mclinker" revision="c7e43705055a74fd97f481fd31dddd8b9e307c4a"   />
   <project name="android_frameworks_compile_slang" path="frameworks/compile/slang" revision="122ad4e102004cbf3bdc2b6f62b0d41aaa293541"   />
@@ -556,11 +556,11 @@
   <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="72e026ea2aafbbd0de2fc6e41b6cb37c6fb96ef3"   />
   <project name="android_packages_apps_HTMLViewer" path="packages/apps/HTMLViewer" revision="2ceb86e2ed3397d17b208c224ff72297eb28cc1a"   />
   <project name="android_packages_apps_KeyChain" path="packages/apps/KeyChain" revision="c1636c603611e08ba98c7f7418d39d4ef432061b"   />
-  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" revision="70d71711b3767062ded8a3dfc7b2131b5c89edc8"   />
+  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" revision="90664c5bb5277853b568f15397fadc20596329eb"   />
   <project name="android_packages_apps_LegacyCamera" path="packages/apps/LegacyCamera" revision="cebfa6261715dc8c934b473b7a2d1404545c3945"   />
   <project name="android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="e4cec246e740cef3e3979cd5948f14d37ff2431b"   />
   <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" revision="cd5e0e37c14102d69baae4d98538d6c5f204f5a3"   />
-  <project name="android_packages_apps_Music" path="packages/apps/Music" revision="41b603bce99ce37ba85f81ec9e7d12521a791ff5"   />
+  <project name="android_packages_apps_Music" path="packages/apps/Music" revision="718379e3b244a0051b93ded2a70b2377634f1ea5"   />
   <project name="android_packages_apps_MusicFX" path="packages/apps/MusicFX" revision="954665bfbf1a3190ce35ef10ed20b40da78b70d8"   />
   <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" revision="293a7fc35a8249dbe8cfa68fcf8c22d50b4e8345"   />
   <project name="android_packages_apps_OnDeviceAppPrediction" path="packages/apps/OnDeviceAppPrediction" revision="13fe82e5331271b544a3c123cd49e2e01327fd2e"   />
@@ -574,7 +574,7 @@
   <project name="android_packages_apps_SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="fa26da7871be2bba609c05098c20c1737abb6996"   />
   <project name="android_packages_apps_SampleLocationAttribution" path="packages/apps/SampleLocationAttribution" revision="c7952bab7ab6127649d0f4e2d9d67f4af014fb82"   />
   <project name="android_packages_apps_SecureElement" path="packages/apps/SecureElement" revision="57ba8db9d456de7ce36303676d5238021c96be50"   />
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" revision="e4b5fe692513e6100929f7f8810d73270318f5fd"   />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" revision="555d8853f88116122b27638412790cecdb5d8e88"   />
   <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="fc2ed2484329160b12a47a1b26ea2f3041b166d4"   />
   <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" revision="94dc405917913083876882c1af3c7e7638f92d18"   />
   <project name="android_packages_apps_SpareParts" path="packages/apps/SpareParts" revision="f3d46ceeecd71c5555939f32643c18c78ae7909f"   />
@@ -592,7 +592,7 @@
   <project name="android_packages_apps_UniversalMediaPlayer" path="packages/apps/UniversalMediaPlayer" revision="d2894e3b45dcbd4bfed9cd482d51833b72853411"  />
   <project name="android_packages_apps_WallpaperPicker" path="packages/apps/WallpaperPicker" revision="f1e69b45bde30a055d37260012df8e951bebf491"   />
   <project name="android_packages_apps_WallpaperPicker2" path="packages/apps/WallpaperPicker2" revision="bdd56181e2afb6c4b59c4c6cf6defea6c3695986"   />
-  <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="8e7806ad0303d3ca2011c0642d8b88f6fd0a39b5"   />
+  <project name="android_packages_inputmethods_LatinIME" path="packages/inputmethods/LatinIME" revision="0dd91956ee4010ad0234e90db0d25242c035c954"   />
   <project name="android_packages_inputmethods_LeanbackIME" path="packages/inputmethods/LeanbackIME" revision="1667592ee5924122e43b611fa813c8f894087cd6"   />
   <project name="android_packages_modules_ArtPrebuilt" path="packages/modules/ArtPrebuilt" revision="d078c40eedd7ae262541642ee18b225d3b56a5f9"    />
   <project name="android_packages_modules_CaptivePortalLogin" path="packages/modules/CaptivePortalLogin" revision="eea110a30ad9904956e64ff6b677df92abdce9c1"   />
@@ -773,7 +773,7 @@
   <project name="android_tools_tradefederation_contrib" path="tools/tradefederation/contrib" revision="0ff7007d58dd912f7d5dca4178a9731494b31222"   />
   <project name="android_tools_treble" path="tools/treble" revision="4a70b7b8a10119fe886bb009c634646a533f7db0"   />
   <project name="android_tools_trebuchet" path="tools/trebuchet" revision="b735f448e61c99f4c06101902ff76eee4e5496f1"   />
-  <project name="android_vendor_amlogic_common" path="vendor/amlogic/common" revision="66b410ad050d5e4571b556ccc341d8e1dc04e4f4"  />
+  <project name="android_vendor_amlogic_common" path="vendor/amlogic/common" revision="3b974834dc385d1298c44424e520b5b45519631f"  />
   <project name="android_vendor_amlogic_kvim1s" path="vendor/amlogic/kvim1s" revision="4d4f32d87e33ab4d99385b8cd9bf81598cf630eb"  />
   <project name="android_toolchain_benchmark" path="toolchain/benchmark" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52"  />
   <project name="android_toolchain_pgo-profiles" path="toolchain/pgo-profiles" revision="df7cd88e8839bdf864700fc7d302b678a604b943"   />
