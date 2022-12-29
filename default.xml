@@ -9,14 +9,14 @@
   <project name="android_vendor_amlogic_common_external_DTVKit_cas_hal" path="vendor/amlogic/common/external/DTVKit/cas_hal" revision="dc1268e9d9640897e14245309ebae44b5eea5612" />
   <project name="android_device_generic_art" path="device/generic/art" revision="e10e1c2ca6d471e654854cd07d320a4935ea529c"   />
   <project name="android_device_google_atv" path="device/google/atv" revision="fa5f1c8b6b0594605bd456714d6e742492a1cd78"   />
-  <project name="android_device_khadas" path="device/khadas" revision="d31d7d50bd6c8b6864b6f441124bba0f840e04e6"  >
+  <project name="android_device_khadas" path="device/khadas" revision="abf6da654f12c9ef2864cddae366880cda838edd"  >
     <copyfile src="common/kernelbuild/mk" dest="mk"/>
   </project>
   <project name="android_device_khadas_kvim4-kernel" path="device/khadas/kvim4-kernel" revision="b38fadd84f58ab672ce441ed09495219e7da568e"  />
   <project name="android_device_mediatek_wembley-sepolicy" path="device/mediatek/wembley-sepolicy" revision="39fccbba164e873b4ccd9abab3585d8e0f64ccbe"   />
   <project name="android_device_sample" path="device/sample" revision="5c4f1d093d7771d6ac327e87e19698cec6bf3a34"   />
   <project name="android_vendor_amlogic_common_external_dvb" path="vendor/amlogic/common/external/dvb" revision="d06675d876945ba54743633fae48fb64488282ff"  />
-  <project name="linux" path="common" revision="4dae06cd78804d2ba9700104b606a1fa419bd34f"  />
+  <project name="linux" path="common" revision="726175d9af885eb46e664129767c5b762fe09f11"  />
   <project name="android_kernel_configs" path="kernel/configs" revision="e4102999005f8f3c8db1fdacfba80a2c581a72f1"   />
   <project name="android_kernel_prebuilts_4.19_arm64" path="kernel/prebuilts/4.19/arm64" revision="332808127a212d39ef607a3241fe0ff1d48cd795"    />
   <project name="android_kernel_tests" path="kernel/tests" revision="0b69217c71fdb04e6e2dea74443ebe3e4391104a"   />
@@ -25,7 +25,7 @@
   <project name="android_vendor_amlogic_common_gpu-lib" path="vendor/amlogic/common/gpu-lib" revision="49abb24675d1847c64cad73717e56905f3276e4c"  />
   <project name="android_art" path="art" revision="a95b62a8c2bc4cf5e95857fd59c70cb166f71ed4"   />
   <project name="android_bionic" path="bionic" revision="6aaff2a54df115dd12b5034d03a2c58c39e4881b"   />
-  <project name="android_bootable_recovery" path="bootable/recovery" revision="fcdd161dbba8f6f965b78e17ce1705007313c603"   />
+  <project name="android_bootable_recovery" path="bootable/recovery" revision="8e213ad0027233454fba809e0c210e469c5dec41"   />
   <project name="android_build_make" path="build/make" revision="acc06b584f06ad76229821a9ff7776b1130f87bc"   >
     <copyfile src="core/root.mk" dest="Makefile"/>
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk"/>
@@ -130,7 +130,7 @@
   <project name="android_external_fastrpc" path="external/fastrpc" revision="81249d5007dd3322a287878f64d961b834984f34"   />
   <project name="android_external_fdlibm" path="external/fdlibm" revision="9b1875e1f9cb968e02b8a393e7ed230bd4f4062e"   />
   <project name="android_external_fec" path="external/fec" revision="7049b92008752b4f939425ad91bf2aea86133216"   />
-  <project name="android_vendor_amlogic_common_external_ffmpeg" path="vendor/amlogic/common/external/ffmpeg" revision="af93c0646d1fee3a807115f1bee1b4d13546fe8f"  />
+  <project name="android_vendor_amlogic_common_external_ffmpeg" path="vendor/amlogic/common/external/ffmpeg" revision="9194d63477c79744ecea5058ee07f987e41d6d23"  />
   <project name="android_external_flac" path="external/flac" revision="294a58f3718f38f9e635be3faf76f0a2cdb61508"   />
   <project name="android_external_flatbuffers" path="external/flatbuffers" revision="1912eaaff49449e66eed1a76ede387f8be68d0ca"   />
   <project name="android_external_fmtlib" path="external/fmtlib" revision="aa6fa3aa882afe47f7af990b0c6d747a01cd6104"   />
@@ -407,8 +407,8 @@
   <project name="android_external_zlib" path="external/zlib" revision="1a9b432817192342bbfb5a389058a45eea9f816c"   />
   <project name="android_external_zopfli" path="external/zopfli" revision="4e42ccafb7c571f502a23177bca2d3cfc209035c"   />
   <project name="android_external_zxing" path="external/zxing" revision="65193280855e46d11bf5b44f1a7e49ec0c7bd57e"   />
-  <project name="android_frameworks_av" path="frameworks/av" revision="fa4a36c802d299791df1e866033a3f2345a7d3d3"   />
-  <project name="android_frameworks_base" path="frameworks/base" revision="ae61acbfec43c19e894a97ce45ac64b6d7acbace"   />
+  <project name="android_frameworks_av" path="frameworks/av" revision="627b22ec9afe6eeff17e9bb5290e8a04d0b027e7"   />
+  <project name="android_frameworks_base" path="frameworks/base" revision="906d65a67ae990ec7cf1bab9f8e662476b5c3ee1"   />
   <project name="android_frameworks_compile_libbcc" path="frameworks/compile/libbcc" revision="fff6169b647b9c5d60350923019e8d60449a3652"   />
   <project name="android_frameworks_compile_mclinker" path="frameworks/compile/mclinker" revision="c7e43705055a74fd97f481fd31dddd8b9e307c4a"   />
   <project name="android_frameworks_compile_slang" path="frameworks/compile/slang" revision="122ad4e102004cbf3bdc2b6f62b0d41aaa293541"   />
@@ -422,7 +422,7 @@
   <project name="android_frameworks_minikin" path="frameworks/minikin" revision="7dbff203b2b14cf815fbac312299ec7a223d094f"   />
   <project name="android_frameworks_ml" path="frameworks/ml" revision="7541c8a3e958585308b82beff3eb8e5dde2c3432"   />
   <project name="android_frameworks_multidex" path="frameworks/multidex" revision="e60bb86cd116127913fe8f4872d7846852627ffb"   />
-  <project name="android_frameworks_native" path="frameworks/native" revision="183011ffa5dadbad6ae8ecaf3dba360279b05b1d"   />
+  <project name="android_frameworks_native" path="frameworks/native" revision="89f8ebf4a09be9786e1d4aef5eb807a32c8ae47a"   />
   <project name="android_frameworks_opt_bitmap" path="frameworks/opt/bitmap" revision="e9850af1278e499e427d08dbf40244f3622bd6db"   />
   <project name="android_frameworks_opt_calendar" path="frameworks/opt/calendar" revision="6e29ad1dfe9b353af1c41a30101673bf01d7a144"   />
   <project name="android_frameworks_opt_car_services" path="frameworks/opt/car/services" revision="71f349738c840f813abe64a5da89e3ae34772848"   />
@@ -442,16 +442,16 @@
   <project name="android_frameworks_opt_vcard" path="frameworks/opt/vcard" revision="88212b105552d2b5f0a142d9c9eda33d74a7aaac"   />
   <project name="android_frameworks_rs" path="frameworks/rs" revision="b3242e04d1ba3f9172e30ac88311affd73a36049"   />
   <project name="android_frameworks_wilhelm" path="frameworks/wilhelm" revision="0f31f10ff06ca27cfc6c8228e7c61fc40e0fb272"   />
-  <project name="android_hardware_amlogic" path="hardware/amlogic" revision="95770eeef7114315e57d508391d71ab58e745314"  />
-  <project name="android_hardware_amlogic_aucpu_fw" path="hardware/amlogic/aucpu_fw" revision="a7006746992972073ff37c490236fc3c303bfda1"  />
-  <project name="android_hardware_amlogic_audio" path="hardware/amlogic/audio" revision="0dcc0b9dac35640a54c79d768cf7c58d6a1a9a82"/>
-  <project name="android_hardware_amlogic_gralloc" path="hardware/amlogic/gralloc" revision="5d8d1c0c984e3501deee35d119bd10b551ed9f32"  />
-  <project name="android_hardware_amlogic_hwcomposer" path="hardware/amlogic/hwcomposer" revision="a24dec131513c6d1b66ef1387ab12372381bd3ac"  />
-  <project name="android_vendor_amlogic_common_libencoder" path="vendor/amlogic/common/libencoder" revision="07ae4eb35bf70c17b10d84dfcf956168e5ead049"  />
-  <project name="android_hardware_amlogic_media_modules" path="hardware/amlogic/media_modules" revision="7e622a9060f4e0d986c53e7e67deaabcd58b2130"  />
+  <project name="android_hardware_amlogic" path="hardware/amlogic" revision="33024ef7fb475240f1e0ad02d7078ecce68dd74e"  />
+  <project name="android_hardware_amlogic_aucpu_fw" path="hardware/amlogic/aucpu_fw" revision="540242bb2214f09cb3969ae8a1b365a3d6c74f57"  />
+  <project name="android_hardware_amlogic_audio" path="hardware/amlogic/audio" revision="14b678197082d4d488b00405db04a09dcda03609"/>
+  <project name="android_hardware_amlogic_gralloc" path="hardware/amlogic/gralloc" revision="4dfe3d88fac8fa4d653269dbff3753c19d04d0e2"  />
+  <project name="android_hardware_amlogic_hwcomposer" path="hardware/amlogic/hwcomposer" revision="71b73db5269f7d4d5bf0708db59e626e119c0884"  />
+  <project name="android_vendor_amlogic_common_libencoder" path="vendor/amlogic/common/libencoder" revision="2483b48c6571efee5291731c1c7d7061d22317ee"  />
+  <project name="android_hardware_amlogic_media_modules" path="hardware/amlogic/media_modules" revision="82ce56f522768135b7023c0b7ee475d267c3a8d2"  />
   <project name="android_hardware_amlogic_tuner" path="hardware/amlogic/tuner" revision="9853b76cc8e1e260ae81bf3b27967ede67af1be7"  />
   <project name="android_vendor_amlogic_common_gpu" path="vendor/amlogic/common/gpu" revision="5a2cf6290e0719024e7e41c0914f127b5d9b1283"  />
-  <project name="android_vendor_amlogic_common_arm_isp" path="vendor/amlogic/common/arm_isp" revision="42493a595841860b5a27e587207abf4bc6d99841"  />
+  <project name="android_vendor_amlogic_common_arm_isp" path="vendor/amlogic/common/arm_isp" revision="a69bad5cb9dddebc95208b5957f46a3c36440ff0"  />
   <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" revision="a7191619f320c9c48c0cfc376996ca2836c7a799"   />
   <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" revision="8f608ec0b9a7f9464c7681721ad18bd3bfd65104"   />
   <project name="android_hardware_google_apf" path="hardware/google/apf" revision="8e3611df8bb66b87dad2e73e5485b5aa49602a24"   />
@@ -461,9 +461,9 @@
   <project name="android_hardware_google_interfaces" path="hardware/google/interfaces" revision="7fd0e6a8712b9c2b83ee66dc92b6bd11205bcfa2"   />
   <project name="android_hardware_google_pixel" path="hardware/google/pixel" revision="6badbb29cd4c56db38bc1f9bfdbe30b5d35bf1ee"   />
   <project name="android_hardware_google_pixel-sepolicy" path="hardware/google/pixel-sepolicy" revision="ffe859e40b3351c676c14c0c0cc949605260f115"   />
-  <project name="android_hardware_interfaces" path="hardware/interfaces" revision="787abcd502b39d2b112fc5c9931881db4a57c0ea"   />
+  <project name="android_hardware_interfaces" path="hardware/interfaces" revision="f9e1af8c4901c7a89c0b5f6ddf6b901e7679ea3b"   />
   <project name="android_hardware_knowles_athletico_sound_trigger_hal" path="hardware/knowles/athletico/sound_trigger_hal" revision="7db6baa1a75ddef0e98891390bc6927e4da110e0"   />
-  <project name="android_hardware_libhardware" path="hardware/libhardware" revision="30499d2698341404a49a015874c89a6eb8656d43"   />
+  <project name="android_hardware_libhardware" path="hardware/libhardware" revision="f3e9b3a77511611de3325cbb62f0f96fa6eab854"   />
   <project name="android_hardware_libhardware_legacy" path="hardware/libhardware_legacy" revision="22f705057482747bd4b7c5f3e9d60a12a4558257"   />
   <project name="android_hardware_qcom_bootctrl" path="hardware/qcom/bootctrl" revision="fa2d1b6724d73525a3018317e2d3826ab0549fcf"   />
   <project name="android_hardware_qcom_msm8x09" path="hardware/qcom/msm8x09" revision="c88c67109844def18fef4941e39bebb8f8981e39"   />
@@ -504,27 +504,27 @@
   <project name="android_hardware_st_nfc" path="hardware/st/nfc" revision="e7bc22cac073a5f6b5cf2b5d158498e3739f227f"   />
   <project name="android_hardware_st_secure_element" path="hardware/st/secure_element" revision="57cb663656fc58d1898ed7fdffdf05ea0859ddac"   />
   <project name="android_hardware_ti_am57x" path="hardware/ti/am57x" revision="ecea4a76d9fd937f4e79f71332190da98229495c"   />
-  <project name="android_vendor_wifi_driver_amlogic_w1_wifi" path="vendor/wifi_driver/amlogic/w1/wifi" revision="84329906689abb37ae0bf9a274d93ca8466d64c3"  />
-  <project name="android_vendor_wifi_driver_broadcom_ap6xxx" path="vendor/wifi_driver/broadcom/ap6xxx" revision="5ce05b6a8281a110cff427a93a44f156f6815b0f"  />
+  <project name="android_vendor_wifi_driver_amlogic_w1_wifi" path="vendor/wifi_driver/amlogic/w1/wifi" revision="21923d93caa9714c60a98ea4862809fc3955f506"  />
+  <project name="android_vendor_wifi_driver_broadcom_ap6xxx" path="vendor/wifi_driver/broadcom/ap6xxx" revision="a42735e3b95a2f0be77466c3467868b4670999c6"  />
   <project name="android_vendor_wifi_driver_marvell_sd8987" path="vendor/wifi_driver/marvell/sd8987" revision="0b3ffdfa11a3e02b5521589bf8862e848b01f70f"  />
   <project name="android_vendor_wifi_driver_mtk_drivers_mt7661" path="vendor/wifi_driver/mtk/drivers/mt7661" revision="039e5a47a13ddaf276f67d55565e645d87f1d8d3"  />
   <project name="android_vendor_wifi_driver_mtk_drivers_mt7668u" path="vendor/wifi_driver/mtk/drivers/mt7668u" revision="b86cd05fb966f037926f720f25efeadd665cebba"  />
-  <project name="android_vendor_wifi_driver_qualcomm_qca6174" path="vendor/wifi_driver/qualcomm/qca6174" revision="62fe7c5490fa2e36bb86d58ad3720bb6bf8eee07"  />
+  <project name="android_vendor_wifi_driver_qualcomm_qca6174" path="vendor/wifi_driver/qualcomm/qca6174" revision="687fd7b2e38a7c30022a991dbdbac70f94a468cf"  />
   <project name="android_vendor_wifi_driver_realtek_8723bu" path="vendor/wifi_driver/realtek/8723bu" revision="3d50a18166780062430bc97a236de31732766e9d"  />
   <project name="android_vendor_wifi_driver_realtek_8723du" path="vendor/wifi_driver/realtek/8723du" revision="186c4e1d0b6eb448af97d8569cc0ef2b93a25787"  />
   <project name="android_vendor_wifi_driver_realtek_8821cs" path="vendor/wifi_driver/realtek/8821cs" revision="f8c0a2ff353e4054c33fc0338a98e25088a5ff7b"  />
   <project name="android_vendor_wifi_driver_realtek_8821cu" path="vendor/wifi_driver/realtek/8821cu" revision="a0104a87d3fb098a4f0aa58f159cd0c84302607c"  />
   <project name="android_vendor_wifi_driver_realtek_8822cs" path="vendor/wifi_driver/realtek/8822cs" revision="807553a9e0e669d2c8109768cb5cfc4976cd9c45"  />
-  <project name="android_vendor_wifi_driver_realtek_8822cu" path="vendor/wifi_driver/realtek/8822cu" revision="845a9f5aca7efc84e9eab22a6bf623c36d2025eb"  />
+  <project name="android_vendor_wifi_driver_realtek_8822cu" path="vendor/wifi_driver/realtek/8822cu" revision="fb0ebd10d8beb59490ecd2e80866955c5fdd94a8"  />
   <project name="android_vendor_wifi_driver_unisoc_uwe5621" path="vendor/wifi_driver/unisoc/uwe5621" revision="6d721a815a1dcd8bd4113b17f8f80be25090d975"  />
-  <project name="android_build" path="build" revision="f0aaa21242e4e32cf67b267f9e0f29178e5095a0"/>
+  <project name="android_build" path="build" revision="e0838a46eb9cf96207f411e82f77dab70ea49d9c"/>
   <project name="android_vendor_amlogic_common_kernel_build" path="vendor/amlogic/common/kernel/build" revision="300f6a933c11aca45a6b48f7ee4306bf2506a114"  />
   <project name="android_libcore" path="libcore" revision="eef9acb4ef362082cd7d4139011e1d8836343897"   />
   <project name="android_libnativehelper" path="libnativehelper" revision="8f6772e9eae4e8c4544546062ac0803334edb797"   />
   <project name="android_vendor_amlogic_common_apps_AppInstaller" path="vendor/amlogic/common/apps/AppInstaller" revision="aa3db3fb025db6b0fc2ca87573eb208c48e44579"  />
-  <project name="android_vendor_amlogic_common_apps_DLNA" path="vendor/amlogic/common/apps/DLNA" revision="a2348a081eeb17dc55b730a35cba47850e3aa0a7"  />
-  <project name="android_vendor_amlogic_common_apps_Miracast" path="vendor/amlogic/common/apps/Miracast" revision="5b7e83ba90d4386e6bdf4e0cecdf44e3a5d8ee6b"  />
-  <project name="android_vendor_amlogic_common_apps_NativeImagePlayer" path="vendor/amlogic/common/apps/NativeImagePlayer" revision="49cbf2534fad847383a08ba421af393cb60b2b93"  />
+  <project name="android_vendor_amlogic_common_apps_DLNA" path="vendor/amlogic/common/apps/DLNA" revision="68cb0f94dc11b69b15f704422d2267c97a82db6d"  />
+  <project name="android_vendor_amlogic_common_apps_Miracast" path="vendor/amlogic/common/apps/Miracast" revision="b95e947f7571851c4b800ab216865b33365078b3"  />
+  <project name="android_vendor_amlogic_common_apps_NativeImagePlayer" path="vendor/amlogic/common/apps/NativeImagePlayer" revision="64960b032cbc9705e702c0f0bcb4c246f62378f1"  />
   <project name="android_packages_apps_BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="35f2dcb6e1ce0de1ce7817377e631b15c22b51d1"   />
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" revision="09cc34f228cb2eb664509af7592e4235237d9f73"   />
   <project name="android_packages_apps_Browser2" path="packages/apps/Browser2" revision="37652f79d1a115bc2d920a68ad6846a23107c660"   />
@@ -560,11 +560,11 @@
   <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" revision="82882d4f5db243c69b320efa8519272f181ede28"   />
   <project name="android_packages_apps_HTMLViewer" path="packages/apps/HTMLViewer" revision="2ceb86e2ed3397d17b208c224ff72297eb28cc1a"   />
   <project name="android_packages_apps_KeyChain" path="packages/apps/KeyChain" revision="5a55972b3886448fdedd57ea7befb8138a30ba6b"   />
-  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" revision="78753823d7bb79517146ee470ff1f3c0909bc79b"   />
+  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" revision="ae545cd1f675faca054a2853044b6d804bbabe38"   />
   <project name="android_packages_apps_LegacyCamera" path="packages/apps/LegacyCamera" revision="cebfa6261715dc8c934b473b7a2d1404545c3945"   />
   <project name="android_packages_apps_ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="50c2517aa82965463b630ea119399c782106a319"   />
   <project name="android_packages_apps_Messaging" path="packages/apps/Messaging" revision="cd5e0e37c14102d69baae4d98538d6c5f204f5a3"   />
-  <project name="android_packages_apps_Music" path="packages/apps/Music" revision="b6a177f26167a2fc14b4925f3f7e80beee7d4bca"   />
+  <project name="android_packages_apps_Music" path="packages/apps/Music" revision="8df4e23dda70a41b9d4be61a8f7d48fc0deadf04"   />
   <project name="android_packages_apps_MusicFX" path="packages/apps/MusicFX" revision="954665bfbf1a3190ce35ef10ed20b40da78b70d8"   />
   <project name="android_packages_apps_Nfc" path="packages/apps/Nfc" revision="84f2c38685ddbfec579c3fe7e92c940c89e03941"   />
   <project name="android_packages_apps_OnDeviceAppPrediction" path="packages/apps/OnDeviceAppPrediction" revision="ee2d2f15cb5458756c4a882c5a2cd9a77b8b1034"   />
@@ -578,7 +578,7 @@
   <project name="android_packages_apps_SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="10aef16e62c42aeade377738669e8b042278691d"   />
   <project name="android_packages_apps_SampleLocationAttribution" path="packages/apps/SampleLocationAttribution" revision="c7952bab7ab6127649d0f4e2d9d67f4af014fb82"   />
   <project name="android_packages_apps_SecureElement" path="packages/apps/SecureElement" revision="57ba8db9d456de7ce36303676d5238021c96be50"   />
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" revision="2f43d455cf650053021484e23ffd0ff411f1a958"   />
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" revision="7d18ed97e5e08e782cd243005030ce74377ad263"   />
   <project name="android_packages_apps_SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="9233d2dfb8a3742d9b8986163760dae763e2c7f7"   />
   <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" revision="94dc405917913083876882c1af3c7e7638f92d18"   />
   <project name="android_packages_apps_SpareParts" path="packages/apps/SpareParts" revision="f3d46ceeecd71c5555939f32643c18c78ae7909f"   />
@@ -695,12 +695,12 @@
   <project name="platform/system/apex" remote="aosp" path="system/apex" revision="489841fe0a67d60cf43a4c09b27622a6f4876028"   />
   <project name="android_system_bpf" path="system/bpf" revision="81b26a8a969c9d25676f90597079b7ab8f8576b4"   />
   <project name="android_system_bpfprogs" path="system/bpfprogs" revision="df5007df690cd26579d0c47e544b6dc91a38dfcd"   />
-  <project name="android_system_bt" path="system/bt" revision="c6e14249408ec9cc9a38d060bed0cf20e44b775c"   />
+  <project name="android_system_bt" path="system/bt" revision="8b04cb14dcfff549eb1707704ebae6c7beefdcae"   />
   <project name="android_system_ca-certificates" path="system/ca-certificates" revision="71863ee86e948f9c44ea00d540507147af07b15e"   />
   <project name="android_system_chre" path="system/chre" revision="872b6a3aaf2dc12eb51496c402c2d523da1d5848"   />
   <project name="android_system_connectivity_wificond" path="system/connectivity/wificond" revision="57a054befc2a837ec8d1f63e2df6d51a9a3afd15"   />
   <project name="android_system_connectivity_wifilogd" path="system/connectivity/wifilogd" revision="d96bd96c699461682699628ba6bf604bf36f011a"   />
-  <project name="android_system_core" path="system/core" revision="f44095680ae2395e8c14be7ee1da0f4f61b46e96"   />
+  <project name="android_system_core" path="system/core" revision="bd3b7e8cedfd358375202a16557b4dbb3c6c4e37"   />
   <project name="android_system_extras" path="system/extras" revision="cea2c635bc235f631015242ae09f8390a2f06f29"   />
   <project name="android_system_gatekeeper" path="system/gatekeeper" revision="dd73a85fb461d6b6732fed1096ebd7b3e4619691"   />
   <project name="android_system_gsid" path="system/gsid" revision="353bd5faa73121b77d7ca80ec3d71e0119898222"   />
@@ -717,7 +717,7 @@
   <project name="android_system_libufdt" path="system/libufdt" revision="ffddffe108840bc65e9dae60ed361f48f5198e7d"   />
   <project name="android_system_libvintf" path="system/libvintf" revision="b200cfdb6e0a8109b69a9a583bd23f91e629e948"   />
   <project name="android_system_linkerconfig" path="system/linkerconfig" revision="935f98a97b2e225cc515f2c4fcfec978ea2fa523"   />
-  <project name="android_system_media" path="system/media" revision="bf8867ae05713b0ffbb5fc9edffa7e6d6c49c7a9"   />
+  <project name="android_system_media" path="system/media" revision="2a0d5fe44983139ab650d5dac95d176e2d1475bf"   />
   <project name="android_system_memory_libion" path="system/memory/libion" revision="08029308f4e9b267caedb6e294971cac170b91fb"   />
   <project name="android_system_memory_libmeminfo" path="system/memory/libmeminfo" revision="69298f797fdf0b580021befec2c4c6553fa4b5f0"   />
   <project name="android_system_memory_libmemtrack" path="system/memory/libmemtrack" revision="e3d7988449a9579bfced8a4fa8355de36ee95d64"   />
@@ -738,7 +738,7 @@
   <project name="android_system_tools_sysprop" path="system/tools/sysprop" revision="6372fde5de60e3062c01f796b97820ea30c0de4e"   />
   <project name="android_system_tools_xsdc" path="system/tools/xsdc" revision="0be301d6033204d4668b2c26f84fd851dd7cf068"   />
   <project name="android_system_update_engine" path="system/update_engine" revision="f45f341cbbb46044afe3a959935935a5f9603943"   />
-  <project name="android_system_vold" path="system/vold" revision="279a557e0e9492400f151c2ee9a317dcb4007d4f"   />
+  <project name="android_system_vold" path="system/vold" revision="d56cff7b847567c21d461c9d39cee72f27c40653"   />
   <project name="android_test_app_compat_csuite" path="test/app_compat/csuite" revision="5c86fc9b9b042528f9af6ea7c53c22f892ed3b2f"  />
   <project name="android_test_framework" path="test/framework" revision="c44480ac572c0eeaded19fa1c70833fcac21bfd0"   />
   <project name="android_test_mlts_benchmark" path="test/mlts/benchmark" revision="13abfc2f14d03f8e606528f42700f761667da302"   />
@@ -779,24 +779,24 @@
   <project name="android_tools_tradefederation_contrib" path="tools/tradefederation/contrib" revision="0ff7007d58dd912f7d5dca4178a9731494b31222"   />
   <project name="android_tools_treble" path="tools/treble" revision="4a70b7b8a10119fe886bb009c634646a533f7db0"   />
   <project name="android_tools_trebuchet" path="tools/trebuchet" revision="b735f448e61c99f4c06101902ff76eee4e5496f1"   />
-  <project name="android_vendor_amlogic_common" path="vendor/amlogic/common" revision="6a96a06386686205227a1fb6d0b85981318b9389"  />
+  <project name="android_vendor_amlogic_common" path="vendor/amlogic/common" revision="8ca2b7670745d4acbf2928fbd9e3dd8d20dbec9c"  />
   <project name="android_vendor_amlogic_kvim4" path="vendor/amlogic/kvim4" revision="bab57a1e83481db0f23293c355525aa0b6039aba"  />
   <project name="android_toolchain_benchmark" path="toolchain/benchmark" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52"  />
   <project name="android_toolchain_pgo-profiles" path="toolchain/pgo-profiles" revision="df7cd88e8839bdf864700fc7d302b678a604b943"   />
   <project name="android_tools_platform-compat" path="tools/platform-compat" revision="b553fea7dd2aa8dcc26f4d8f91effd86e55dd72e"   />
-  <project name="u-boot" path="bootloader/uboot" revision="9b881942c50d938989d0ef0a94989692954fdfa6"   >
+  <project name="u-boot" path="bootloader/uboot" revision="40bffc1914e5ad9a34f18b11c7664684cb56a23c"   >
     <copyfile src="fip/mk" dest="bootloader/uboot/mk"/>
   </project>
-  <project name="android_vendor_amlogic_common_aml_mp_sdk" path="vendor/amlogic/common/aml_mp_sdk" revision="bc490020f5a9487d19eea75b39c98ff990ba5001"  />
+  <project name="android_vendor_amlogic_common_aml_mp_sdk" path="vendor/amlogic/common/aml_mp_sdk" revision="88920c5bb55323d116f9a91b7878eb61ba614f2c"  />
   <project name="android_vendor_amlogic_common_dsp_dsp_util" path="vendor/amlogic/common/dsp/dsp_util" revision="aa665a1c3f81ffc02551fa93c0ebfb691be82df8"  />
-  <project name="android_vendor_amlogic_common_frameworks_av" path="vendor/amlogic/common/frameworks/av" revision="12199f8edbf37459796206fcb8dc80e951e2fb3f"  />
-  <project name="android_vendor_amlogic_common_hdcp" path="vendor/amlogic/common/hdcp" revision="ab4277e1168baa3a01ee581bacd515f9dee70e4e"  />
-  <project name="android_vendor_amlogic_common_mediahal_sdk" path="vendor/amlogic/common/mediahal_sdk" revision="6fca9bd540de517416e904bcd3eeca3509980f78"  />
-  <project name="android_vendor_amlogic_common_provision" path="vendor/amlogic/common/provision" revision="40f044351a569222704122dc5ca47dd03650ecd3"  />
-  <project name="android_vendor_amlogic_common_system_libgdc" path="vendor/amlogic/common/system/libgdc" revision="62d8ba1941fd1b9f75a2adab3cde70477815f52b"  />
-  <project name="android_vendor_amlogic_common_tdk_v3" path="vendor/amlogic/common/tdk_v3" revision="737525fca6762977071f8ce93fd201ecb78b3002"  />
-  <project name="android_vendor_amlogic_common_tdk_linuxdriver" path="vendor/amlogic/common/tdk_linuxdriver" revision="ec5cd388a657d5a1725e872ef60174d786130ca9"  />
-  <project name="android_vendor_amlogic_common_pre_submit_for_google" path="vendor/amlogic/common/pre_submit_for_google" revision="fd6dfb0f59a6772ccec0d18afff71810dae48cb3"  />
+  <project name="android_vendor_amlogic_common_frameworks_av" path="vendor/amlogic/common/frameworks/av" revision="0e190e95ededa3635d597af19887c26b157929c6"  />
+  <project name="android_vendor_amlogic_common_hdcp" path="vendor/amlogic/common/hdcp" revision="09096fab841281f314c1ad20a6dd877c056fe84b"  />
+  <project name="android_vendor_amlogic_common_mediahal_sdk" path="vendor/amlogic/common/mediahal_sdk" revision="1818858b308fe5601b95779da396a046d0637931"  />
+  <project name="android_vendor_amlogic_common_provision" path="vendor/amlogic/common/provision" revision="740a708d91437c572a66b5641a443007421e53d9"  />
+  <project name="android_vendor_amlogic_common_system_libgdc" path="vendor/amlogic/common/system/libgdc" revision="eb561263d4d5c0cc59c49a8ff97317350b0279ce"  />
+  <project name="android_vendor_amlogic_common_tdk_v3" path="vendor/amlogic/common/tdk_v3" revision="8fc5ac86e6f5cc11f4b9eb2da76dd6fc9a287142"  />
+  <project name="android_vendor_amlogic_common_tdk_linuxdriver" path="vendor/amlogic/common/tdk_linuxdriver" revision="25a093910b0c485a3af54ba7977c67e00171a069"  />
+  <project name="android_vendor_amlogic_common_pre_submit_for_google" path="vendor/amlogic/common/pre_submit_for_google" revision="6d117419f8e411e9c0731a8f75913d5d5bad3cc4"  />
   <project name="android_vendor_amlogic_common_external_freetype" path="vendor/amlogic/common/external/freetype" revision="2add0984e4ff4c649f848677dac646f7cb791def"  />
   <project name="android_vendor_widevine" path="vendor/widevine" revision="2171e55d0b286d4c0747f2ffd0c779359ead3c1a"  />
   
