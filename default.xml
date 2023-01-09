@@ -190,16 +190,16 @@
   <project groups="device,pdk" name="device/google/cuttlefish" revision="3e13bb5f5d3c8bf8928f8feeab273b10c463c410" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="device" name="device/google/fuchsia" revision="60238e5fab7925196af80ee67f78c6ac1e4f2562" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="device,slider,pdk-gs-arm" name="device/google/gs-common" revision="edbdff98d5e2c9719afe4f6a9cf95b5d641fb577" upstream="refs/tags/android-12.1.0_r11"/>
-  <project groups="device,slider" name="device/google/gs101" revision="8f4735d6fa95d5c0845e0ef1af0ced72e084c4ad" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="device,slider" name="device/google/gs101" revision="687f47c31d702cf45a7d01084fd9bd8821db5e87" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="device,slider" name="device/google/gs101-sepolicy" revision="9be4ba153b6b0d9bffc6121d1c2cbcc8a564c22b" upstream="refs/tags/android-12.1.0_r11"/>
-  <project groups="device,slider" name="device/google/raviole" revision="324807589daf525c101e9115e1f1bdd64b9d0ecb" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="device,slider" name="device/google/raviole" revision="dff8280b7e860bbf54dacb78a956b350d2389035" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="device/google/vrservices" revision="67138ba6299bbfa77a93a03e6d2ae37b8c96526e" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="device/google_car" revision="699d4b3df7f0161836da4df520fe07f8bdf78ff9" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="device/sample" revision="f408a1b4662ba1dda78f2843584cc3b18196cef8" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="kernel/configs" revision="1c9d2751be61301b5c03b64cf41cbd5e278f14f1" upstream="refs/tags/android-12.1.0_r11"/>
   <project clone-depth="1" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2c53f8f03c9923b75c423bcf02a10a12280e2ba6" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="kernel/tests" revision="a767ef06de075dab6ea26fe2314f7860d5b114e5" upstream="refs/tags/android-12.1.0_r11"/>
-  <project name="linux" path="kernel-5.10" remote="github" revision="6c4dab1a680b7e7ed36641e2902df8b09ed62a4e"/>
+  <project name="linux" path="kernel-5.10" remote="github" revision="1d884836856119a249458e50d8dc840d84071429"/>
   <project groups="pdk" name="platform/art" path="art" revision="f192ca3ca279cadc41aecd225c6b4d555bce6360" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="platform/bootable/libbootloader" path="bootable/libbootloader" revision="b44eeefd365e023a96ea36682cc60b46827a47cc" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/build/bazel" path="build/bazel" revision="f3015c3bbd520d95216123e6761a2860e17acebf" upstream="refs/tags/android-12.1.0_r11">
@@ -793,7 +793,7 @@
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/net/voip" path="frameworks/opt/net/voip" revision="249aaffa826133b9223244f455a3654b391076bd" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/photoviewer" path="frameworks/opt/photoviewer" revision="089a1204e148dd36c6b64777cf1a5654d27922fa" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/setupwizard" path="frameworks/opt/setupwizard" revision="3bf5398f0ac1a63478907f833694f55f0d604dd9" upstream="refs/tags/android-12.1.0_r11"/>
-  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" revision="ec1dc8fdcae5f9f33630a281e76b8b04af4b7680" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk" name="platform/frameworks/opt/telephony" path="frameworks/opt/telephony" revision="ed011063ea782f9497f4228953f40d97efe08ab7" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/timezonepicker" path="frameworks/opt/timezonepicker" revision="e39eeff17733f1391123b62e0ff7ad4965659125" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/tv/tvsystem" path="frameworks/opt/tv/tvsystem" revision="8d5dcc8a63cded1172aa49e508d66492d30d047c" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/frameworks/opt/vcard" path="frameworks/opt/vcard" revision="fffb220a0a695485714a4a9d08f69aaa4bd2e7be" upstream="refs/tags/android-12.1.0_r11"/>
@@ -908,7 +908,7 @@
   <project groups="pdk-fs" name="platform/packages/apps/Gallery" path="packages/apps/Gallery" revision="9adec7503b89691aa7e9638525e156516288b433" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-fs" name="platform/packages/apps/HTMLViewer" path="packages/apps/HTMLViewer" revision="1c014ca0ba567302f79d7d391739225196864938" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-fs" name="platform/packages/apps/ImsServiceEntitlement" path="packages/apps/ImsServiceEntitlement" revision="81d00dfdb7772ef2537b350ce028ce50863853b3" upstream="refs/tags/android-12.1.0_r11"/>
-  <project groups="pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="d883e7941b67652bbd22b31078d8ba5dbeaa147d" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-fs" name="platform/packages/apps/KeyChain" path="packages/apps/KeyChain" revision="b2e956083b97e9ea88ab681fd91f28a9bef704cd" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-fs" name="platform/packages/apps/LegacyCamera" path="packages/apps/LegacyCamera" revision="2593b6fdfda0832eb48b741a9f72244246807185" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-fs" name="platform/packages/apps/ManagedProvisioning" path="packages/apps/ManagedProvisioning" revision="3e08d2a2d6d8599e5e6708949e2f0d69fef3190c" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-fs" name="platform/packages/apps/Messaging" path="packages/apps/Messaging" revision="cca36374d8efd84d51c1d5e99029eeb1ca43cc9b" upstream="refs/tags/android-12.1.0_r11"/>
@@ -967,7 +967,7 @@
   <project groups="pdk-fs" name="platform/packages/providers/BookmarkProvider" path="packages/providers/BookmarkProvider" revision="2d0ecc11eead1e38c84c26dadb7e274f159c650b" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/CalendarProvider" path="packages/providers/CalendarProvider" revision="f6a429cae697ecc84479996ebe8ebb71008a3ee4" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-fs" name="platform/packages/providers/CallLogProvider" path="packages/providers/CallLogProvider" revision="08186f1553b9f427ad1786a0bdd0b9f7be1b290f" upstream="refs/tags/android-12.1.0_r11"/>
-  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="d06c5d3a658b530042ca7ae7211baff12123837b" upstream="refs/tags/android-12.1.0_r11"/>
+  <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/ContactsProvider" path="packages/providers/ContactsProvider" revision="208442a51a1b2385d5799cd372eb4fd05e3c9ec7" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/DownloadProvider" path="packages/providers/DownloadProvider" revision="ce9e4d59913d425e68fe08069c24284b89e7d6e9" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-fs" name="platform/packages/providers/PartnerBookmarksProvider" path="packages/providers/PartnerBookmarksProvider" revision="096c0af2988a78c6d84982bc9f7ed2944d59f349" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs" name="platform/packages/providers/TelephonyProvider" path="packages/providers/TelephonyProvider" revision="032afc33295c8acac3ddab838b6ca1a4949450b1" upstream="refs/tags/android-12.1.0_r11"/>
