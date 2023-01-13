@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
+  <remote fetch="https://gitlab.com/khadas/" name="gitlab"/>
   
   <default remote="aosp" revision="refs/tags/android-12.1.0_r11" sync-c="true" sync-j="4"/>
   
@@ -90,8 +91,10 @@
   <project name="android_hardware_rockchip_libgraphicpolicy" path="hardware/rockchip/libgraphicpolicy" remote="github" revision="deca46dbd76d00c4b1eeca02c2f20c92282dcc36"/>
   <project name="android_hardware_rockchip_libhardware_rockchip" path="hardware/rockchip/libhardware_rockchip" remote="github" revision="5768ab7a181279508b4e777158c2f7d0c686b709"/>
   <project name="android_hardware_rockchip_libhwjpeg" path="hardware/rockchip/libhwjpeg" remote="github" revision="4f62635203d95d7c14c870f8107ad5cbc284b06c"/>
+  <project name="android_hardware_rockchip_libiep" path="hardware/rockchip/libiep" remote="github" revision="5d77013abbd6eb01f6000291e0f4f4715def4cd5"/>
   <project name="android_hardware_rockchip_libmemtrack" path="hardware/rockchip/libmemtrack" remote="github" revision="621d726c1aa4c1db99e02e9bae4d38f8250c2b4d"/>
   <project name="android_hardware_rockchip_libmpimmz" path="hardware/rockchip/libmpimmz" remote="github" revision="eff1a52db8ea0bb2a67f84dda03feb5571b3efc4"/>
+  <project name="android_hardware_rockchip_libpq" path="hardware/rockchip/libpq" remote="github" revision="5ae4b00334c5163a41b852b442603f1920c2fe89"/>
   <project name="android_hardware_rockchip_librga" path="hardware/rockchip/librga" remote="github" revision="941d295b6bc3596d48246e833cb4b21e31d18e3f"/>
   <project name="android_hardware_rockchip_librkcrypto" path="hardware/rockchip/librkcrypto" remote="github" revision="95de0f51caa2a4e2f8bdb80d56dd4fc5589d6f19"/>
   <project name="android_hardware_rockchip_librkvpu" path="hardware/rockchip/librkvpu" remote="github" revision="e9e825d05e3bc938ad81d429e064f200fcc6b095"/>
@@ -105,6 +108,7 @@
   <project name="android_hardware_rockchip_thermal" path="hardware/rockchip/thermal" remote="github" revision="14b5270e1a76a13e8eca4685f07868e50fdd3439"/>
   <project name="android_hardware_rockchip_tv_input" path="hardware/rockchip/tv_input" remote="github" revision="6d46166131910c335cb254eab3d5e78413422b07"/>
   <project name="android_hardware_rockchip_udc_set" path="hardware/rockchip/udc_set" remote="github" revision="7062f6fe5532e0f9ff4d7e6ce91ddd32b3b46485"/>
+  <project name="android_hardware_rockchip_usb" path="hardware/rockchip/usb" remote="github" revision="548eb9618411731314a3cee4aba6731d64f8d80b"/>
   <project name="android_hardware_rockchip_vibrator_aidl" path="hardware/rockchip/vibrator_aidl" remote="github" revision="1e1e42e9170a0ae914d69adeffb0083b5b4a3f4a"/>
   <project name="android_hardware_rockchip_weaver" path="hardware/rockchip/weaver" remote="github" revision="120c5801e900f6738c5b137af88297e18123f1b9"/>
   <project name="android_hardware_rockchip_wifi" path="hardware/rockchip/wifi" remote="github" revision="f6211a66e6e54cf4deeaae09abd8ea1eab415f90"/>
@@ -121,6 +125,7 @@
   <project name="android_packages_apps_Bluetooth" path="packages/apps/Bluetooth" remote="github" revision="78c3df570e54c70a5b731dca43d096afe958c709"/>
   <project name="android_packages_apps_Browser2" path="packages/apps/Browser2" remote="github" revision="d58ad3a0ee44cf0e23b336f21e1e2c944220b73f"/>
   <project name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="d6dd61a58e83db59ce9412ae61f470832531a7b7"/>
+  <project name="android_packages_apps_Camera360" path="packages/apps/Camera360" remote="gitlab" revision="3cda0f551aadd87f327e61b74d9aab4d82462368"/>
   <project name="android_packages_apps_DeskClock" path="packages/apps/DeskClock" remote="github" revision="31e62995f948c59d183a38660ce7d66166277ebc"/>
   <project name="android_packages_apps_DisplayAdjust" path="packages/apps/DisplayAdjust" remote="github" revision="b8a8a258729b0b027ef7d26bd202f279a4918b5c"/>
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="github" revision="b653f041b24dd0120a1e5ef0e48a6490f350cad9"/>
