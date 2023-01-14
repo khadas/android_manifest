@@ -152,7 +152,7 @@
   <project name="android_rkbin" path="rkbin" remote="github" revision="ad765760dae7b1f5fd9af4b6f6093002b4bd7f7e"/>
   <project name="android_rkst" path="rkst" remote="github" revision="623a581694d6059a9dffcecd337de65b154d3c8d"/>
   <project name="android_system_bt" path="system/bt" remote="github" revision="30c97c5644809a47139f74d0256dbeeaea68aa12"/>
-  <project name="android_system_core" path="system/core" remote="github" revision="d408c054b8234f1288a0937ea4add7dea967b004"/>
+  <project name="android_system_core" path="system/core" remote="github" revision="d18f2e0052f6a9fd4af1c911bb59d6c1f7a374ae"/>
   <project name="android_system_extras" path="system/extras" remote="github" revision="0cff1b123897ae3fc77d8d371a2ef097747883ea"/>
   <project name="android_system_media" path="system/media" remote="github" revision="9a96e306666144bca9677ad296a8fbdf57884520"/>
   <project name="android_system_memory_libion" path="system/memory/libion" remote="github" revision="3db9f61461bb7d623553f613edffc18fafba9a27"/>
@@ -204,7 +204,7 @@
   <project groups="vts,pdk" name="kernel/configs" revision="1c9d2751be61301b5c03b64cf41cbd5e278f14f1" upstream="refs/tags/android-12.1.0_r11"/>
   <project clone-depth="1" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2c53f8f03c9923b75c423bcf02a10a12280e2ba6" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="kernel/tests" revision="a767ef06de075dab6ea26fe2314f7860d5b114e5" upstream="refs/tags/android-12.1.0_r11"/>
-  <project name="linux" path="kernel-5.10" remote="github" revision="1d884836856119a249458e50d8dc840d84071429"/>
+  <project name="linux" path="kernel-5.10" remote="github" revision="984d3c8991003cc6920b457eb430a0ba4742f0ca"/>
   <project groups="pdk" name="platform/art" path="art" revision="f192ca3ca279cadc41aecd225c6b4d555bce6360" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="platform/bootable/libbootloader" path="bootable/libbootloader" revision="b44eeefd365e023a96ea36682cc60b46827a47cc" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/build/bazel" path="build/bazel" revision="f3015c3bbd520d95216123e6761a2860e17acebf" upstream="refs/tags/android-12.1.0_r11">
@@ -1133,7 +1133,7 @@
   <project groups="pdk" name="toolchain/llvm-project" path="external/llvm-project" revision="664b187160dc951c2cea3b69f92decf358d8e75a" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="toolchain/pgo-profiles" revision="739026928bc7d99f4cccd96e0a7a42bec79de254" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" revision="cfa5a189e9671992ba7ad5b8de5d59826544a592" upstream="refs/tags/android-12.1.0_r11"/>
-  <project name="u-boot" remote="github" revision="7f18efa27b19f112bbb1cc8542c7fa6e6363e5ac"/>
+  <project name="u-boot" remote="github" revision="26cb00eca407e765176afd128c8de45044f4f504"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>
