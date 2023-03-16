@@ -40,7 +40,7 @@
   </project>
   <project name="android_device_khadas_rk3588" path="device/khadas/rk3588" remote="github" revision="cddab8a332ee21fcc32b2c13ed0ebcc09a546868"/>
   <project name="android_external_abc" path="external/abc" remote="github" revision="59952887d96231c09fc2bd1e0be0659f40cd40ab"/>
-  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="github" revision="4199a6083f1df0773356564b957ff02c7a5121fd"/>
+  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="github" revision="25db50d053f3eed925b96f655a1399775ded2e14"/>
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="d9a3a1a24390008b2f21c773a3c63c13948dca3d"/>
   <project name="android_external_exfatprogs" path="external/exfatprogs" remote="github" revision="855a2598ac0c39b57b53e61e72f0117585b40e75"/>
   <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="f4ac0ea13a337807123fd52a75f759c939307d70"/>
