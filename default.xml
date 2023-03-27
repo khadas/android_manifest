@@ -29,7 +29,7 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
   <project name="android_development" path="development" remote="github" revision="f5ac09205f97978b227ef561356088878a2aa734"/>
-  <project name="android_device_khadas_common" path="device/khadas/common" remote="github" revision="98eb87251e629773064776bb53ce6be11902e189">
+  <project name="android_device_khadas_common" path="device/khadas/common" remote="github" revision="37ec7ba3647a30590289acf2277f059a59e6f70a">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -205,7 +205,7 @@
   <project groups="vts,pdk" name="kernel/configs" revision="1c9d2751be61301b5c03b64cf41cbd5e278f14f1" upstream="refs/tags/android-12.1.0_r11"/>
   <project clone-depth="1" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2c53f8f03c9923b75c423bcf02a10a12280e2ba6" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="kernel/tests" revision="a767ef06de075dab6ea26fe2314f7860d5b114e5" upstream="refs/tags/android-12.1.0_r11"/>
-  <project name="linux" path="kernel-5.10" remote="github" revision="13b1aeeed48db8d7ef36951546dfc41e989df3f0"/>
+  <project name="linux" path="kernel-5.10" remote="github" revision="4bf87139d40fa98f2454ff0f6ba743e5ad148d67"/>
   <project groups="pdk" name="platform/art" path="art" revision="f192ca3ca279cadc41aecd225c6b4d555bce6360" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="platform/bootable/libbootloader" path="bootable/libbootloader" revision="b44eeefd365e023a96ea36682cc60b46827a47cc" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/build/bazel" path="build/bazel" revision="f3015c3bbd520d95216123e6761a2860e17acebf" upstream="refs/tags/android-12.1.0_r11">
