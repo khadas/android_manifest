@@ -642,7 +642,7 @@
   <project groups="pdk" name="platform/system/chre" path="system/chre" revision="cf7be75977a43117e616a0a3fb3b58fcda14c3c2" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="dba38877339a03afe388ff5af40d8efd22b74517" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="platform/system/connectivity/wifilogd" path="system/connectivity/wifilogd" revision="4dcae5651bcb21789929ba7f080e92e207fe5628" upstream="refs/tags/android-10.0.0_r45"/>
-  <project name="android_system_core" path="system/core" remote="github" revision="27df8a2c82a6696bc16a0226a17b30b1a1dedc72"/>
+  <project name="android_system_core" path="system/core" remote="github" revision="6c968cdcbc6502a64cdca5874d74ea4f813ff877"/>
   <project groups="pdk" name="platform/system/extras" path="system/extras" revision="992fcd8f95133af1a6f9cebffb2c13e75115506a" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="95a65511bd48ea8da24a2ecb97e6196ce23503b4" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="platform/system/gsid" path="system/gsid" revision="4d267077aa2a169b410185b1a5f5a78212fb4745" upstream="refs/tags/android-10.0.0_r45"/>
@@ -718,7 +718,7 @@
   <project name="android_device_rockchip_rk3288" path="device/rockchip/rk3288" remote="github" revision="8e847238bfa6c332626a59e32f9bd6102839a155"/>
   <project name="android_device_rockchip_rk3326" path="device/rockchip/rk3326" remote="github" revision="6679b5e4dbc90a6b5f4c5a39b8525c58658de069"/>
   <project name="android_device_rockchip_rk3368" path="device/rockchip/rk3368" remote="github" revision="4e4ddfcd6f16896241c4640963cc7945e0dac551"/>
-  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="github" revision="144f10048008f51291723a8c817f574eb7221e33"/>
+  <project name="android_device_rockchip_rk3399" path="device/rockchip/rk3399" remote="github" revision="81cf44001ace7287c94d493958dcfe9bd2a8c58c"/>
   <project name="android_device_rockchip_common" path="device/rockchip/common" remote="github" revision="a79a966314621c561696db095b765413e76492a3">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
@@ -750,7 +750,7 @@
   <project name="android_hardware_rockchip_sensor" path="hardware/rockchip/sensor" remote="github" revision="1ce41c27f5e3c0ca5f099a43a59746493234a3cb"/>
   <project name="android_hardware_rockchip_swiftshader" path="hardware/rockchip/swiftshader" remote="github" revision="adb53038163c3cc87bb6bc9c130a9502b46d4be1"/>
   <project name="android_hardware_rockchip_weaver" path="hardware/rockchip/weaver" remote="github" revision="26c9dd9bb2e8521583e53c1da30b927ce79da125"/>
-  <project name="linux" path="kernel" remote="github" revision="0830e301f4ddd1de7e338403eabac974a7f2d159"/>
+  <project name="linux" path="kernel" remote="github" revision="a82a1a93e7def23c8c30db102aacffaf2f6b674c"/>
   <project name="android_external_abc" path="external/abc" remote="github" revision="59952887d96231c09fc2bd1e0be0659f40cd40ab"/>
   <project name="android_external_io" path="external/io" remote="github" revision="19d7f773d49d74b6dd05b90e2e7ad4fd6a85264b"/>
   <project name="android_external_ntfs-3g" path="external/ntfs-3g" remote="github" revision="8c634a102728a20fdb30744a3a53e7efa5764f17"/>
@@ -765,7 +765,7 @@
   <project name="android_rkbin" path="rkbin" remote="github" revision="664ccee1d4ada924848b80b2912d48c7fb30049c"/>
   <project name="android_rkst" path="rkst" remote="github" revision="623a581694d6059a9dffcecd337de65b154d3c8d"/>
   <project name="android_external_rktoolbox" path="external/rktoolbox" remote="github" revision="1ffae9357a70a96a526e38b94579d9dec373c7c5"/>
-  <project name="u-boot" path="u-boot" remote="github" revision="640ef413236207ad768c3a23c3509e46d7aa268a"/>
+  <project name="u-boot" path="u-boot" remote="github" revision="21f5a0019a7b809a03f5d7a401b96f19f3bfb5c4"/>
   <project name="toolchain/benchmark" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52" upstream="refs/tags/android-10.0.0_r45"/>
   <project groups="pdk" name="toolchain/pgo-profiles" revision="248f97c5fdc39400ebcb51b72ba2263fe12781a7" upstream="refs/tags/android-10.0.0_r45"/>
   
