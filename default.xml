@@ -30,7 +30,7 @@
     <linkfile dest="bootstrap.bash" src="bootstrap.bash"/>
   </project>
   <project name="android_development" path="development" remote="github" revision="f5ac09205f97978b227ef561356088878a2aa734"/>
-  <project name="android_device_khadas_common" path="device/khadas/common" remote="github" revision="40b1aa1d3a9bd503eeaa3e6a84597389bd419d95">
+  <project name="android_device_khadas_common" path="device/khadas/common" remote="github" revision="f9877ee67d178efd6570814a7c37bf374ea8a288">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -41,7 +41,7 @@
   </project>
   <project name="android_device_khadas_rk3588" path="device/khadas/rk3588" remote="github" revision="cddab8a332ee21fcc32b2c13ed0ebcc09a546868"/>
   <project name="android_external_abc" path="external/abc" remote="github" revision="59952887d96231c09fc2bd1e0be0659f40cd40ab"/>
-  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="github" revision="25db50d053f3eed925b96f655a1399775ded2e14"/>
+  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="github" revision="0b90e61d639da6eda015b156d95644a7115394a7"/>
   <project name="android_external_e2fsprogs" path="external/e2fsprogs" remote="github" revision="d9a3a1a24390008b2f21c773a3c63c13948dca3d"/>
   <project name="android_external_exfatprogs" path="external/exfatprogs" remote="github" revision="855a2598ac0c39b57b53e61e72f0117585b40e75"/>
   <project name="android_external_f2fs-tools" path="external/f2fs-tools" remote="github" revision="f4ac0ea13a337807123fd52a75f759c939307d70"/>
@@ -56,9 +56,9 @@
   <project name="android_external_speex" path="external/speex" remote="github" revision="350d0f03933a2c17712ab5222725a46cee0a16b3"/>
   <project name="android_external_tinyalsa" path="external/tinyalsa" remote="github" revision="8b8c55e6255ad3ac6df0750828a916cbe2843124"/>
   <project name="android_external_usb_modeswitch" path="external/usb_modeswitch" remote="github" revision="9857c093db449e24a1b4ce89557bfe53bb0785d6"/>
-  <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="810350329334736cba2e9dedaa4698ce458a1f7f"/>
-  <project name="android_frameworks_av" path="frameworks/av" remote="github" revision="ed20dd37b5ac10f829a91c6068b5747950106afa"/>
-  <project name="android_frameworks_base" path="frameworks/base" remote="github" revision="4d54415591d925442f7067f84521183cc6f514ed"/>
+  <project name="android_external_wpa_supplicant_8" path="external/wpa_supplicant_8" remote="github" revision="884f3b3447c5e586150f03b203c63ba361871477"/>
+  <project name="android_frameworks_av" path="frameworks/av" remote="github" revision="27efef413ee59e6ee3ee031f0bbef27da8e227fe"/>
+  <project name="android_frameworks_base" path="frameworks/base" remote="github" revision="dac825499f95b3347f383201c2093083ab333aaa"/>
   <project name="android_frameworks_ex" path="frameworks/ex" remote="github" revision="bdf317e494f5ac60bf39dcecd9cb2c3940e0e42a"/>
   <project name="android_frameworks_native" path="frameworks/native" remote="github" revision="6582d0d027718e06b424597f28bac9457b4d00c0"/>
   <project name="android_frameworks_opt_net_ethernet" path="frameworks/opt/net/ethernet" remote="github" revision="77437691859730a278a23d77baaf346f975717be"/>
@@ -66,13 +66,13 @@
   <project name="android_hardware_aic" path="hardware/aic" remote="github" revision="8ca1af22c3c1f81fe5fec53710ba52ae6505c449"/>
   <project name="android_hardware_bes" path="hardware/bes" remote="github" revision="eee4ff6e3d129e28d83ebc66c54a287dc94116ac"/>
   <project name="android_hardware_broadcom_libbt" path="hardware/broadcom/libbt" remote="github" revision="f4b7c64f37c779814bb44217418fd8708bbcd3aa"/>
-  <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="2efcedb30ced5d96f7abb5fb92c7fd023d0ddd95"/>
-  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="643f7a53730c9f7bf54473af5a6374c246c7d2ea"/>
+  <project name="android_hardware_broadcom_wlan" path="hardware/broadcom/wlan" remote="github" revision="a516dede1e4d137dfa887d5cd32a1b6045d49956"/>
+  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="059570baff4e64e0058fdb7012da9f080bdf1ceb"/>
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="8ffe4539b726fb54c692bf38658c2d3bcca3ad0e"/>
   <project name="android_hardware_realtek" path="hardware/realtek" remote="github" revision="79bee162e4acfde0ddab5ffa790588efe27ad52b"/>
   <project name="android_hardware_rockchip_audio" path="hardware/rockchip/audio" remote="github" revision="e74d10aa518b8c65c0c1b019a95989b8f68d426f"/>
   <project name="android_hardware_rockchip_bootctrl" path="hardware/rockchip/bootctrl" remote="github" revision="871de44a1ec48b33dc7dd60eac918380b708a955"/>
-  <project name="android_hardware_rockchip_camera" path="hardware/rockchip/camera" remote="github" revision="14124635c46226510fa8fa2a8ed41bb0f410b0a3"/>
+  <project name="android_hardware_rockchip_camera" path="hardware/rockchip/camera" remote="github" revision="d292b9dcec8c6be80259981882dfe15e89bda3a9"/>
   <project name="android_hardware_rockchip_camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" remote="github" revision="ca4a2f6b822876c7555867e9b8e144d9a3e650c8"/>
   <project name="android_hardware_rockchip_camera_vir" path="hardware/rockchip/camera_vir" remote="github" revision="58c2c089a0acf26163607200d0ca7ea7c7351381"/>
   <project name="android_hardware_rockchip_drmservice" path="hardware/rockchip/drmservice" remote="github" revision="16f970ecdc73d192ccbbea86a114bb6cc105537c"/>
@@ -132,10 +132,10 @@
   <project name="android_packages_apps_DisplayAdjust" path="packages/apps/DisplayAdjust" remote="github" revision="b8a8a258729b0b027ef7d26bd202f279a4918b5c"/>
   <project name="android_packages_apps_ExactCalculator" path="packages/apps/ExactCalculator" remote="github" revision="b653f041b24dd0120a1e5ef0e48a6490f350cad9"/>
   <project name="android_packages_apps_Gallery2" path="packages/apps/Gallery2" remote="github" revision="532837cea0e0817bc3ae5d3d084763e696e1fb0c"/>
-  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="fceaafdb81c39ac4ff33d487df2c09cdefa15ae4"/>
+  <project name="android_packages_apps_Launcher3" path="packages/apps/Launcher3" remote="github" revision="e577f9e45245b61ea0d7194aa1a3a17bd7cdb50c"/>
   <project name="android_packages_apps_Music" path="packages/apps/Music" remote="github" revision="da8ae9d2b224e35d363064cd67897f903925fe15"/>
   <project name="android_packages_apps_QuickSearchBox" path="packages/apps/QuickSearchBox" remote="github" revision="b26f710f87d9606ff8c2937438e772eb2214e31d"/>
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="df701f98f7e0d7139facef818337940bdae5d89b"/>
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="93b0b0c8296a976adc2709dc6261a8ed66585885"/>
   <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="github" revision="97802e700dbbb80d4db690f4a17a460a54f73166"/>
   <project name="android_packages_apps_TV" path="packages/apps/TV" remote="github" revision="6cf266b7e79c2c0116b29faf2efba72d1971ccc0"/>
   <project name="android_packages_apps_TvSettings" path="packages/apps/TvSettings" remote="github" revision="457f9cef49a624b934ec412b59476d6b71ba0869"/>
@@ -151,7 +151,7 @@
   <project name="android_prebuilts_gcc_linux-x86_arm_gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-arm-10.2-2020.11-x86_64-arm-none-linux-gnueabihf" remote="github" revision="e6c61c2472028e65bbe30e23136b2b12d1b71453"/>
   <project name="android_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="github" revision="aaf9a4407686d84b085bf8feda450c5d63c3aa5e"/>
   <project name="android_prebuilts_module_sdk" path="prebuilts/module_sdk" remote="github" revision="81ff620bcef24d8ccc2208facbb5f27eec25de5b"/>
-  <project name="android_rkbin" path="rkbin" remote="github" revision="6b8dfbcec42c7ac7c4595876140d35cb9c9af7d0"/>
+  <project name="android_rkbin" path="rkbin" remote="github" revision="ab1ef10b43eb7dba8455f056a1c919dd6136cb59"/>
   <project name="android_rkst" path="rkst" remote="github" revision="623a581694d6059a9dffcecd337de65b154d3c8d"/>
   <project name="android_system_bt" path="system/bt" remote="github" revision="30c97c5644809a47139f74d0256dbeeaea68aa12"/>
   <project name="android_system_core" path="system/core" remote="github" revision="99b4502af7dbe209618960503db1dcee5b46b4dd"/>
@@ -163,7 +163,7 @@
     <copyfile dest="restore_patches.sh" src="restore_patches.sh"/>
   </project>
   <project name="android_system_vold" path="system/vold" remote="github" revision="e45c0184534d7fb4b94753cca544b27adcd639f5"/>
-  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="43f6bf9d97e1020ebff7ff737ba06f396a7b0666"/>
+  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="42f08f3d5ad17a8d4ed8d2d354d658b755e85fda"/>
   <project name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" remote="github" revision="c27b04351ce1bba0bdfe4847ff54e9e059771355"/>
   <project name="android_vendor_rockchip_hardware_interfaces_codec2" path="vendor/rockchip/hardware/interfaces/codec2" remote="github" revision="1e9d80a10b09c9a6e0bf5cc1dbe4b6d3e66dbc2b"/>
   <project name="android_vendor_rockchip_hardware_interfaces_neuralnetworks" path="vendor/rockchip/hardware/interfaces/neuralnetworks" remote="github" revision="b8b0f2340e925d87c337ca7d53f6a77ec3e7d52d"/>
@@ -206,7 +206,7 @@
   <project groups="vts,pdk" name="kernel/configs" revision="1c9d2751be61301b5c03b64cf41cbd5e278f14f1" upstream="refs/tags/android-12.1.0_r11"/>
   <project clone-depth="1" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2c53f8f03c9923b75c423bcf02a10a12280e2ba6" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="kernel/tests" revision="a767ef06de075dab6ea26fe2314f7860d5b114e5" upstream="refs/tags/android-12.1.0_r11"/>
-  <project name="linux" path="kernel-5.10" remote="github" revision="4bf87139d40fa98f2454ff0f6ba743e5ad148d67"/>
+  <project name="linux" path="kernel-5.10" remote="github" revision="f074637476d5cac891053339827c2bf568737a98"/>
   <project groups="pdk" name="platform/art" path="art" revision="f192ca3ca279cadc41aecd225c6b4d555bce6360" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="vts,pdk" name="platform/bootable/libbootloader" path="bootable/libbootloader" revision="b44eeefd365e023a96ea36682cc60b46827a47cc" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="platform/build/bazel" path="build/bazel" revision="f3015c3bbd520d95216123e6761a2860e17acebf" upstream="refs/tags/android-12.1.0_r11">
@@ -1135,7 +1135,7 @@
   <project groups="pdk" name="toolchain/llvm-project" path="external/llvm-project" revision="664b187160dc951c2cea3b69f92decf358d8e75a" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk" name="toolchain/pgo-profiles" revision="739026928bc7d99f4cccd96e0a7a42bec79de254" upstream="refs/tags/android-12.1.0_r11"/>
   <project groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" revision="cfa5a189e9671992ba7ad5b8de5d59826544a592" upstream="refs/tags/android-12.1.0_r11"/>
-  <project name="u-boot" remote="github" revision="4bb5930e84e7085c0339de9d814c9f22eba8e733"/>
+  <project name="u-boot" remote="github" revision="e2722eb9e85ec1b6c8dff1e440a411d2d6083160"/>
   
   <repo-hooks enabled-list="pre-upload" in-project="platform/tools/repohooks"/>
 </manifest>
