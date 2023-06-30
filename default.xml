@@ -8,21 +8,21 @@
   <project name="android_vendor_amlogic_common_external_DTVKit_releaseDTVKit" path="vendor/amlogic/common/external/DTVKit/releaseDTVKit" revision="bb3cc8b20737b07c18e6ed8ae20aa0fe5532c2a6"  />
   <project name="android_vendor_amlogic_common_external_DTVKit_cas_hal" path="vendor/amlogic/common/external/DTVKit/cas_hal" revision="f76895d48c42f3d1a2e03d1eb15fc76666d591ef" />
   <project name="android_device_generic_art" path="device/generic/art" revision="e10e1c2ca6d471e654854cd07d320a4935ea529c"   />
-  <project name="android_device_google_atv" path="device/google/atv" revision="56f69178d9d144f1d06f64bc0ea096bc93e6b23e"   />
-  <project name="android_device_khadas" path="device/khadas" revision="5cb36ad702dcfa59774bb040267e7b4e6c6c3878"  >
+  <project name="android_device_google_atv" path="device/google/atv" revision="d68fc2c36edf6a9ce4ca8696826803ee08130f01"   />
+  <project name="android_device_khadas" path="device/khadas" revision="49ebc680cbba3afc581e39769c1ac571805a247a"  >
     <copyfile src="common/kernelbuild/mk" dest="mk"/>
   </project>
   <project name="android_device_khadas_kvim1s-kernel" path="device/khadas/kvim1s-kernel" revision="b7ceab43c49f894c2d975684a1a9cbff39f2e0c6"  />
   <project name="android_device_mediatek_wembley-sepolicy" path="device/mediatek/wembley-sepolicy" revision="39fccbba164e873b4ccd9abab3585d8e0f64ccbe"   />
   <project name="android_device_sample" path="device/sample" revision="5c4f1d093d7771d6ac327e87e19698cec6bf3a34"   />
   <project name="android_vendor_amlogic_common_external_dvb" path="vendor/amlogic/common/external/dvb" revision="83e1ad3f2435b1edda5546e82be58570e193b994"  />
-  <project name="linux" path="common" revision="196fd5942816855f5cd5464f11d38e8b071b3adb"  />
+  <project name="linux" path="common" revision="63aa4ca309007b28fc8989d3e852fc24fcef375c"  />
   <project name="android_kernel_configs" path="kernel/configs" revision="178f850d79d2ee6e84ab1ee31e36bd06c2402e49"   />
   <project name="android_kernel_prebuilts_4.19_arm64" path="kernel/prebuilts/4.19/arm64" revision="332808127a212d39ef607a3241fe0ff1d48cd795"    />
   <project name="android_kernel_tests" path="kernel/tests" revision="c69e8a5eb61c73ae16d2cc98ae16597e12c3b176"   />
   <project name="android_vendor_amlogic_common_libdvr" path="vendor/amlogic/common/libdvr" revision="c027ce338223b9bb7b354796b2d7f0261bd71862"  />
   <project name="android_vendor_amlogic_common_libsecdmx_release" path="vendor/amlogic/common/libsecdmx_release" revision="580b264908b3d8fd2847850a46b162bbe2801bf8"  />
-  <project name="android_vendor_amlogic_common_gpu-lib" path="vendor/amlogic/common/gpu-lib" revision="30fb5d26c7324a0ea41cfbe5184307ff7ec6826c"  />
+  <project name="android_vendor_amlogic_common_gpu-lib" path="vendor/amlogic/common/gpu-lib" revision="e16fb4e9cff9db5ba69036ffe86ad5267e7472cd"  />
   <project name="android_art" path="art" revision="83cd633bec9586c44d214f01734d29de582882a3"   />
   <project name="android_bionic" path="bionic" revision="673bb02eec857ef6b004e562ab41d6b3a0e21b8a"   />
   <project name="android_bootable_recovery" path="bootable/recovery" revision="9b9561c3e450d1efbba79ffc4ee655dfdf8c891b"   />
@@ -88,7 +88,7 @@
   <project name="android_external_cbor-java" path="external/cbor-java" revision="f81e576298790c97498311e99a0b0b34653c3dd8"   />
   <project name="android_external_chromium-libpac" path="external/chromium-libpac" revision="10790f39afac87780ceef3b0c65e48b6051217a0"   />
   <project name="android_external_chromium-trace" path="external/chromium-trace" revision="e524766cad26d677a9a1ec8c00c512d4cac2cf5e"   />
-  <project name="platform/external/chromium-webview" remote="aosp" path="external/chromium-webview" revision="7a2388596635621f1c70fc1c7bc288435ba1dcf7"    />
+  <project remote="aosp" name="platform/external/chromium-webview" path="external/chromium-webview" revision="3a8d2089900522ca542c39055d51b08188fb11cb" upstream="refs/tags/android-12.1.0_r11" groups="pdk" clone-depth="1"/>
   <project name="android_external_clang" path="external/clang" revision="0a1c53a5d295109bd4702ad13c0f2a5510ca1b26"   />
   <project name="android_external_cldr" path="external/cldr" revision="121066092b0be7a112fbac97a1c9d914f7613615"   />
   <project name="android_external_cn-cbor" path="external/cn-cbor" revision="696530332036f5518681d3c450cdbc3ee412004a"   />
@@ -377,7 +377,8 @@
   <project name="android_external_tinyxml" path="external/tinyxml" revision="30b01f5b6ece6c5204d46f6b2ea90745dbc69826"   />
   <project name="android_external_tinyxml2" path="external/tinyxml2" revision="1b7e9f45b916fdafad6a450244d6d30735b075db"   />
   <project name="android_external_toolchain-utils" path="external/toolchain-utils" revision="b75f321fc8978b92ce3db6886ccb966768f0c7a8"  />
-  <project name="android_external_toybox" path="external/toybox" revision="2d39270127fafc8b2b7f98834f47f536d768bdfe"   />
+  <project name="android_external_toybox" path="external/toybox" revision="10ca1faaf8d4c473c84d202eae3d4c13bbfcc311"   />
+  <project name="android_external_i2c-tools" path="external/i2c-tools" revision="0bd91bc72493a6af67efa57aa33ad30b5f32b353"   />
   <project name="android_external_tremolo" path="external/tremolo" revision="627c18b2a7bf3ec133736149895140cd54f571d6"   />
   <project name="android_external_turbine" path="external/turbine" revision="c6fb3b925e3e7c9dbf8324105097988c75b69c2b"   />
   <project name="android_external_u-boot" path="external/u-boot" revision="b47bcd97279db87270593c2396ef9717abbd249d"   />
@@ -422,7 +423,7 @@
   <project name="android_frameworks_minikin" path="frameworks/minikin" revision="e95e6db870c14937d78d074d2b57e2b3bc7cd43f"   />
   <project name="android_frameworks_ml" path="frameworks/ml" revision="381f232947171f7181b7c1a8b81b681fc2980bd5"   />
   <project name="android_frameworks_multidex" path="frameworks/multidex" revision="e60bb86cd116127913fe8f4872d7846852627ffb"   />
-  <project name="android_frameworks_native" path="frameworks/native" revision="c00321abc4683cf60d63facfb368eb334d042c2a"   />
+  <project name="android_frameworks_native" path="frameworks/native" revision="a067df40f541300c65645bc63507cdae5f6fd5c7"   />
   <project name="android_frameworks_opt_bitmap" path="frameworks/opt/bitmap" revision="e9850af1278e499e427d08dbf40244f3622bd6db"   />
   <project name="android_frameworks_opt_calendar" path="frameworks/opt/calendar" revision="6e29ad1dfe9b353af1c41a30101673bf01d7a144"   />
   <project name="android_frameworks_opt_car_services" path="frameworks/opt/car/services" revision="1e9fefe101c2ba7eb70a007e38701b3ecdf2fff0"   />
@@ -773,12 +774,12 @@
   <project name="android_tools_tradefederation_contrib" path="tools/tradefederation/contrib" revision="0ff7007d58dd912f7d5dca4178a9731494b31222"   />
   <project name="android_tools_treble" path="tools/treble" revision="4a70b7b8a10119fe886bb009c634646a533f7db0"   />
   <project name="android_tools_trebuchet" path="tools/trebuchet" revision="b735f448e61c99f4c06101902ff76eee4e5496f1"   />
-  <project name="android_vendor_amlogic_common" path="vendor/amlogic/common" revision="08266b7d0abb25dd7a85cbff258d951e09af25b2"  />
+  <project name="android_vendor_amlogic_common" path="vendor/amlogic/common" revision="b539fd3c60cbd5cda9b136a11063f48706bd83a8"  />
   <project name="android_vendor_amlogic_kvim1s" path="vendor/amlogic/kvim1s" revision="4d4f32d87e33ab4d99385b8cd9bf81598cf630eb"  />
   <project name="android_toolchain_benchmark" path="toolchain/benchmark" revision="1fba1825631e6e52dff5b3ceb87a5b439e2acf52"  />
   <project name="android_toolchain_pgo-profiles" path="toolchain/pgo-profiles" revision="df7cd88e8839bdf864700fc7d302b678a604b943"   />
   <project name="android_tools_platform-compat" path="tools/platform-compat" revision="b553fea7dd2aa8dcc26f4d8f91effd86e55dd72e"   />
-  <project name="u-boot" path="bootloader/uboot" revision="37e93d637bd09fbba7e75d530bd4b9f2107742f7"   >
+  <project name="u-boot" path="bootloader/uboot" revision="111099566984e05bf94905fe73c981c0639b5498"   >
     <copyfile src="fip/mk" dest="bootloader/uboot/mk"/>
   </project>
   <project name="android_vendor_amlogic_common_aml_mp_sdk" path="vendor/amlogic/common/aml_mp_sdk" revision="a6d1c2c4fcac4dfc6993f6a464ad13fb2b90d567"  />
