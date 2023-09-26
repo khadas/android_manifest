@@ -75,7 +75,7 @@
   <project name="android_external_cblas" path="external/cblas" revision="7fa0d561afbe104fd0e70ef2366792cace5fd712"/>
   <project name="android_external_chromium-libpac" path="external/chromium-libpac" revision="8c47eebd81c996f17198edb2fa504c04d48d567e"/>
   <project name="android_external_chromium-trace" path="external/chromium-trace" revision="1db90260068e9a9bf435b925d008b67810c238af"/>
-  <project name="platform/external/chromium-webview" remote="aosp" path="external/chromium-webview" revision="f1a9488d2ad48060c7c736b7ff48b189da3abf60"/>
+  <project remote="aosp" name="platform/external/chromium-webview" path="external/chromium-webview" revision="3a8d2089900522ca542c39055d51b08188fb11cb" upstream="refs/tags/android-12.1.0_r11" groups="pdk" clone-depth="1"/>
   <project name="android_external_clang" path="external/clang" revision="65381079bd99982ca96ce19875137579e06eb297"/>
   <project name="android_external_cmockery" path="external/cmockery" revision="9199c7bfafefea32d1884182fa655b6e4578c1c4"/>
   <project name="android_external_cn-cbor" path="external/cn-cbor" revision="7fe9f01990a97be4df5e46d2decd894c06678072"/>
