@@ -4,10 +4,10 @@
   <remote fetch="https://github.com/khadas/" name="github"/>
   <default remote="github" revision="khadas-vims-pie" sync-c="true" sync-j="4"/>
   
-  <project name="android_device_khadas" path="device/khadas"  revision="0ae25927e13182937d9fd7ec0515eb6ae74d4e19" />
+  <project name="android_device_khadas" path="device/khadas"  revision="aa3992e4b08ad5141cb7c7be3dd6494fa0424c32" />
   <project name="android_vendor_amlogic_apps_IrBlaster" path="vendor/amlogic/common/apps/IrBlaster"  revision="f7c8e8664667407c84dadc6b743c3fb8ee6a994e" />
   <project name="android_vendor_amlogic_external_dvb" path="vendor/amlogic/common/external/dvb"  revision="f76cf85efd2c4fd462ed85ace3ebfed2ad54fc38" />
-  <project name="linux" path="common"  revision="f01b835da1b13ce62022dd6c5208cc0440c2aeb1" />
+  <project name="linux" path="common"  revision="d71236547be9b86d527de0f62c2092ec032fd0fa" />
   <project name="android_kernel_configs" path="kernel/configs" revision="506b245cbbb1d06dd5b1a9ee2898988716a1f7d7" />
   <project name="android_kernel_tests" path="kernel/tests" revision="20522bdde70b29f96291d5d1b9cd343cf1d20f80" />
   <project name="android_vendor_amlogic_ir_tools" path="vendor/amlogic/common/ir_tools"  revision="e6af2745d162e51a5e217f7adc7942d1ca33d16a" />
@@ -69,7 +69,7 @@
   <project name="android_external_cblas" path="external/cblas" revision="7fa0d561afbe104fd0e70ef2366792cace5fd712" />
   <project name="android_external_chromium-libpac" path="external/chromium-libpac" revision="8c47eebd81c996f17198edb2fa504c04d48d567e" />
   <project name="android_external_chromium-trace" path="external/chromium-trace" revision="1db90260068e9a9bf435b925d008b67810c238af" />
-  <project remote="aosp" name="platform/external/chromium-webview" path="external/chromium-webview" revision="3a8d2089900522ca542c39055d51b08188fb11cb" upstream="refs/tags/android-12.1.0_r11" groups="pdk" clone-depth="1"/>
+  <project name="platform/external/chromium-webview" remote="aosp" path="external/chromium-webview" revision="f1a9488d2ad48060c7c736b7ff48b189da3abf60" upstream="refs/tags/android-9.0.0_r3" />
   <project name="android_external_clang" path="external/clang" revision="65381079bd99982ca96ce19875137579e06eb297" />
   <project name="android_external_cmockery" path="external/cmockery" revision="9199c7bfafefea32d1884182fa655b6e4578c1c4" />
   <project name="android_external_cn-cbor" path="external/cn-cbor" revision="7fe9f01990a97be4df5e46d2decd894c06678072" />
@@ -470,7 +470,7 @@
   <project name="android_hardware_wifi_realtek_drivers_8822bu" path="hardware/wifi/realtek/drivers/8822bu"  revision="b077c6d1cd38a9138a90c1cae005fcb27d4ed67f" />
   <project name="android_libcore" path="libcore" revision="5c2be05f23f66028ccebfd7de64a3673fee6e509" />
   <project name="android_libnativehelper" path="libnativehelper" revision="afd3a633ab30cb17758543b4bbf2e8165812ce7c" />
-  <project name="android_vendor_amlogic_FactoryTest" path="vendor/amlogic/common/apps/FactoryTest" revision="a78c9328645dea93907d11ac40672a9c8dbdd887" />
+  <project name="android_vendor_amlogic_FactoryTest" path="vendor/amlogic/common/apps/FactoryTest" revision="5448da40d34d6d0e1ad471a980b2279da764a56d" />
   <project name="android_vendor_amlogic_apps_AppInstaller" path="vendor/amlogic/common/apps/AppInstaller"  revision="0d283bdca240303cd7d6656913037e30d5eea0c5" />
   <project name="android_vendor_amlogic_apps_DLNA" path="vendor/amlogic/common/apps/DLNA"  revision="dc7cc25a063670cc112ded94c61296dbac1e65a4" />
   <project name="android_vendor_amlogic_apps_DroidLiveTv" path="vendor/amlogic/common/apps/DroidLiveTv"  revision="f2aa1234e12701b34af39605a4678c4b6aee8bf4" />
@@ -683,7 +683,7 @@
   <project name="android_toolchain_benchmark" path="toolchain/benchmark" revision="90d86b742e458645e8505f7fcd709b9c0f7b2588" />
   <project name="android_toolchain_binutils" path="toolchain/binutils" revision="ce6f92c3c344f3db820ff3819b18c81a65b9a15d" />
   <project name="android_toolchain_pgo-profiles" path="toolchain/pgo-profiles" revision="106785268baa337b3f3edf751dbbd83977891e4a" />
-  <project name="u-boot" path="bootloader/uboot"  revision="326ab7aaf3557b213ca370d2de9532a26719e911" />
+  <project name="u-boot" path="bootloader/uboot"  revision="d5d8ecf8b7ab1ed58d31939780315b45f202fb57" />
   <project name="android_vendor_amlogic_apps_VendorOverlay" path="vendor/amlogic/common/apps/VendorOverlay"  revision="6df606bee2e37e3f9179df7e93ba07ab447c2f7d" />
   <project name="android_vendor_amlogic_external_exfat" path="vendor/amlogic/common/external/exfat"  revision="62762278453334f245ee6a4eff85d1d76c0f283b" />
   <project name="android_vendor_amlogic_external_icu" path="vendor/amlogic/common/external/icu"  revision="27ab17b223ed05c106f3203935cc7d2cbbf83580" />
