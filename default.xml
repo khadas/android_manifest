@@ -1049,7 +1049,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="c6d10c85dbf24607f970b6471370be20ecef3249" upstream="refs/tags/android-13.0.0_r74"/>
   <project name="android_system_core" path="system/core" remote="github" revision="90727c9b22527db92d78c94b753a2aa4d6175df8"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/dmesgd" path="system/dmesgd" revision="45b6106898f6bca88d66639354b536d770d1c53c" upstream="refs/tags/android-13.0.0_r74"/>
-  <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/extras" path="system/extras" revision="d36450bd8ca372209ac6f52e1f021a64a91ab913" upstream="refs/tags/android-13.0.0_r74"/>
+  <project name="android_system_extras" path="system/extras" remote="github" revision="d36450bd8ca372209ac6f52e1f021a64a91ab913"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="a7af87e5bf47a1b3ae2945c09f466d476d89a229" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/gsid" path="system/gsid" revision="27eddfa0e056bccf58e25b2091d358b6dbfa509c" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/hardware/interfaces" path="system/hardware/interfaces" revision="a628880b6542a1d3a2b3d3c8a402716667db7eca" upstream="refs/tags/android-13.0.0_r74"/>
