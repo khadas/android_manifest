@@ -5,6 +5,7 @@
   
   <default remote="aosp" revision="refs/tags/android-13.0.0_r74" sync-c="true" sync-j="4"/>
   
+  <project name="android_external_libgps" path="external/libgps" remote="github" revision="8c51f0ef5d99beaecdc2a5b75b323c71f7f228e2"/>
   <project name="android_RKTools" path="RKTools" remote="github" revision="e83b1ac73810fa70dae2a651dae93d088e158825"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="device,yukawa,pdk" name="device/amlogic/yukawa" revision="abb7e979e99badb433565d6583769c4686ad187a" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-cw-fs,pdk" name="device/common" revision="a9757e7e42dcdc40776b9961ec092095ad96e973" upstream="refs/tags/android-13.0.0_r74"/>
