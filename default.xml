@@ -1183,7 +1183,7 @@
   <project name="android_hardware_rockchip_usb" path="hardware/rockchip/usb" remote="github" revision="753d08f3b77fa728ebcb4125b4b7136c301650d7"/>
   <project name="android_hardware_rockchip_vibrator_aidl" path="hardware/rockchip/vibrator_aidl" remote="github" revision="34127118af39be8ea30764de15cbc255891220ab"/>
   <project name="android_hardware_rockchip_hdcp2" path="hardware/rockchip/hdcp2" remote="github" revision="e7c8eba3af309d3d8d493e769519b47c5bd44396"/>
-  <project name="linux" path="kernel-5.10" remote="github" revision="1fc373d50c3f706af6e5d383158e44e891825157"/>
+  <project name="linux" path="kernel-5.10" remote="github" revision="4a8a65d66d6c476e5dfd54f4869a42ae540c24f4"/>
   <project name="android_hardware_rockchip_libiep" path="hardware/rockchip/libiep" remote="github" revision="12819069722a6bd2e9cacdff5a84344dd35c8ced"/>
   <project name="android_hardware_rockchip_libpq" path="hardware/rockchip/libpq" remote="github" revision="5d2253ffb77c364d1bf8014666ef6277c1d8d077"/>
   <project name="android_hardware_rockchip_librkcrypto" path="hardware/rockchip/librkcrypto" remote="github" revision="254df1768a2258bad844b575773e27576e5e0e1d"/>
@@ -1211,7 +1211,7 @@
   <project name="android_hardware_rockchip_rknn-toolkit2" path="hardware/rockchip/rknn-toolkit2" remote="github" revision="b24091ed48a02d773f9be025589212904c324597"/>
   <project name="android_hardware_rockchip_rknpu2" path="hardware/rockchip/rknpu2" remote="github" revision="6bfadbfa9e2dda214ed5fda02369f06740adf8e5"/>
   <project name="android_rkst" path="rkst" remote="github" revision="623a581694d6059a9dffcecd337de65b154d3c8d"/>
-  <project name="u-boot" path="u-boot" remote="github" revision="e3d24d162d4432c9ef03813bbf33f60e16da2df5"/>
+  <project name="u-boot" path="u-boot" remote="github" revision="4fda4ee51f3e5a202bad5db3c2760bcd06478d33"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" name="toolchain/benchmark" revision="804d5a9aa72d6a52361f1a28ca7cf2488a8fdd3f" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="toolchain/pgo-profiles" revision="f94a8791312e6f9e45958f7eb98353f4bbd415da" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" revision="367afcd07f134693a3446ef37a8f2abd42975f6e" upstream="refs/tags/android-13.0.0_r74"/>
