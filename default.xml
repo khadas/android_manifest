@@ -1327,6 +1327,4 @@
   </project>
   <project name="android_vendor_amlogic_reference_external_freetype" path="vendor/amlogic/reference/external/freetype" remote="github" revision="b4748880e3a25a59556013faf8443bb1db65fc8f" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_widevine" path="vendor/widevine" remote="github" revision="8e75df7d2f5a85e8bca3fed17efc5676ca347c90" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
-  
-  <repo-hooks in-project="android_tools_repohooks" enabled-list="pre-upload"/>
 </manifest>
