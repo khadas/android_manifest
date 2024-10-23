@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
+  <remote name="aosp" fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/" review="https://android-review.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github" />
   <remote fetch="https://git.khadas.com/" name="gitkhadas" />
   <default remote="aosp" revision="refs/tags/android-14.0.0_r45" sync-c="true" sync-j="4"/>
@@ -25,7 +25,6 @@
   <project name="android_device_khadas" path="device/khadas" remote="gitkhadas" revision="131fbb133efa68716ba670763688559eebf15455" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
     <copyfile src="common/vf/vendor_freeze_build.sh" dest="vendor_freeze_build.sh"/>
   </project>
-  <project name="android_device_khadas_kvim4-kernel" path="device/khadas/kvim4-kernel" remote="gitkhadas" revision="5336fc84b5530d8146cb5fafc8e8e854df9c8f97" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_amlogic_reference_external_dvb" path="vendor/amlogic/reference/external/dvb" remote="github" revision="06bd61edfac5e311f90f9cd82532b826a70f1362" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_common_common14-5.15_build_kernel" path="common/common14-5.15/build/kernel" remote="github" revision="3e7566014bc1854f8add31d87cd7c1021659eb25" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
     <linkfile src="kleaf/bazel.sh" dest="common/common14-5.15/tools/bazel"/>
