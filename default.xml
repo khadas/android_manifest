@@ -22,7 +22,7 @@
   <project name="device/generic/vulkan-cereal" revision="e73cfc3522390ffa4dd3eb92bf1df38d0a46dfdb" upstream="refs/tags/android-14.0.0_r45" dest-branch="refs/tags/android-14.0.0_r45" groups="pdk"/>
   <project name="android_device_google_atv" path="device/google/atv" remote="github" revision="82db06ae882267186c15143b77ec921c3a9f5119" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_device_google_cuttlefish" path="device/google/cuttlefish" remote="github" revision="451d1779bdfacbf6c2a21a6e2579b66e2ac48f56" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
-  <project name="android_device_khadas" path="device/khadas" remote="gitkhadas" revision="131fbb133efa68716ba670763688559eebf15455" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
+  <project name="android_device_khadas" path="device/khadas" remote="gitkhadas" revision="731fdbcfda4f15939efb9078d1fb898b6c426fe1" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
     <copyfile src="common/vf/vendor_freeze_build.sh" dest="vendor_freeze_build.sh"/>
   </project>
   <project name="android_device_khadas_kvim4-kernel" path="device/khadas/kvim4-kernel" remote="gitkhadas" revision="5336fc84b5530d8146cb5fafc8e8e854df9c8f97" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
