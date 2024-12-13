@@ -5,7 +5,7 @@
     <remote fetch="https://git.khadas.com/" name="gitkhadas" />
     <default remote="aosp" revision="refs/tags/android-11.0.0_r48" sync-c="true" sync-j="4"/>
 
-    <project dest-branch="khadas-vim3-r-32bit" name="android_vendor_amlogic_common_external_DTVKit_android-inputsource" path="vendor/amlogic/common/external/DTVKit/android-inputsource" remote="github" revision="dde9a66bcd4060deaa02090f32d605f51bba8de1" upstream="khadas-vim3-r-32bit"/>
+    <project dest-branch="khadas-vim3-r-32bit" name="android_vendor_amlogic_common_external_DTVKit_android-inputsource" path="vendor/amlogic/common/external/DTVKit/android-inputsource" remote="github" revision="137e1c87b91e9bddddd76771031ea7337b60e32b" upstream="khadas-vim3-r-32bit"/>
     <project dest-branch="khadas-vim3-r-32bit" name="android_vendor_amlogic_common_external_DTVKit_releaseDTVKit" path="vendor/amlogic/common/external/DTVKit/releaseDTVKit" remote="github" revision="b3405d622e4edfb2b1ed83ac90a8f395ffef3201" upstream="khadas-vim3-r-32bit"/>
     <project dest-branch="khadas-vim3-r-32bit" name="android_vendor_amlogic_common_external_DTVKit_cas_hal" path="vendor/amlogic/common/external/DTVKit/cas_hal" remote="github" revision="f76895d48c42f3d1a2e03d1eb15fc76666d591ef" upstream="khadas-vim3-r-32bit"/>
     <project dest-branch="khadas-vim3-r-32bit" name="android_vendor_amlogic_common_external_dvb" path="vendor/amlogic/common/external/dvb" remote="github" revision="bdce676db2da85f5193d45f05f263a26765f0272" upstream="khadas-vim3-r-32bit"/>
@@ -796,11 +796,11 @@
     <project dest-branch="refs/tags/android-11.0.0_r48" groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" path="tools/platform-compat" revision="b553fea7dd2aa8dcc26f4d8f91effd86e55dd72e" upstream="refs/tags/android-11.0.0_r48"/>
     <project dest-branch="khadas-vim3-r-32bit" name="android_vendor_amlogic_common_prebuilt_libmediadrm_playready" path="vendor/amlogic/common/prebuilt/libmediadrm/playready" remote="github" revision="79229023af90e594b5b1dcc1c4c36938e31d665f" upstream="khadas-vim3-r-32bit"/>
     <project dest-branch="khadas-vim3-r-32bit" name="android_vendor_widevine" path="vendor/widevine" remote="github" revision="2171e55d0b286d4c0747f2ffd0c779359ead3c1a" upstream="khadas-vim3-r-32bit"/>
-	<project dest-branch="khadas-vim3-r-32bit" name="linux" path="common" remote="github" revision="ba08a5b33f02dff1d5b343b4b01c538b5a3cfd39" upstream="khadas-vim3-r-32bit"/>
+    <project dest-branch="khadas-vim3-r-32bit" name="linux" path="common" remote="github" revision="ba08a5b33f02dff1d5b343b4b01c538b5a3cfd39" upstream="khadas-vim3-r-32bit"/>
     <project dest-branch="khadas-vim3-r-32bit" name="u-boot" path="bootloader/uboot" remote="github" revision="e6bb3e72ad721a73d200677700b839554f782fde" upstream="khadas-vim3-r-32bit"/>
     <project dest-branch="khadas-vim3-r-32bit" name="android_device_khadas" path="device/khadas" remote="github" revision="1d5f412dbec10037740e2d0370468823daa0002f" upstream="khadas-vim3-r-32bit">
-<copyfile dest="mk" src="common/kernelbuild/mk"/>
-</project>
+	  <copyfile dest="mk" src="common/kernelbuild/mk"/>
+	</project>
     <project dest-branch="khadas-vim3-r-32bit" name="android_vendor_amlogic_kvim3" path="vendor/amlogic/kvim3" remote="github" revision="9e90cd3a1c688d0efd389d9558a3a3d93fca255f" upstream="khadas-vim3-r-32bit"/>
     <project dest-branch="khadas-vim3-r-32bit" name="android_vendor_amlogic_kvim3l" path="vendor/amlogic/kvim3l" remote="github" revision="595bcb42fb26c72376eb5f4d18e85fd877582825" upstream="khadas-vim3-r-32bit"/>
 
