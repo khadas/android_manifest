@@ -721,7 +721,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/external/zucchini" path="external/zucchini" revision="11a3a4cd409d6e0f4ccfcfb97cc962eeaeddde00" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/external/zxing" path="external/zxing" revision="248d7c742809ce1cbde1c4e6163d347e1feb274b" upstream="refs/tags/android-13.0.0_r74"/>
   <project name="android_frameworks_av" path="frameworks/av" remote="github" revision="3e51f525b185da5ee7fb290530f24ded1d5225fb"/>
-  <project name="android_frameworks_base" path="frameworks/base" remote="github" revision="afcc1d17495f6d2abb126a3b3e53b12ab7a4bd9c"/>
+  <project name="android_frameworks_base" path="frameworks/base" remote="github" revision="5f54f44ba253377f166bb8df1bd61109687ea8d3"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="81c07084cca2a6feab53eeb022f5d5a3ab5c10c5" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="18374a53dc8e00ec3667b4e1a257c9b4e41f007f" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="1738348ca3d011f3f340883bd48e03a8e6aeb143" upstream="refs/tags/android-13.0.0_r74"/>
@@ -769,7 +769,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/hardware/google/interfaces" path="hardware/google/interfaces" revision="a4d869d9aac2ae5d930b1f47216de297029dfb4b" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="generic_fs,pixel" name="platform/hardware/google/pixel" path="hardware/google/pixel" revision="24c3aff6d08b1acc3871b65ec339637c3b137493" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="generic_fs,pixel" name="platform/hardware/google/pixel-sepolicy" path="hardware/google/pixel-sepolicy" revision="db0a7dd6820c5bc77f5e00241390b0e97c616ca0" upstream="refs/tags/android-13.0.0_r74"/>
-  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="45c1dada318f73d3701e76ea00907300868947da"/>
+  <project name="android_hardware_interfaces" path="hardware/interfaces" remote="github" revision="92fbce4965feaccb841c7a5b935158dc20f55f7c"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="invensense,pdk" name="platform/hardware/invensense" path="hardware/invensense" revision="004a2dd5ea0d3a777520319536de119be1ba0049" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="coral,generic_fs" name="platform/hardware/knowles/athletico/sound_trigger_hal" path="hardware/knowles/athletico/sound_trigger_hal" revision="61ca38058a06c524677654d67d6f4bed7757f1d7" upstream="refs/tags/android-13.0.0_r74"/>
   <project name="android_hardware_libhardware" path="hardware/libhardware" remote="github" revision="be39db579faa42b2988c27cbe0e7482797a765bb"/>
@@ -903,7 +903,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="18d3dd8d275b245fdd05cf6d2d5e3ebb8c58988d" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-fs" name="platform/packages/apps/SampleLocationAttribution" path="packages/apps/SampleLocationAttribution" revision="0fd20325c8c02610a0bf2021a0d178ac3105a277" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="apps_se,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement" revision="7e9d165899058103fa612ffb41858e4fd975182b" upstream="refs/tags/android-13.0.0_r74"/>
-  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="8786c551cf8dafc7d21523340fff1c38e9f3bbfa"/>
+  <project name="android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="55dc90123ff7bbb5d8dcca516c3b9a3312fdc9aa"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="bb0e7eb0ff3542f5e17b7129f5081501c743ecd6" upstream="refs/tags/android-13.0.0_r74"/>
   <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="github" revision="94db4931d43b3cf9edbbb13ba17f67f875bf4fc7"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="b3f27d8186afe0ee1907a1e88e8e0ca0ac08e256" upstream="refs/tags/android-13.0.0_r74"/>
@@ -1048,7 +1048,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates" revision="e443e0119000f1087d774c6b641d34d89d1eaee1" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/chre" path="system/chre" revision="8d49eec5812e5f19a19add1d70a0c959c8947e3d" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="c6d10c85dbf24607f970b6471370be20ecef3249" upstream="refs/tags/android-13.0.0_r74"/>
-  <project name="android_system_core" path="system/core" remote="github" revision="059bb8c746cd594c7bfd9877b7a74fdacc1e3055"/>
+  <project name="android_system_core" path="system/core" remote="github" revision="8e8badeb03974d3aab60dc5d454970552037f235"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/dmesgd" path="system/dmesgd" revision="45b6106898f6bca88d66639354b536d770d1c53c" upstream="refs/tags/android-13.0.0_r74"/>
   <project name="android_system_extras" path="system/extras" remote="github" revision="d36450bd8ca372209ac6f52e1f021a64a91ab913"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="a7af87e5bf47a1b3ae2945c09f466d476d89a229" upstream="refs/tags/android-13.0.0_r74"/>
@@ -1082,7 +1082,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/nfc" path="system/nfc" revision="a0d18dfa32f85160e48cd4c4bb34f1608a96bb4f" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/nvram" path="system/nvram" revision="02029bfe8da6fe8131ac170f113aa60ea420e398" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/security" path="system/security" revision="1be9d2754cf955011c0e0cdb32fecde8883bb6e6" upstream="refs/tags/android-13.0.0_r74"/>
-  <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="574369e474bc01bbd303edd257cc397631af68e0" upstream="refs/tags/android-13.0.0_r74"/>
+  <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="572e910f077d28727a3597980d6468257eacb410" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/server_configurable_flags" path="system/server_configurable_flags" revision="339e12300f282c70fae5cc88d1f06f2a0343f772" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/teeui" path="system/teeui" revision="965115e7b4ee5ea5434761a353cc24d953ede3fc" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/testing/gtest_extras" path="system/testing/gtest_extras" revision="bf9eec9ab621911ed528e9fd83f7b3f11fa68bb1" upstream="refs/tags/android-13.0.0_r74"/>
@@ -1137,8 +1137,8 @@
   <project clone-depth="1" dest-branch="refs/tags/android-13.0.0_r74" groups="pdk,tradefed" name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" revision="62b36960f05e94ebf705e0516adc9e47684c212a" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="tools,pdk" name="platform/tools/treble" path="tools/treble" revision="d74b74010472ba957f4125b676a41c23ca91e549" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform/tools/trebuchet" path="tools/trebuchet" revision="9ff3c1fd3ea48b7c148fc1f6e2456dbc5596ca8d" upstream="refs/tags/android-13.0.0_r74"/>
-  <project name="android_device_khadas_rk3588" path="device/khadas/rk3588" remote="github" revision="d82a8f57b6592a2366c6117935ebb73d6c6bddb2"/>
-  <project name="android_device_khadas_common" path="device/khadas/common" remote="github" revision="1534c595448aea5c116e3d9e7eed5f6059c39ea5">
+  <project name="android_device_khadas_rk3588" path="device/khadas/rk3588" remote="github" revision="fb77780d339ad7044ecb01be4b13271dc1a2be66"/>
+  <project name="android_device_khadas_common" path="device/khadas/common" remote="github" revision="bd43255df9cea527fbff5ced2cc054a55dcbb8af">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
     <copyfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -1183,7 +1183,7 @@
   <project name="android_hardware_rockchip_usb" path="hardware/rockchip/usb" remote="github" revision="753d08f3b77fa728ebcb4125b4b7136c301650d7"/>
   <project name="android_hardware_rockchip_vibrator_aidl" path="hardware/rockchip/vibrator_aidl" remote="github" revision="34127118af39be8ea30764de15cbc255891220ab"/>
   <project name="android_hardware_rockchip_hdcp2" path="hardware/rockchip/hdcp2" remote="github" revision="e7c8eba3af309d3d8d493e769519b47c5bd44396"/>
-  <project name="linux" path="kernel-5.10" remote="github" revision="4a8a65d66d6c476e5dfd54f4869a42ae540c24f4"/>
+  <project name="linux" path="kernel-5.10" remote="github" revision="5755e43c84575e7863a29b3fdfe7ecafdafe4702"/>
   <project name="android_hardware_rockchip_libiep" path="hardware/rockchip/libiep" remote="github" revision="12819069722a6bd2e9cacdff5a84344dd35c8ced"/>
   <project name="android_hardware_rockchip_libpq" path="hardware/rockchip/libpq" remote="github" revision="5d2253ffb77c364d1bf8014666ef6277c1d8d077"/>
   <project name="android_hardware_rockchip_librkcrypto" path="hardware/rockchip/librkcrypto" remote="github" revision="254df1768a2258bad844b575773e27576e5e0e1d"/>
@@ -1195,9 +1195,9 @@
   <project name="android_bootable_recovery_pcba_core" path="bootable/recovery/pcba_core" remote="github" revision="8a6ea69f2dc6ae9a82e25ff4483113c3f65072a8"/>
   <project name="android_external_rk_tee_user" path="external/rk_tee_user" remote="github" revision="aec239c212a2cfdd663ac594b2713f9fb8df4bc0"/>
   <project name="android_vendor_widevine" path="vendor/widevine" remote="github" revision="7b85318c11a75b3b8ced02ad3085849fe1681395"/>
-  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="23334b3251cff0e8ec653af0b9089c7e6b088f5e"/>
+  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="6cf5e034b39c19dfd9e1a15ae5227f61c127d128"/>
   <project name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" remote="github" revision="3978bdf1e0967c122c58c319be662e80d83cdadc"/>
-  <project name="android_vendor_rockchip_hardware_interfaces_codec2" path="vendor/rockchip/hardware/interfaces/codec2" remote="github" revision="fa5cb4bce6eba40312d40c264980f8ea70d209ff"/>
+  <project name="android_vendor_rockchip_hardware_interfaces_codec2" path="vendor/rockchip/hardware/interfaces/codec2" remote="github" revision="45b7ba4c6662308d97c48c4c57f1d1f92aa2a9fb"/>
   <project name="android_vendor_rockchip_hardware_interfaces_neuralnetworks" path="vendor/rockchip/hardware/interfaces/neuralnetworks" remote="github" revision="2583f3263c0c38469f0f7cf9faf50985710bd638"/>
   <project name="android_vendor_rockchip_hardware_interfaces_rksoundsetting" path="vendor/rockchip/hardware/interfaces/rksoundsetting" remote="github" revision="b5b567d9d757091880d5036e32fc3be8f6c47ff8"/>
   <project name="android_vendor_rockchip_hardware_interfaces_rockit" path="vendor/rockchip/hardware/interfaces/rockit" remote="github" revision="2a4c47d026fd77c8e09aacee50903487dcf25206"/>
@@ -1211,7 +1211,7 @@
   <project name="android_hardware_rockchip_rknn-toolkit2" path="hardware/rockchip/rknn-toolkit2" remote="github" revision="b24091ed48a02d773f9be025589212904c324597"/>
   <project name="android_hardware_rockchip_rknpu2" path="hardware/rockchip/rknpu2" remote="github" revision="6bfadbfa9e2dda214ed5fda02369f06740adf8e5"/>
   <project name="android_rkst" path="rkst" remote="github" revision="623a581694d6059a9dffcecd337de65b154d3c8d"/>
-  <project name="u-boot" path="u-boot" remote="github" revision="4fda4ee51f3e5a202bad5db3c2760bcd06478d33"/>
+  <project name="u-boot" path="u-boot" remote="github" revision="9f2037605e2b6189de4d759c420759a74ae21c29"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" name="toolchain/benchmark" revision="804d5a9aa72d6a52361f1a28ca7cf2488a8fdd3f" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="toolchain/pgo-profiles" revision="f94a8791312e6f9e45958f7eb98353f4bbd415da" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" revision="367afcd07f134693a3446ef37a8f2abd42975f6e" upstream="refs/tags/android-13.0.0_r74"/>
