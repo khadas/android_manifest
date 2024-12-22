@@ -1082,7 +1082,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/nfc" path="system/nfc" revision="a0d18dfa32f85160e48cd4c4bb34f1608a96bb4f" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/nvram" path="system/nvram" revision="02029bfe8da6fe8131ac170f113aa60ea420e398" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/security" path="system/security" revision="1be9d2754cf955011c0e0cdb32fecde8883bb6e6" upstream="refs/tags/android-13.0.0_r74"/>
-  <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="572e910f077d28727a3597980d6468257eacb410" upstream="refs/tags/android-13.0.0_r74"/>
+  <project name="android_system_sepolicy" path="system/sepolicy" remote="github" revision="572e910f077d28727a3597980d6468257eacb410"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/server_configurable_flags" path="system/server_configurable_flags" revision="339e12300f282c70fae5cc88d1f06f2a0343f772" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/teeui" path="system/teeui" revision="965115e7b4ee5ea5434761a353cc24d953ede3fc" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="platform/system/testing/gtest_extras" path="system/testing/gtest_extras" revision="bf9eec9ab621911ed528e9fd83f7b3f11fa68bb1" upstream="refs/tags/android-13.0.0_r74"/>
@@ -1211,7 +1211,7 @@
   <project name="android_hardware_rockchip_rknn-toolkit2" path="hardware/rockchip/rknn-toolkit2" remote="github" revision="b24091ed48a02d773f9be025589212904c324597"/>
   <project name="android_hardware_rockchip_rknpu2" path="hardware/rockchip/rknpu2" remote="github" revision="6bfadbfa9e2dda214ed5fda02369f06740adf8e5"/>
   <project name="android_rkst" path="rkst" remote="github" revision="623a581694d6059a9dffcecd337de65b154d3c8d"/>
-  <project name="u-boot" path="u-boot" remote="github" revision="9f2037605e2b6189de4d759c420759a74ae21c29"/>
+  <project name="u-boot" path="u-boot" remote="github" revision="b26af094768fa5fa98b5f567d9b4fd0eb183592a"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" name="toolchain/benchmark" revision="804d5a9aa72d6a52361f1a28ca7cf2488a8fdd3f" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="toolchain/pgo-profiles" revision="f94a8791312e6f9e45958f7eb98353f4bbd415da" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="pdk-cw-fs,pdk-fs,pdk" name="tools/platform-compat" revision="367afcd07f134693a3446ef37a8f2abd42975f6e" upstream="refs/tags/android-13.0.0_r74"/>
