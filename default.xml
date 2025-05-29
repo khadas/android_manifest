@@ -2,7 +2,7 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github" />
-  <remote fetch="https://git.khadas.com/" name="gitkhadas" />
+  <remote fetch="git@git.khadas.com:repos/" name="gitkhadas" />
   <default remote="github" revision="khadas-vim1s-r" sync-c="true" sync-j="4"/>
   
   <project name="android_vendor_amlogic_common_external_DTVKit_android-inputsource" path="vendor/amlogic/common/external/DTVKit/android-inputsource" revision="137e1c87b91e9bddddd76771031ea7337b60e32b"  />
