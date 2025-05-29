@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
   <remote fetch="https://github.com/khadas/" name="github"/>
+  <remote fetch="git@git.khadas.com:repos/" name="gitkhadas" />
   
   <default remote="aosp" revision="refs/tags/android-13.0.0_r74" sync-c="true" sync-j="4"/>
   
@@ -39,7 +40,7 @@
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="device,beagle_x15,pdk" name="device/ti/beagle-x15" path="device/ti/beagle_x15" revision="f0fb65a243dd966f018719d2627ad23e029ffd75" upstream="refs/tags/android-13.0.0_r74"/>
   <project name="android_RKDocs_android" path="RKDocs/android" remote="github" revision="e91c6cad9f6547f802b087d59a7fe164aaa08fcb"/>
   <project name="android_RKDocs_common" path="RKDocs/common" remote="github" revision="7253b92885ea23ea675cd569686a3190a243e05e"/>
-  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="github" revision="eec52aedd18fec80e9e027fcc6e20ab5e37b2511"/>
+  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="gitkhadas" revision="eec52aedd18fec80e9e027fcc6e20ab5e37b2511"/>
   <project name="android_external_wifi_driver" path="external/wifi_driver" remote="github" revision="1702672f0e77e6d50855224b4898708d822b4bcf"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="vts,pdk" name="kernel/configs" revision="c590ab063f72cac8214aba7724ad2abe74aa9dd3" upstream="refs/tags/android-13.0.0_r74"/>
   <project clone-depth="1" dest-branch="refs/tags/android-13.0.0_r74" groups="pdk" name="kernel/prebuilts/5.10/arm64" revision="2fbe93eaf61ae4500c6a85e0d12de52a98c2b42f" upstream="refs/tags/android-13.0.0_r74"/>
@@ -1137,7 +1138,7 @@
   <project clone-depth="1" dest-branch="refs/tags/android-13.0.0_r74" groups="pdk,tradefed" name="platform/tools/tradefederation/prebuilts" path="tools/tradefederation/prebuilts" revision="62b36960f05e94ebf705e0516adc9e47684c212a" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="tools,pdk" name="platform/tools/treble" path="tools/treble" revision="d74b74010472ba957f4125b676a41c23ca91e549" upstream="refs/tags/android-13.0.0_r74"/>
   <project dest-branch="refs/tags/android-13.0.0_r74" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform/tools/trebuchet" path="tools/trebuchet" revision="9ff3c1fd3ea48b7c148fc1f6e2456dbc5596ca8d" upstream="refs/tags/android-13.0.0_r74"/>
-  <project name="android_device_khadas_rk3588" path="device/khadas/rk3588" remote="github" revision="fb77780d339ad7044ecb01be4b13271dc1a2be66"/>
+  <project name="android_device_khadas_rk3588" path="device/khadas/rk3588" remote="gitkhadas" revision="fb77780d339ad7044ecb01be4b13271dc1a2be66"/>
   <project name="android_device_khadas_common" path="device/khadas/common" remote="github" revision="bd43255df9cea527fbff5ced2cc054a55dcbb8af">
     <copyfile dest=".classpath" src=".classpath"/>
     <copyfile dest="mkimage.sh" src="mkimage.sh"/>
