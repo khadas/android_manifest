@@ -10,7 +10,7 @@
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="device/sample" path="device/sample" revision="3926875d602692fc6c85d3a7b8ec07cc42831040" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="khadas-edge2-android14" name="android_RKDocs_android" path="RKDocs/android" remote="github" revision="d6a27805c61bc111c986e3bfd6ddf341bcd76acd" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_RKDocs_common" path="RKDocs/common" remote="github" revision="43e342d47afacd7ccf9009c2d61a1c8b8d95e68f" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="gitkhadas" revision="d8883fd5b464a42643f119e831f86bd31bec79f4" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="gitkhadas" revision="6acb261ddc8ee64e60f951be21c0525bf0b43375" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_external_wifi_driver" path="external/wifi_driver" remote="github" revision="a96017f3ae0dee71a38a78505b263645edbe5979" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_kernel_configs" path="kernel/configs" remote="github" revision="b20a43e7950543f043778aac0572984b35a52376" upstream="khadas-edge2-android14"/>
     <project clone-depth="1" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="kernel/prebuilts/5.10/arm64" path="kernel/prebuilts/5.10/arm64" revision="cd8cfe9b230630d88aefa8684537d8db97577eb3" upstream="refs/tags/android-14.0.0_r27"/>
@@ -25,7 +25,7 @@
     <project dest-branch="khadas-edge2-android14" name="android_bootable_recovery_mtdutils" path="bootable/recovery/mtdutils" remote="github" revision="9fc87c1ee151af1cc4bef5d6daa85ff571621ba6" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_bootable_recovery_rkupdate" path="bootable/recovery/rkupdate" remote="github" revision="2e7666fed9934a98119b4387a9e65634b4647d57" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_bootable_recovery_rkutility" path="bootable/recovery/rkutility" remote="github" revision="8d5f8d4a56559a342906c4e998f8fa4a5336fad5" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="android_build_make" path="build/make" remote="github" revision="9318396758131853163ec9d2be7703457c936c3b" upstream="khadas-edge2-android14">
+    <project dest-branch="khadas-edge2-android14" name="android_build_make" path="build/make" remote="github" revision="58f4c8e207822380bfbdfe71e1352f6dc4539fa5" upstream="khadas-edge2-android14">
 <linkfile dest="build/CleanSpec.mk" src="CleanSpec.mk"/>
 <linkfile dest="build/buildspec.mk.default" src="buildspec.mk.default"/>
 <linkfile dest="build/core" src="core"/>
@@ -768,8 +768,8 @@
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/external/zstd" path="external/zstd" revision="fb76d0f4c04c16c7677ccb1b965dc230aae7608d" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/external/zucchini" path="external/zucchini" revision="11a3a4cd409d6e0f4ccfcfb97cc962eeaeddde00" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/external/zxing" path="external/zxing" revision="248d7c742809ce1cbde1c4e6163d347e1feb274b" upstream="refs/tags/android-14.0.0_r27"/>
-    <project dest-branch="khadas-edge2-android14" name="android_frameworks_av" path="frameworks/av" remote="github" revision="30d3dc83053fa481b01fcaee21fd296aaac78171" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="android_frameworks_base" path="frameworks/base" remote="github" revision="cb55e617e1e4093b52df26ea0dc7657a715710d7" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_frameworks_av" path="frameworks/av" remote="github" revision="5433a70e39061fd844775e16e98724211041b902" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_frameworks_base" path="frameworks/base" remote="github" revision="11bb706f82ce0259da6d98b28db2086cfa75051b" upstream="khadas-edge2-android14"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/frameworks/compile/libbcc" path="frameworks/compile/libbcc" revision="2c3f4c361d131e500f6de3c417b819a05d13cf1f" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/frameworks/compile/mclinker" path="frameworks/compile/mclinker" revision="3b7f7bfd6d1c5f562ff473742c441bee70090cd7" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/frameworks/compile/slang" path="frameworks/compile/slang" revision="8e9a212552c9096cfeccaacd65dea1d1bca88107" upstream="refs/tags/android-14.0.0_r27"/>
@@ -874,7 +874,7 @@
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-cw-fs,pdk-fs" name="platform/packages/apps/BasicSmsReceiver" path="packages/apps/BasicSmsReceiver" revision="2b973004c93556e886d6d48f3d26a921ed93ffe2" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-fs" name="platform/packages/apps/Browser2" path="packages/apps/Browser2" revision="86b1768168c91239ef11b922794fee20192cf9d9" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-fs" name="platform/packages/apps/Calendar" path="packages/apps/Calendar" revision="a0dee9378cbef968e71274d946e0324e34fb5551" upstream="refs/tags/android-14.0.0_r27"/>
-    <project dest-branch="khadas-edge2-android14" name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="8732be5bc29c0ff0301aa6ddf265de57b605d3e5" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_packages_apps_Camera2" path="packages/apps/Camera2" remote="github" revision="50f03e4332377d5a52349f2ce0a6c484b5938e8b" upstream="khadas-edge2-android14"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-fs" name="platform/packages/apps/Car/Cluster" path="packages/apps/Car/Cluster" revision="22bac6e417b7d8584605e8c1a5e43fa790e4e6ef" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-fs" name="platform/packages/apps/Car/DebuggingRestrictionController" path="packages/apps/Car/DebuggingRestrictionController" revision="2fa4dc5654e92014e9a2c5e1e2ed6e961cc609d6" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-fs" name="platform/packages/apps/Car/DialerPrebuilt" path="packages/apps/Car/DialerPrebuilt" revision="9a8eccfa0b1fbfe9d159755ddf637cdc48f06c14" upstream="refs/tags/android-14.0.0_r27"/>
@@ -924,7 +924,7 @@
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-fs" name="platform/packages/apps/SafetyRegulatoryInfo" path="packages/apps/SafetyRegulatoryInfo" revision="47f9e34b673116d0d916d580396f3039ba302b25" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-fs" name="platform/packages/apps/SampleLocationAttribution" path="packages/apps/SampleLocationAttribution" revision="0fd20325c8c02610a0bf2021a0d178ac3105a277" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="apps_se,pdk-fs" name="platform/packages/apps/SecureElement" path="packages/apps/SecureElement" revision="35d70d40dfde490fdfd064323df20a770057930d" upstream="refs/tags/android-14.0.0_r27"/>
-    <project dest-branch="khadas-edge2-android14" name="android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="91283289ddd74381d7de4655739fbbc8029428e0" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="074edde81694ec3ebc7fa9dfa127bc012bdfddbb" upstream="khadas-edge2-android14"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-fs" name="platform/packages/apps/SettingsIntelligence" path="packages/apps/SettingsIntelligence" revision="7533e1fa6b1386fad1028072278f249980eea4dc" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="khadas-edge2-android14" name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="github" revision="e2646bb2ac023a3121d7a78595c9f6a8d7649eb1" upstream="khadas-edge2-android14"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk-fs" name="platform/packages/apps/SpareParts" path="packages/apps/SpareParts" revision="b3f27d8186afe0ee1907a1e88e8e0ca0ac08e256" upstream="refs/tags/android-14.0.0_r27"/>
@@ -1079,7 +1079,7 @@
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/ca-certificates" path="system/ca-certificates" revision="0c04883f09e99495658a20330ae60073b22bd54b" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/chre" path="system/chre" revision="9376905f233347a129ce999b1bae595b3fbe2ad1" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/connectivity/wificond" path="system/connectivity/wificond" revision="32c26e024ea83db46271cf735093d64d4874e011" upstream="refs/tags/android-14.0.0_r27"/>
-    <project dest-branch="khadas-edge2-android14" name="android_system_core" path="system/core" remote="gitkhadas" revision="4015fd344ea4ae78c2004de176a8b4b7bf83bffc" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_system_core" path="system/core" remote="gitkhadas" revision="13f0b1b0953912928b07b58b5bece9ed8d34f16f" upstream="khadas-edge2-android14"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/dmesgd" path="system/dmesgd" revision="71bd08cc6680df301723d4bd4624caadde3d2f8f" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="khadas-edge2-android14" name="android_system_extras" path="system/extras" remote="github" revision="7f02ac9a70ad7ae6ed0feb0a8cdc5d885c80925a" groups="pdk" upstream="khadas-edge2-android14"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/gatekeeper" path="system/gatekeeper" revision="4bd87efd35bf093b8a1a5442343c25fd259939dc" upstream="refs/tags/android-14.0.0_r27"/>
@@ -1115,7 +1115,7 @@
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/nfc" path="system/nfc" revision="4018d2bc5e93ea0e4a53b40e1a380f9863c71e4d" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/nvram" path="system/nvram" revision="61a2022216eb5d2802263883563eb91ea4a064fc" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="khadas-edge2-android14" name="android_system_security" path="system/security" remote="github" revision="9b8fc62d77f0d7cf5f79efdaca53c2ee31c96dc0" upstream="khadas-edge2-android14"/>
-    <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="c93d61b4e373bb3acd0d3b9cbd653464d2c9e14c" upstream="refs/tags/android-14.0.0_r27"/>
+    <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="d3a82b9830e5097288ec29363d35ced4b044a422" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/server_configurable_flags" path="system/server_configurable_flags" revision="8ddf6ce0acbf8e1623fa2b5885cd3ac6ce99898a" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/teeui" path="system/teeui" revision="f560571f3c51f5a9889846453cd92045bb3df977" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/testing/gtest_extras" path="system/testing/gtest_extras" revision="37b3664562a794aa20dbcd7c206919ca07d229a9" upstream="refs/tags/android-14.0.0_r27"/>
@@ -1175,8 +1175,8 @@
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="tools,pdk" name="platform/tools/treble" path="tools/treble" revision="cc53fca2a287114e718b8230a2b736a00a930173" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="tools,cts,pdk,pdk-cw-fs,pdk-fs" name="platform/tools/trebuchet" path="tools/trebuchet" revision="e7fe996db22c392f4d6b0bfbcab25127fc7b51a9" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_libvdpp" path="hardware/rockchip/libvdpp" remote="github" revision="2f519081a21705c657ceeb802b6a7ba873e1fe2a" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="android_device_khadas_rk3588" path="device/khadas/rk3588" remote="gitkhadas" revision="6370b9a0d04ff7ae41aa88048fabdd54e0db41ae" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="android_device_khadas_common" path="device/khadas/common" remote="github" revision="82369a7ba771625c9685c65821460f63c00fa267" upstream="khadas-edge2-android14">
+    <project dest-branch="khadas-edge2-android14" name="android_device_khadas_rk3588" path="device/khadas/rk3588" remote="gitkhadas" revision="ceb01d54e7955eeb61d046eaf690c50870ff0fb2" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_device_khadas_common" path="device/khadas/common" remote="github" revision="85540d299ab5a657aeb3baac261fe173d6dc0de6" upstream="khadas-edge2-android14">
 <linkfile dest=".classpath" src=".classpath"/>
 <linkfile dest="mkimage.sh" src="mkimage.sh"/>
 <linkfile dest="javaenv.sh" src="javaenv.sh"/>
@@ -1191,7 +1191,7 @@
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_bootctrl" path="hardware/rockchip/bootctrl" remote="github" revision="e131e4b8ab5b62c460fad77ac3216fe199c9e3e1" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_packages_apps_Camera360" path="packages/apps/Camera360" remote="gitkhadas" revision="075a57479536cb693488e3227c7f6aa473610466" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_camera_engine_rkisp" path="hardware/rockchip/camera_engine_rkisp" remote="github" revision="2abd27e3137e189687df6ef48a54ec0c86554cae" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_camera" path="hardware/rockchip/camera" remote="github" revision="a38993a74e65b9699a6d5d6750909acb979d93c3" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_camera" path="hardware/rockchip/camera" remote="github" revision="83b1c8c9200e5dd3f6393291a9f8744f5e1d21db" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_camera_vir" path="hardware/rockchip/camera_vir" remote="github" revision="58c2c089a0acf26163607200d0ca7ea7c7351381" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_fastbootd" path="hardware/rockchip/fastbootd" remote="github" revision="b8bd945e0dee696f72cb00a4a9e505235f29a271" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_gatekeeper" path="hardware/rockchip/gatekeeper" remote="github" revision="570069c8e622a818ed7fcc3fa7aade544edee818" upstream="khadas-edge2-android14"/>
@@ -1211,7 +1211,7 @@
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_sensor" path="hardware/rockchip/sensor" remote="github" revision="7c5b8081aef91e3b016bda928f7b979c9712db2a" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_thermal" path="hardware/rockchip/thermal" remote="github" revision="80a577f97e31662db9a816b45d220c8f392bfc4f" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_weaver" path="hardware/rockchip/weaver" remote="github" revision="9750b829056aa9630ef9da26fc5ccde4ffa60c2c" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_camera_aidl" path="hardware/rockchip/camera_aidl" remote="github" revision="1429c63bf4f415c60d76b5b27b5a0057c0b3b67d" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_camera_aidl" path="hardware/rockchip/camera_aidl" remote="github" revision="7977c5e4bb75fe3840770272c2cf1328c808343a" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_hwcomposer_einkhwc" path="hardware/rockchip/hwcomposer/einkhwc" remote="github" revision="f58e6ee6afdd080a5704b67194e353b7bfbb214a" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_usb_gadget" path="hardware/rockchip/usb/gadget" remote="github" revision="a1db50bd8402cb0e918778649748f99c40260c46" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_health" path="hardware/rockchip/health" remote="github" revision="231a7151c9f4b243d17737379a19000034756121" upstream="khadas-edge2-android14"/>
@@ -1229,7 +1229,7 @@
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_rvcam" path="hardware/rockchip/rvcam" remote="github" revision="00d901603382e04e0b44c18413ee855e40fb577a" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_seekwave" path="hardware/seekwave" remote="github" revision="569ae0e915f2efed34b6cabff321f33398182d73" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_hwc_proxy_service" path="hardware/rockchip/hwc_proxy_service" remote="github" revision="e297b9b400e69410a6b73c84716da0da3e65b152" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="linux" path="kernel-6.1" remote="github" revision="87ac472359bd0a1666538fa60d777076ebdc003b" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="linux" path="kernel-6.1" remote="github" revision="4d99945c7efd5500b8eedaa6633dbe8a75c15dab" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_libiep" path="hardware/rockchip/libiep" remote="github" revision="1762c5d36026afa5b615bc84384be05aff2ced30" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_libpq" path="hardware/rockchip/libpq" remote="github" revision="b07286ff74f268971c6f2700a8d5812a6589907f" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_librkcrypto" path="hardware/rockchip/librkcrypto" remote="github" revision="62795797b3aa3b3e9a6c32672a0c4d3d0f44c78a" upstream="khadas-edge2-android14"/>
@@ -1244,7 +1244,7 @@
     <project dest-branch="khadas-edge2-android14" name="android_bootable_recovery_pcba_core" path="bootable/recovery/pcba_core" remote="github" revision="da848db7891ab800db217249e1836386edafd547" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_external_usb_modeswitch" path="external/usb_modeswitch" remote="github" revision="9857c093db449e24a1b4ce89557bfe53bb0785d6" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_external_rk_tee_user" path="external/rk_tee_user" remote="github" revision="7647d837e55e9043a06224dcc3e83a5794fea435" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="cf147b80185e5e97e91cc6b3b44ae86ec19bc880" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="github" revision="44ed4693453ce374713d2f4b5dfbfb1a987e3038" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" remote="github" revision="0d92ae02f000b36b449a6ccb0ba256cb5805d54c" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_vendor_rockchip_hardware_interfaces_codec2" path="vendor/rockchip/hardware/interfaces/codec2" remote="github" revision="076fe2f6ec28546d329964ae9e175301717df6ab" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_vendor_rockchip_hardware_interfaces_neuralnetworks" path="vendor/rockchip/hardware/interfaces/neuralnetworks" remote="github" revision="9b1003ba4420dbc7c87ce161e67190335f1ebeff" upstream="khadas-edge2-android14"/>
@@ -1256,12 +1256,12 @@
     <project dest-branch="khadas-edge2-android14" name="android_prebuilts_gcc_linux-x86_aarch64_gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" path="prebuilts/gcc/linux-x86/aarch64/gcc-linaro-6.3.1-2017.05-x86_64_aarch64-linux-gnu" remote="github" revision="f96f76d6be89a6e28d4dac1f233f9aca9921f69b" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_prebuilts_gcc_linux-x86_arm_gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" path="prebuilts/gcc/linux-x86/arm/gcc-linaro-6.3.1-2017.05-x86_64_arm-linux-gnueabihf" remote="github" revision="aaf9a4407686d84b085bf8feda450c5d63c3aa5e" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_packages_apps_rkCamera2" path="packages/apps/rkCamera2" remote="github" revision="c5368e849593a1140e61568e70b9d472c30ffc92" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="android_rkbin" path="rkbin" remote="github" revision="4011aecd89020dc8201a2468503c70632224b0cc" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_rkbin" path="rkbin" remote="github" revision="a0677a56f4e584f903eaf2bc0e6fc1b1f503be8b" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_rknn-toolkit2" path="hardware/rockchip/rknn-toolkit2" remote="github" revision="a6e3aa68118f336e918b00bab1bec59a25ebeab8" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_rknpu2" path="hardware/rockchip/rknpu2" remote="github" revision="22b548a2862b05c93876349ae209a8d49e0fd562" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_rkst" path="rkst" remote="github" revision="623a581694d6059a9dffcecd337de65b154d3c8d" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_external_rktoolbox" path="external/rktoolbox" remote="github" revision="1ffae9357a70a96a526e38b94579d9dec373c7c5" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="u-boot" path="u-boot" remote="github" revision="887a8bb5574f0ff00af5c89b4485d81b86a360d3" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="u-boot" path="u-boot" remote="github" revision="d41da71c8893c8911fae07451ab0ed7ca039c7e3" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_external_uvc-gadget" path="external/uvc-gadget" remote="github" revision="db08b8ce13e5f4dfe7e4e24c962d6ec560fcb8f3" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_hardware_rockchip_vman_module" path="hardware/rockchip/vman_module" remote="github" revision="6ff6b50fb013dc2df2d9ce0d674ba0003704f385" upstream="khadas-edge2-android14"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" name="toolchain/benchmark" path="toolchain/benchmark" revision="804d5a9aa72d6a52361f1a28ca7cf2488a8fdd3f" upstream="refs/tags/android-14.0.0_r27"/>
