@@ -10,7 +10,7 @@
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="device/sample" path="device/sample" revision="3926875d602692fc6c85d3a7b8ec07cc42831040" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="khadas-edge2-android14" name="android_RKDocs_android" path="RKDocs/android" remote="github" revision="d6a27805c61bc111c986e3bfd6ddf341bcd76acd" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_RKDocs_common" path="RKDocs/common" remote="github" revision="43e342d47afacd7ccf9009c2d61a1c8b8d95e68f" upstream="khadas-edge2-android14"/>
-    <project dest-branch="khadas-edge2-android14" name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="gitkhadas" revision="6acb261ddc8ee64e60f951be21c0525bf0b43375" upstream="khadas-edge2-android14"/>
+    <project dest-branch="khadas-edge2-android14" name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="gitkhadas" revision="25649174ecfd2ab77db54434eaaca9195acc717a" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_external_wifi_driver" path="external/wifi_driver" remote="github" revision="a96017f3ae0dee71a38a78505b263645edbe5979" upstream="khadas-edge2-android14"/>
     <project dest-branch="khadas-edge2-android14" name="android_kernel_configs" path="kernel/configs" remote="github" revision="b20a43e7950543f043778aac0572984b35a52376" upstream="khadas-edge2-android14"/>
     <project clone-depth="1" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="kernel/prebuilts/5.10/arm64" path="kernel/prebuilts/5.10/arm64" revision="cd8cfe9b230630d88aefa8684537d8db97577eb3" upstream="refs/tags/android-14.0.0_r27"/>
@@ -1115,7 +1115,7 @@
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/nfc" path="system/nfc" revision="4018d2bc5e93ea0e4a53b40e1a380f9863c71e4d" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/nvram" path="system/nvram" revision="61a2022216eb5d2802263883563eb91ea4a064fc" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="khadas-edge2-android14" name="android_system_security" path="system/security" remote="github" revision="9b8fc62d77f0d7cf5f79efdaca53c2ee31c96dc0" upstream="khadas-edge2-android14"/>
-    <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/sepolicy" path="system/sepolicy" revision="d3a82b9830e5097288ec29363d35ced4b044a422" upstream="refs/tags/android-14.0.0_r27"/>
+    <project dest-branch="khadas-edge2-android14" name="android_system_sepolicy" path="system/sepolicy" remote="github" revision="d3a82b9830e5097288ec29363d35ced4b044a422" upstream="khadas-edge2-android14"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/server_configurable_flags" path="system/server_configurable_flags" revision="8ddf6ce0acbf8e1623fa2b5885cd3ac6ce99898a" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/teeui" path="system/teeui" revision="f560571f3c51f5a9889846453cd92045bb3df977" upstream="refs/tags/android-14.0.0_r27"/>
     <project dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" name="platform/system/testing/gtest_extras" path="system/testing/gtest_extras" revision="37b3664562a794aa20dbcd7c206919ca07d229a9" upstream="refs/tags/android-14.0.0_r27"/>
