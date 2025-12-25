@@ -7,7 +7,7 @@
 
   <project name="android_external_i2c-tools" path="external/i2c-tools" remote="github" revision="0bd91bc72493a6af67efa57aa33ad30b5f32b353" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="github" revision="e2646bb2ac023a3121d7a78595c9f6a8d7649eb1" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
-  <project name="android_vendor_amlogic_reference_apps_FactoryTest" path="vendor/amlogic/reference/apps/FactoryTest" remote="github" revision="cfb631550e58f66b0da80eb821db9cb03f1a38a1" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
+  <project name="android_vendor_amlogic_reference_apps_FactoryTest" path="vendor/amlogic/reference/apps/FactoryTest" remote="github" revision="12abd1cce93be5a786f15888a14a4e75372aeebd" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_amlogic_reference_apps_KSettings" path="vendor/amlogic/reference/apps/KSettings" remote="github" revision="ef40cab77d5e53bb0ef78f05c03681831106875b" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_amlogic_reference_apps_OTAService" path="vendor/amlogic/reference/apps/OTAService" remote="github" revision="19f90264941d0d26fb37a639d3c081a276a66c5f" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_amlogic_reference_apps_SchPwrOnOff" path="vendor/amlogic/reference/apps/SchPwrOnOff" remote="github" revision="b9033f6275dd6e9d9e7c4339d4021700993a1ffc" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
@@ -23,7 +23,7 @@
   <project name="device/generic/vulkan-cereal" revision="e73cfc3522390ffa4dd3eb92bf1df38d0a46dfdb" upstream="refs/tags/android-14.0.0_r45" dest-branch="refs/tags/android-14.0.0_r45" groups="pdk"/>
   <project name="android_device_google_atv" path="device/google/atv" remote="github" revision="e79ab8daf076d56972150b9df0bb7fbd60493cda" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_device_google_cuttlefish" path="device/google/cuttlefish" remote="github" revision="451d1779bdfacbf6c2a21a6e2579b66e2ac48f56" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
-  <project name="android_device_khadas" path="device/khadas" remote="gitkhadas" revision="7faac2c2f22a62fe6b2d372084c8e9d74394c82b" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
+  <project name="android_device_khadas" path="device/khadas" remote="gitkhadas" revision="b660c08f56c4291267ec80dd19e49d04d1eb8b92" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
     <copyfile src="common/vf/vendor_freeze_build.sh" dest="vendor_freeze_build.sh"/>
   </project>
   <project name="android_device_khadas_kvim4-kernel" path="device/khadas/kvim4-kernel" remote="gitkhadas" revision="5336fc84b5530d8146cb5fafc8e8e854df9c8f97" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
@@ -46,7 +46,7 @@
     <linkfile src="." dest="common/common14-5.15/.source_date_epoch_dir"/>
   </project>
   <project name="android_common_common14-5.15_common-modules_virtual-device" path="common/common14-5.15/common-modules/virtual-device" remote="github" revision="3bd713568a58641e2c44c41c796836d0f5454f46" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
-  <project name="common_drivers" path="common/common14-5.15/common/common_drivers" remote="github" revision="4c90a4a46d0382006df5afc6c94d64e2f258cfa4" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
+  <project name="common_drivers" path="common/common14-5.15/common/common_drivers" remote="github" revision="e0718dc4aba5b556beb4882d5207c938f84dc12a" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
     <linkfile src="mk.sh" dest="common/common14-5.15/mk.sh"/>
   </project>
   <project name="kernel/configs" revision="4095915492f71b0fb42b0ee561d069477509dcef" upstream="refs/tags/android-14.0.0_r45" dest-branch="refs/tags/android-14.0.0_r45" groups="vts,pdk"/>
@@ -881,7 +881,7 @@
   <project name="android_frameworks_proto_logging" path="frameworks/proto_logging" remote="github" revision="31a36d67e022ebaeb090c41c3d6397b61e0ff4f5" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="platform/frameworks/rs" path="frameworks/rs" revision="e5d2ecaa0bd04957572af495193faaf35d8360ad" upstream="refs/tags/android-14.0.0_r45" dest-branch="refs/tags/android-14.0.0_r45" groups="pdk"/>
   <project name="platform/frameworks/wilhelm" path="frameworks/wilhelm" revision="753713172a646fb8298939bcd75124d57cae9ee6" upstream="refs/tags/android-14.0.0_r45" dest-branch="refs/tags/android-14.0.0_r45" groups="pdk-cw-fs,pdk-fs"/>
-  <project name="android_hardware_amlogic" path="hardware/amlogic" remote="github" revision="47beb8859f404c5cf82c44c7ffaf96d1360eebbb" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
+  <project name="android_hardware_amlogic" path="hardware/amlogic" remote="github" revision="a9d462cd0edb6fa275eb1f8485c134e8c526cddc" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_amlogic_common_adla_lib" path="vendor/amlogic/common/adla_lib" remote="github" revision="e7075eda472a1cccf44e5680d745fafb4b7e0f30" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_common_driver_modules_adla_driver" path="common/driver_modules/adla/driver" remote="github" revision="2825ed636955a3d38e5e36a79204808fc4d436e8" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
     <linkfile src="." dest="common/common14-5.15/driver_modules/adla/driver"/>
@@ -906,7 +906,7 @@
   <project name="android_common_driver_modules_gpu" path="common/driver_modules/gpu" remote="github" revision="37b4fcb391ed46ca39e651d9f8c7e93dd4cfa44f" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
     <linkfile src="." dest="common/common14-5.15/driver_modules/gpu"/>
   </project>
-  <project name="android_common_driver_modules_camera" path="common/driver_modules/camera" remote="github" revision="5dc9f8ae2aeb6f5a59c486b15689779a2730fe51" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
+  <project name="android_common_driver_modules_camera" path="common/driver_modules/camera" remote="github" revision="bd6211cc458adf9ac888213f6d0f77d7ec3ed08b" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14">
     <linkfile src="." dest="common/common14-5.15/driver_modules/camera"/>
   </project>
   <project name="platform/hardware/broadcom/libbt" path="hardware/broadcom/libbt" revision="fe15e94f9d1d0a5d3ac11e3ae71a13899d706c02" upstream="refs/tags/android-14.0.0_r45" dest-branch="refs/tags/android-14.0.0_r45" groups="pdk"/>
@@ -1294,7 +1294,7 @@
   <project name="u-boot" path="bootloader/uboot" remote="github" revision="f4080219ef141531a113756565cc1fe8e6465e4c" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_amlogic_common_ASPlayer" path="vendor/amlogic/common/ASPlayer" remote="github" revision="d5146d8182303260529dc482e923c7a3c7d78f8c" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_amlogic_reference_apps_JDvrLib" path="vendor/amlogic/reference/apps/JDvrLib" remote="github" revision="e2e7b2d9b048680988cb7631c17a34693e63bb86" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
-  <project name="android_vendor_amlogic_common_codec2" path="vendor/amlogic/common/codec2" remote="github" revision="b59394f6ce5b85b1311ec32010ce7432ec58b4cd" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
+  <project name="android_vendor_amlogic_common_codec2" path="vendor/amlogic/common/codec2" remote="github" revision="f763b3cfd7ff78dbe08ddd576efdcb1272e39fda" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_amlogic_reference_aml_mp_sdk" path="vendor/amlogic/reference/aml_mp_sdk" remote="github" revision="a29345f5dca35fdca7c928e9cca089ed87790c8b" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_amlogic_reference_apps_LauncherCustomization" path="vendor/amlogic/reference/apps/LauncherCustomization" remote="github" revision="9a67d423ee7bda6ba5c1ef650176be7f79195106" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_vendor_amlogic_common_dsp_dsp_util" path="vendor/amlogic/common/dsp/dsp_util" remote="github" revision="e616c878ce02f1ed8742faf7fddd8920c0f19976" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
