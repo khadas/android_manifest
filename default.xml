@@ -11,7 +11,7 @@
   <project name="device/sample" revision="3926875d602692fc6c85d3a7b8ec07cc42831040" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk"/>
   <project name="android_RKDocs_android" path="RKDocs/android" remote="github" revision="75e89f79185c1583e502b6fe825bbe7b18117b1d"/>
   <project name="android_RKDocs_common" path="RKDocs/common" remote="github" revision="d78edb83d01fc3574ee8487e9459701046393d30"/>
-  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="gitkhadas" revision="bd82c67e8f16d6feb0ec1fee1cb86816e96153e1"/>
+  <project name="android_external_camera_engine_rkaiq" path="external/camera_engine_rkaiq" remote="gitkhadas" revision="362c328e09798d9bdf644a8533592adc7e347141"/>
   <project name="android_external_wifi_driver" path="external/wifi_driver" remote="github" revision="6855b1f4c74dc4571113fa2d0c72ee5e23a8ef66"/>
   <project name="android_kernel_configs" path="kernel/configs" remote="github" revision="b20a43e7950543f043778aac0572984b35a52376"/>
   <project name="kernel/prebuilts/5.10/arm64" revision="cd8cfe9b230630d88aefa8684537d8db97577eb3" upstream="refs/tags/android-14.0.0_r27" dest-branch="refs/tags/android-14.0.0_r27" groups="pdk" clone-depth="1"/>
@@ -1238,7 +1238,7 @@
   <project name="android_hardware_rockchip_vendor_storage_service" path="hardware/rockchip/vendor_storage_service" remote="github" revision="fa248b2d795d93708d359181286615ee772bdfea"/>
   <project name="android_hardware_seekwave" path="hardware/seekwave" remote="github" revision="09fa75fcb2196c1c3f9b47074eb8c0af939e1f45"/>
   <project name="android_hardware_rockchip_hwc_proxy_service" path="hardware/rockchip/hwc_proxy_service" remote="github" revision="e297b9b400e69410a6b73c84716da0da3e65b152"/>
-  <project name="linux" path="kernel-6.1" remote="github" revision="83a26c0933049953009c4dc0188cafd1e91889f3"/>
+  <project name="linux" path="kernel-6.1" remote="github" revision="171af8b181cbaa9a79c3561f0a348fdff063b0a0"/>
   <project name="android_hardware_rockchip_libiep" path="hardware/rockchip/libiep" remote="github" revision="9291f983e1156ed26ebae337ee1f90ba9108c35b"/>
   <project name="android_hardware_rockchip_libpq" path="hardware/rockchip/libpq" remote="github" revision="6da70c84a4494ae2427c3dda266cbad8dafdda21"/>
   <project name="android_hardware_rockchip_librkcrypto" path="hardware/rockchip/librkcrypto" remote="github" revision="eddf58139ad8c4a4f1296777ff30a3445fd3f7c6"/>
@@ -1253,7 +1253,7 @@
   <project name="android_bootable_recovery_pcba_core" path="bootable/recovery/pcba_core" remote="github" revision="f79b6cad14550e0eaeb682d38b0494ab11768ace"/>
   <project name="android_external_usb_modeswitch" path="external/usb_modeswitch" remote="github" revision="9857c093db449e24a1b4ce89557bfe53bb0785d6"/>
   <project name="android_external_rk_tee_user" path="external/rk_tee_user" remote="github" revision="1d14f86924771dd76426a6782d89f4b84ea59734"/>
-  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="gitkhadas" revision="8e7bd93d7b8910e8eafc133b0dbd969fe77ac5bb"/>
+  <project name="android_vendor_rockchip_common" path="vendor/rockchip/common" remote="gitkhadas" revision="5afe91cad59cb9cb946e70688b54b53678a6f9f2"/>
   <project name="android_vendor_rockchip_common_vpu" path="vendor/rockchip/common/vpu" remote="github" revision="0ca316c77108cc6603ebb3e176d192bcd87f3ed4"/>
   <project name="android_vendor_rockchip_hardware" path="vendor/rockchip/hardware" remote="github" revision="3d4ddd3a50f4b22956231433db485fd69eee712b"/>
   <project name="android_vendor_rockchip_hardware_interfaces_codec2" path="vendor/rockchip/hardware/interfaces/codec2" remote="github" revision="e3c30156793f778541b6eaec54ac2a1ac0f6a70c"/>
