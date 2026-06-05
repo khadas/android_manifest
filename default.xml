@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-  <remote name="aosp" fetch="https://mirrors.tuna.tsinghua.edu.cn/git/AOSP/" review="https://android-review.googlesource.com/"/>
-  <remote fetch="https://github.com/khadas/" name="github" />
-  <remote fetch="https://git.khadas.com/" name="gitkhadas" />
-  <default remote="aosp" revision="refs/tags/android-14.0.0_r45" sync-c="true" sync-j="4"/>
+  <remote fetch="https://android.googlesource.com/" name="aosp" review="https://android.googlesource.com/"/>
+  <remote name="github" fetch="https://github.com/khadas/" sync-c="true" sync-j="12"/>
+  <remote name="gitkhadas" fetch="https://git.khadas.com/" sync-c="true" sync-j="1"/>
+  <default remote="aosp" revision="refs/tags/android-14.0.0_r45" sync-c="true" sync-j="12"/>
 
   <project name="android_external_i2c-tools" path="external/i2c-tools" remote="github" revision="0bd91bc72493a6af67efa57aa33ad30b5f32b353" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
   <project name="android_packages_apps_SoundRecorder" path="packages/apps/SoundRecorder" remote="github" revision="e2646bb2ac023a3121d7a78595c9f6a8d7649eb1" upstream="khadas-vim4-android14" dest-branch="khadas-vim4-android14"/>
